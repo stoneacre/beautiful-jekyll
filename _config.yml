@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://username.github.io"
-baseurl: ""
+url: "http://supermonedero.com"
+baseurl: "supermonedero"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title: Super Monedero
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: Personal Finance Advice by Latinos for Latinos!
 
 # --- Navigation bar options --- #
 
@@ -43,7 +43,7 @@ avatar: "/img/avatar-icon.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Meteor Affinity, Inc.
   email: "youremail@domain.com"
   facebook: yourname  # eg. daattali
   github: yourname    # eg. daattali
@@ -86,7 +86,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "MeteorAffinity.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
@@ -112,7 +112,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "America/New_York"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
