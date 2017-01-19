@@ -25,9 +25,12 @@ layout: base
         </div>
       {% endif %}
 
+      {% include newsletter.html %}
+
       {% if page.social-share %}
         {% include social-share.html %}
       {% endif %}
+
 
       <ul class="pager blog-pager">
         {% if page.previous.url %}
@@ -41,6 +44,7 @@ layout: base
         </li>
         {% endif %}
       </ul>
+
 
       {% if page.comments %}
         <div class="disqus-comments">
