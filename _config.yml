@@ -25,18 +25,18 @@ description: Personal Finance Advice by Latinos for Latinos!
 navbar-links:
   Start Here: "starthere"
   Credit Cards:
-    - Best Credit Cards: "http://deanattali.com/beautiful-jekyll/"
+    - Best Credit Cards: "#"
     - Credit Card Basics: "#"
     - Credit Card with Bad Credit: "#"
-    - GitHub Pages: "https://pages.github.com/"
+    - Getting Approved: "#"
   Banking:
-    - Banking Basics: "http://deanattali.com/beautiful-jekyll/"
-    - Best Banks: "http://www.markdowntutorial.com/"
-    - Best Prepaid Cards: "https://pages.github.com/"
+    - Banking Basics: "#"
+    - Best Banks: "#"
+    - Best Prepaid Cards: "#"
   Credit:
-    - Credit Basics: "http://deanattali.com/beautiful-jekyll/"
-    - Build Your Credit: "http://www.markdowntutorial.com/"
-    - Fix Your Credit: "https://pages.github.com/"
+    - Credit Basics: "#"
+    - Build Your Credit: "#"
+    - Fix Your Credit: "#"
     - Best Loans for Bad Credit: "#"
   Insurance:
     - Insurance Basics: "#"
