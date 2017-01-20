@@ -1,0 +1,19 @@
+- name: Amex Card
+  cardimg: path/to/img
+  annualfee: $100
+  details: details here
+  additionalinfo: additional info here
+  benefits: benefits go here
+  drawbacks: drawbacks here
+  bottomline: bottomline goes here
+  companylink: http://americanexpress.com
+
+- name: Chase Card
+  cardimg: path/to/img
+  annualfee: $100
+  details: details here
+  additionalinfo: additional info here
+  benefits: benefits go here
+  drawbacks: drawbacks here
+  bottomline: bottomline goes here
+  companylink: http://americanexpress.com

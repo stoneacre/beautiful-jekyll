@@ -1,0 +1,14 @@
+---
+layout: page
+title: Best Cards for La Raza Latina
+bigimg: ["/img/path.jpg","/img/404-southpark.jpg"]
+---
+
+<ul>
+  {% for card in site.data.best-credit-cards %}
+    <li>
+      <a href="{{card.companylink}}">{{card.name}}</a>
+      {{card.details}}
+    </li>
+  {% endfor %}
+</ul>
