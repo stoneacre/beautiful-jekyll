@@ -25,7 +25,15 @@ layout: base
         </div>
       {% endif %}
 
-      {% include newsletter.html %}
+
+      <!--END MailChimp Embedded Subscription Form
+      <!-- Placing mailchimp: false in frontmatter removes the mailchimp subscription form.  -->
+
+      {% unless page.mailchimp==false %}
+        {% include newsletter.html %}
+      {% endunless %}
+
+      <!--END MailChimp Embedded Subscription Form
 
       {% if page.social-share %}
         {% include social-share.html %}

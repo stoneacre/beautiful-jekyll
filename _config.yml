@@ -59,7 +59,7 @@ title-img: "/img/avatar-icon.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Meteor Affinity, Inc.
-  email: "youremail@domain.com"
+  email: "hola@supermonedero.com"
   facebook: yourname  # eg. daattali
   github: yourname    # eg. daattali
   twitter: yourname   # eg. daattali
@@ -81,7 +81,7 @@ footer-links-active:
   email: true
   twitter: true
   google-plus: false
-  github: true
+  github: false
   reddit: false
   linkedin: false
   xing: false
