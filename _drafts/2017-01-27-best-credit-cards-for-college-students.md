@@ -104,78 +104,70 @@ _**NOTE:**
 Not everyone can be approved for the credit cards listed above. Either because they lack the credit or they must obtain a secured credit card, as we mentioned at the beginning. Below are credit cards that are available to you either as secured cards - or cards that require no to little credit._
 
 
-Journey® Student Rewards from Capital One®
+### Journey® Student Rewards from Capital One®
 
-Annual Fee
-APR
-Intro Promotions
-Top Reward
-$0
-20.49%(V)
-None
-If for 5 months, all payments are on time, you can gain access to a higher credit line
+| Annual Fee | APR       | Intro Promotions | Top Reward                                                                           |
+|------------|-----------|------------------|--------------------------------------------------------------------------------------|
+| $0.00      | 20.49%(V) | None             | If for 5 months all payments are on time you can gain access to a higher credit line |
 
-Pros:
-1% cashback on all purchases.
-No limit to amount of cashback you can gain.
-Rewards do not expire.
-Boost your cashback rewards to 1.25% for the month for paying on time. 
+**Pros:**
+
+- 1% cashback on all purchases.
+- No limit to amount of cashback you can gain.
+- Rewards do not expire.
+- Boost your cashback rewards to 1.25% for the month for paying on time.
+
+**Cons:**
+
+- No promotional bonus rewards or ARP.
 
 
-Cons:
-No promotional bonus rewards or ARP.
+**Verdict:**
 
-Verdict:
 This is a no thrills credit card - that is geared towards students who are just starting to build out their credit. A nice benefit of this card is the ability to pick a monthly due date.
 
 
-Open Sky℠ Secured Visa® Credit Card
+### Open Sky℠ Secured Visa® Credit Card
 
-Annual Fee
-APR
-Intro Promotions
-Top Reward
-$35
-17.64(V)
-None
-If balance is paid in full by due date - no interest is charged on new purchases
+| Annual Fee | APR      | Intro Promotions | Top Reward                                                                     |
+|------------|----------|------------------|--------------------------------------------------------------------------------|
+| $35.00     | 17.64(V) | None             | If balance is paid in full by due date no interest is charged on new purchases |
 
-Pros:
-Increase your credit line up to $3,000
-Updates monthly to all three credit bureaus - allowing you to build up/back your credit quickly.
+**Pros:**
 
-Cons:
-If a payment is missed - there is a late fee of $27
-3% foreign transaction fee.
+- Increase your credit line up to $3,000
+- Updates monthly to all three credit bureaus - allowing you to build up/back your credit quickly.
 
-Verdict:
+**Cons:**
+
+- If a payment is missed - there is a late fee of $27
+- 3% foreign transaction fee.
+
+**Verdict:**
 
 If you suffer from bad credit - this is a card that will help get you back on track. With a minimum security deposit of $200 - you can increase your credit line up to $3,000. Watch out for added fees though such as Credit Line increase fees, deposit funds fee and Credit Decrease Fees of $25 each.
 
-primor® Secured Visa Gold Credit Card
+### primor® Secured Visa Gold Credit Card
 
+| Annual Fee | APR   | Intro Promotions | Top Reward |
+|------------|-------|------------------|------------|
+| $49.00     | 9.90% | None             | No Rewards |
 
-Annual Fee
-APR
-Intro Promotions
-Top Reward
-$49
-9.9%
-None
-No Rewards
+**Pros:**
 
-Pros:
-Approval is guaranteed as long as monthly income exceeds your month expenses by at least $100.
-Interest is fixed with no penalty rates.
-Reports to all three nationwide credit bureaus.
+- Approval is guaranteed as long as monthly income exceeds your month expenses by at least $100.
+- Interest is fixed with no penalty rates.
+- Reports to all three nationwide credit bureaus.
 
-Cons:
-A max late fee of $25 is applied if a payment is missed
+**Cons:**
 
-Verdict:
+- A max late fee of $25 is applied if a payment is missed
+
+**Verdict:**
+
 The minimum security deposit is $200. This card has a credit limit of up to $5,000 which can be achieved by adding funds to your security deposit in $50 increments. 
 
-Wrap-Up: 
+## Wrap-Up: 
 
 Virtually all cards offer great rewards, but paying more interest than you need can quickly outweigh rewards and ultimately hurt your credit. It is very important when you are shopping around for credit cards that you find one that fits your needs and one you feel will not fall into a financial pitfall. 
 
