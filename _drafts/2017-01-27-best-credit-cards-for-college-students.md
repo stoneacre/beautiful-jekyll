@@ -100,8 +100,8 @@ While the card does offer 0% interest for the first 12 months, after the 12 mont
 
 While the rewards program is very generous, this card might not be the best for a student who is trying to build up their credit as the cost of the card can significantly increase if there is a missed payment. The lack of being able to view your FICO credit score is also a disadvantage as it does not provide students an easy way to keep track of their scores.
 
-NOTE:
-Not everyone can be approved for the credit cards listed above. Either because they lack the credit or they must obtain a secured credit card, as we mentioned at the beginning. Below are credit cards that are available to you either as secured cards - or cards that require no to little credit.
+_**NOTE:**
+Not everyone can be approved for the credit cards listed above. Either because they lack the credit or they must obtain a secured credit card, as we mentioned at the beginning. Below are credit cards that are available to you either as secured cards - or cards that require no to little credit._
 
 
 Journey® Student Rewards from Capital One®
