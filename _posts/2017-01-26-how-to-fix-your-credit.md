@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to Fix your Credit
 ---
 Having a bad credit score makes life difficult. Learning how to fix credit scores will make life cheaper and easier. Banks use credit reports to alert one another to customers that may be a high risk. This makes credit cheaper for those with a good score, but makes credit more expensive, if not impossible, for those with bad scores.
