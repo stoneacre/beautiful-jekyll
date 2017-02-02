@@ -3,8 +3,6 @@ layout: post
 published: false
 title: Homeowner's Insurance 101
 ---
-## Homeowner’s insurance 101 and best options
-
 Buying a home is a dream come true for most of us. It’s a huge commitment and in most cases, the biggest financial investment that we make in our lifetime. The home buying experience can be both exciting and daunting at the same time. Once you have researched the property, the neighborhood and the financing options you are left with just one more thing – insurance!
 
 Home insurance is not only necessary for you to protect yourself from a loss, but is also mandatorily required by lenders who finance the mortgage. You even have to include the lender in the insurance policy itself and are required to keep the policy active for as long as the mortgage lasts.
