@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Terms and conditions/Privacy policy
 ---
 # Web Site Terms and Conditions of Use
@@ -59,4 +59,4 @@ Your privacy is critical to us. Likewise, we have built up this Policy with the 
    * We will protect individual data by security shields against misfortune or burglary, and also unapproved access, divulgence, duplicating, use or alteration.
    * We will promptly provide customers with access to our policies and procedures for the administration of individual data.
 
-We are focused on leading our business as per these standards with a specific end goal to guarantee that the privacy of individual data is secure and maintained. 
+We are focused on leading our business as per these standards with a specific end goal to guarantee that the privacy of individual data is secure and maintained.
