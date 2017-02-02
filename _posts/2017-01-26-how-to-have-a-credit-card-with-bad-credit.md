@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How to Have a Credit Card with Bad Credit
 ---
 Whether you’re buying a home, car, boat or paying for college tuition, your credit score is critical. Most of us have had bumps in the road of life. For some of us, this means a credit score which is lower than we would like.
