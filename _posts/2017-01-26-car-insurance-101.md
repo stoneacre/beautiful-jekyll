@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Car Insurance 101
 ---
 ## What is car insurance?
