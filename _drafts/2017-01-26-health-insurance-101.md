@@ -3,8 +3,6 @@ layout: post
 published: false
 title: Health Insurance 101
 ---
-## Health Insurance 101
-
 In previous articles, we have discussed what insurance is and how it functions. We will now explore one of the most important types of insurance in the United States: health insurance.
 
 Discussing health insurance without mentioning the current political debate would leave many stones unturned. For this reason, let’s briefly cover how healthcare has changed in the United States during the last decade and where things are headed. From this vantage point, you will be prepared to make better health insurance decision for you and your family in 2017.
