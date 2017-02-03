@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Best Credit Cards for College Students
 ---
 Chances are, you’ve heard horror stories of students getting themselves into thousands of dollars in debt thanks to credit cards. The good news is there are safeguards to help protect you from falling into this pitfall. 
