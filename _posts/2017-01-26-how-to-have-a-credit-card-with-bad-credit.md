@@ -63,11 +63,11 @@ Once your credit score is above 650, consider looking at an unsecured credit car
 
 By following these simple practices, you can begin to increase your credit score.
 
-### Pitfalls to avoid
+## Pitfalls to avoid
 
 As you move through the credit world, keep these pitfalls in mind. Avoiding their dangers can save you significant emotional and financial heartache.
 
-1. **Believing the hype** 
+### 1. Believing the hype
 
 Credit card companies can be some of the most effective marketers in the business world. If you are traveling on a plane, watching TV or sitting at the bus station, you are likely to see advertisements for cards which have travel rebates, points for purchases and even the logo of your favorite NFL team. Choosing a credit card based on the “hype” or additional features is a major pitfall. If the credit card isn’t right for you and your family, it doesn’t matter how many fancy gimmicks the card has. Always choose a credit card based on the interest rate charged, the annual fees and payment policies.
 
@@ -77,31 +77,31 @@ In terms of annual fees, most card companies charge a flat annual fee below $100
 
 Payment policies are the final major item to consider when looking at a credit card. Does the company allow you to set your own payment date each month? Do they allow you to miss one payment during the year penalty free? How is the APR calculated against late payments, and what fees are charged against a late payment? These are all important questions to ask before signing the dotted line.
 
-2. **Ignoring the fine print**
+### 2. Ignoring the fine print
 
 A credit card agreement is lengthy document filled with legalese and disclosures. Take time to read and understand the entire document. If you don’t understand a certain term or paragraph, ask the bank or credit union issuing the card. All major credit cards provide toll free phone numbers where new customers (or potential customers) can call and ask questions. Take advantage of this service and get the answers you deserve. If you aren’t satisfied with the answers you get, _**don’t sign the agreement!**_
 
 As the client, you are in control of the process. Make it work on your terms.
 
-3. **Only paying the monthly minimum balance**
+### 3. Only paying the monthly minimum balance
 
 Once you have your card (secured or unsecured) it is important to make monthly payments and maintain a zero balance on your card. If your credit limit is $5,000 and your monthly bill is $4,500… your minimum payment may only be $500. The credit card company actually wants you to only pay the minimum, as this generates more interest revenue for them. By only making the minimum payment you are hurting yourself in two ways:
 
-> 1. You still owe $4,000 on the card even AFTER the minimum payment is made. This is $4,000 which will be accruing interest on a monthly basis moving forward. These interest charges can add up significantly over the course of a year
+_a. You still owe $4,000 on the card even AFTER the minimum payment is made. This is $4,000 which will be accruing interest on a monthly basis moving forward. These interest charges can add up significantly over the course of a year_
 
-> 2. You are maintaining a high debt utilization ratio by not paying off the balance. If your credit limit is $5,000 and you are carrying a balance of $4,000, this means that you are using 80% of your total credit limit.
+_b. You are maintaining a high debt utilization ratio by not paying off the balance. If your credit limit is $5,000 and you are carrying a balance of $4,000, this means that you are using 80% of your total credit limit._
  
->>(4,000 / 5,000) x 100 = 80
+_(4,000 / 5,000) x 100 = 80_
 
->Most credit card advisors recommend carrying a balance of no more than 30% of your credit limit. On a $5,000 balance this would mean at most a balance of $1,500.
+Most credit card advisors recommend carrying a balance of no more than 30% of your credit limit. On a $5,000 balance this would mean at most a balance of $1,500.
 
-4. **Jumping into a balance transfer in order to lower your interest rate**
+### 4. Jumping into a balance transfer in order to lower your interest rate
 
 Balance transfers can be great. By transferring your existing credit card debt to a card with a lower interest rate – it is possible to save thousands of dollars per year. 
 
 But here is the catch: Most balance transfers will cost you an upfront fee in addition to a percentage of the balance being transferred. It is critical to do the math and determine if the amount you are saving in annual percentage points is greater than the fees from switching the balance. Additionally – many balance transfer credit cards will offer an “introductory rate”, which may be very low. This rate is many times valid for six months or the first year, and after that the rate may be higher than your original card’s rate!
 
-5. **Overusing cash advances**
+### 5. Overusing cash advances
 
 This is a big one. Most major credit cards provide the ability to get cash advances. This means that the credit card company gives you cash, and adds the balance to your credit card statement. It would be normal to assume that the interest rate on these cash advances would be the same as if you bought gas or groceries with the card. Wrong.
 
