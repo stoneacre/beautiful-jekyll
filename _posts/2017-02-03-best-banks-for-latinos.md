@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Best banks for Latinos
 ---
 Are you looking for a bank? If so, you are not alone. 
