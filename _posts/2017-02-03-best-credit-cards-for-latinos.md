@@ -12,11 +12,13 @@ In this article, we will explore the basics of credit cards and provide informat
 ## Let’s get started.
 If we look at Latinos as a whole, credit card adoption rates still lag well behind the national average. Just 19% of Latinos used credit cards as their primary payment method for purchases. This compares to 35% of all Americans. Latinos are much more likely to use cash, check or debit cards as the primary means to complete transactions.
 
-__Data provided by Nielsen__
+![Credit_cards_for_latinos_first_image.png]({{site.baseurl}}/img/Credit_cards_for_latinos_first_image.png)
+_Data provided by Nielsen_
 
 If we drill down a bit deeper, we see that within the Latino community credit card usage varies substantially based on language preference. 66% of English-only speaking Latinos have credit cards compared to just 44% of Spanish-only speaking Latinos. Card usage falls somewhere in the middle for Latinos that speak a mix of English and Spanish.  
 
-__Data provided by Nielsen__
+![Credit_cards_latinos_second_image.png]({{site.baseurl}}/img/Credit_cards_latinos_second_image.png)
+_Data provided by Nielsen_
 
 On the one hand, this low credit card adoption is a good thing. 
 
@@ -54,6 +56,11 @@ How you answer these questions will help determine what card is best for you. We
 ### Cards With The Lowest Rates
 For most consumers, the most important thing in a credit card is affordability. If you don’t want to pay an annual fee or lofty monthly interest payments, consider these cards for you and your family. 
 
+| **Card Name**                                                 | **APR**                                                                          | **Annual fee**                                                                                                                                                                                                                                                                                                  |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Capital One VentureOne                                    | 12.49% - 22.49%                                                                                | $0                                                                                                                                                        |
+| Discover it Cashback Match                                    | 11.49% - 23.49%                                                                                 | $0                                                                                                                                                        |
+| BankAmericard                                    | 11.49% - 21.49%                                                                                | $0                                                                                                                                                        |
 
 
 The interest rates shown are all variable – meaning that the card company has the right to raise (or lower) the APR as they see fit. The majority of credit card APRs are variable, so it is important to read the fine print before signing on the dotted line. We show an APR range in the table above. If you have a high credit score, credit card companies will generally issue you a lower APR. If your credit score is low, you will receive a higher APR. Not sure where your credit score stands? Read our article covering the ins and outs of how credit scores work.
@@ -63,6 +70,11 @@ Keep in mind: For some cards, paying your balance 60 days late will cause you to
 ### Cards Built for Improving a Credit Score
 If you are looking to establish credit history, or repair bad credit, consider these cards. 
 
+| **Card Name**                                                 | **APR**                                                                          | **Credit Range Recommended**                                                                                                                                                                                                                                                                                                  |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| First Progress Platinum Elite                                    | 19.99%                                                                                | 350 - 629                                                                                                                                                        |
+| Capital One Secured MasterCard                                    | 24.99%                                                                               | 250 – 629                                                                                                                                                        |
+| Discover it Secured Card                                    | 23.49%                                                                                | 250 - 689                                                                                                                                                        |
 
 
 All three of these cards are secured cards, meaning you will need to put down a deposit with the card company before you can make any purchases. In the event you can’t pay back your balance, the card company will take this deposit in order to recover the funds they are owed. This deposit, and the relatively high APRs associated with these cards, are reflective of the card companies risk in issuing the card to an individual with poor or non-existent credit.
