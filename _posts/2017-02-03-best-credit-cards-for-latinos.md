@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Best Credit Cards for Latinos
 ---
 If you are looking for a credit card in 2017, you are not alone. 
@@ -122,4 +122,4 @@ As with any card, it is important to watch out for “introductory rates”. Thi
 As always, read the fine print before signing the dotted line on a balance transfer credit card.
 
 ## The Bottom Line
-Regardless of which credit card you choose, ensure that the terms of the card match your lifestyle. There isn’t one credit card which is right for everyone. With the information in this article you should have a better idea of which types of cards exist and have a starting point as you begin your search. 
+Regardless of which credit card you choose, ensure that the terms of the card match your lifestyle. There isn’t one credit card which is right for everyone. With the information in this article you should have a better idea of which types of cards exist and have a starting point as you begin your search.
