@@ -11,19 +11,19 @@ It is very important to note when reading this article that debt consolidation t
 
 ## There are many things that debt consolidation will help you with:
 
-##### Multiple payments into one 
+### Multiple payments into one 
 Not having to worry about multiple payments due dates.
 
-##### Lower interest rate 
+### Lower interest rate 
 When looking for a debt consolidation service, it is very important to keep any eye on what the interest rate will be. If your interest rate is higher on your new loan than it is for your current debt, you could end up paying more in the long run.
 
-##### Debt is paid off faster
+### Debt is paid off faster
 Assuming you have a new loan that has a lower interest rate, each payment that you make brings you much closer to climbing out of debt - since you will be paying more of the principal than the interest itself.
 
-##### Avoiding credit damage
+### Avoiding credit damage
 Missing a payment or coming short on one impacts your credit score in a negative way. Debt consolidation helps you to stay away from this pitfall.
 
-##### Peace of mind
+### Peace of mind
 Besides the negative impact having debt can cause on your credit score and eligibility to purchase a home or car, there is a more personal impact on taking the first step to getting out of debt. Peace of mind. Knowing you don’t have a cloud of debt hovering over you can allow you to enjoy life more without the constant anxiety of the debt.
 
 ## How to go about consolidating debt?
