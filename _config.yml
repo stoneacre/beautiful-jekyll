@@ -23,7 +23,6 @@ description: Personal Finance Advice by Latinos for Latinos!
 
 # List of links in the navigation bar
 navbar-links:
-  Start Here: "starthere"
   Credit Cards:
     - Best Credit Cards: "http://supermonedero.com/2017-02-03-best-credit-cards-for-latinos/"
     - Credit Card Basics: "http://supermonedero.com/2017-01-26-credit-cards-101/"
