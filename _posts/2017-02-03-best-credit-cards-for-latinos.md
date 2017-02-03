@@ -84,7 +84,10 @@ To avoid paying these lofty APRs, simply pay down your credit card balance each 
 ### Cards Designed for Travel
 For many families, generating airline mileage points for their expenses can be an attractive benefit to owning a card. The following two cards provide airline miles for every dollar spent. In the case of the Capital One Venture Rewards card, you will receive 40,000 miles when you spend $3,000 during the first three months. Read the fine print on any travel card, as card companies have had a reputation of instituting blackout dates and restrictions covering when these travel points may be used.
 
-
+| **Card Name**                                                 | **Travel Reward**                                                                          | **Mileage Bonus**                            | **APR**                                                                                                                                                                                                                                                                      |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Discover it Miles                                    | 1.5 miles for every $1                                                                                | Zero                                                | 11.49% - 23.49%                                                                                                        |
+| Capital One Venture Rewards                                    | 2 miles for every $1                                                                               | 40,000 miles after spending $3,000 within three months   |13.49% - 23.49%                                                                                                                                                       
 
 Another item to consider when choosing a travel rewards card, is which airline your family typically uses when traveling. If you and your family mostly fly Delta, ensure that the card miles you earn are valid through Delta. If you mostly fly United, find a card which has partnered with United.
 
@@ -92,6 +95,13 @@ Another item to consider when choosing a travel rewards card, is which airline y
 The idea behind cash back cards is that you accrue cash as you use your card. These cards typically provide cash back as a percentage of the amount that you spend in a given month. Some cards will even provide double or triple cash back payments for gas or grocery expenses. When looking at cash back cards, it is critical first to understand where most of your credit card purchases go each month. Then, find the cash back card which provides the most bang for your buck on these purchases.
 
 
+| **Card Name**                                                 | **Cash Back Rate**                                                                          | **Bonus Offers**                            | **Credit Range Recommended**                                                                                                                                                                                                                                                                      |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Discover it Cashback Match                                    | 1.00%                                                                                 | Cash back match on first-year purchases                                                | 690 – 850        
+| Blue Cash Preferred                                    | 1.00%                                                                                 | $150 cash back after $1,000 spent in first three months                                                | 690 – 850 |
+| Cash Freedom Unlimited                                   | 1.50%                                                                                 | $150 cash back after $500 spent in first three months                                                | 690 – 850 |
+
+        
 
 ## Balance Transfers
 
