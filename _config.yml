@@ -25,24 +25,26 @@ description: Personal Finance Advice by Latinos for Latinos!
 navbar-links:
   Start Here: "starthere"
   Credit Cards:
-    - Best Credit Cards: "#"
-    - Credit Card Basics: "#"
-    - Credit Card with Bad Credit: "#"
-    - Getting Approved: "#"
+    - Best Credit Cards: "/_posts/2017-02-03-best-credit-cards-for-latinos"
+    - Credit Card Basics: "/_posts/2017-01-26-credit-cards-101"
+    - Credit Card with Bad Credit: "/_posts/2017-01-26-how-to-have-a-credit-card-with-bad-credit"
+    - Best Credit Cards for Colleague: "/_posts/2017-01-27-best-credit-cards-for-college-students"
   Banking:
-    - Banking Basics: "#"
-    - Best Banks: "#"
-    - Best Prepaid Cards: "#"
+    - Best Banks: "/_posts/2017-02-03-best-banks-for-latinos"
+    - Checking Accounts Basics: "/_posts/2017-01-26-2017-01-26-checking-account-101"
   Credit:
-    - Credit Basics: "#"
-    - Build Your Credit: "#"
-    - Fix Your Credit: "#"
-    - Best Loans for Bad Credit: "#"
+    - Credit Score Basics: "_posts/2017-01-26-credit-score-101"
+    - Fix Your Credit: "/_posts/2017-01-26-how-to-fix-your-credit"
+    - Best Loans for Bad Credit: "/_posts/2017-01-26-how-to-get-a-good-loan-with-bad-credit"
+    - Debt Consolidation: "/_posts/2017-01-27-debt-consolidation"
   Insurance:
-    - Insurance Basics: "#"
-    - Best Life Insurance: "#"
-    - Best Car Insurance: "#"
-    - Best Homeowner Insurance: "#"
+    - Insurance Basics: "/_posts/2017-01-26-insurance-101"
+    - Insurance Pitfalls: "/_posts/2017-01-26-most-common-insurance-pitfalls" 
+    - Best Life Insurance: "_posts/2017-01-26-health-insurance-101"
+    - Best Car Insurance: "supermonedero/_posts/2017-01-26-car-insurance-101"
+    - Best Homeowner Insurance: "/_posts/2017-01-26-homeowner-s-insurance-101"
+  Mortgage: 
+    - Mortgage basics: "/_posts/2017-01-26-mortgage-101"
   About Us: "aboutus"
 
 # Image to show in the navigation bar - image must be a square (width = height)
