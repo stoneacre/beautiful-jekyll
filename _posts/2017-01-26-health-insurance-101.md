@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Health Insurance 101
 ---
 In previous articles, we have discussed what insurance is and how it functions. We will now explore one of the most important types of insurance in the United States: health insurance.
