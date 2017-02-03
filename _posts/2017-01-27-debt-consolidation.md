@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Debt Consolidation
 ---
 Debt consolidation is the act of taking big loans (liabilities) such as credit cards, car loans, students loans and other liabilities and combining them into one new loan. The main purpose of debt consolidation is one of many long term strategies to help individuals get out of debt by helping to eliminate factors such as adding on more penalties to incorrect or late payments. 
