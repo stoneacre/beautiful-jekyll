@@ -50,9 +50,9 @@ Your policy should include coverage for all of the following areas of insurance 
 
 One of the most important elements to your car insurance policy is the liability insurance – this covers bodily injury liability (injuries you cause to another party) and property damage liability (damage caused by you to someone else’s property).  
 
-_WARNING:_It is important to keep in mind that if the liability after an accident exceeds your amount of insurance cover you are liable for the remaining costs. In some cases this can lead to lawsuits where the opposing party will attempt to acquire your personal assets (including your home) as payment. Hospital costs and legal fees can even lead to bankruptcy.
+_WARNING:_ It is important to keep in mind that if the liability after an accident exceeds your amount of insurance cover you are liable for the remaining costs. In some cases this can lead to lawsuits where the opposing party will attempt to acquire your personal assets (including your home) as payment. Hospital costs and legal fees can even lead to bankruptcy.
 
-_SOLUTION:_For a small increase in your premium you can get a lot more liability coverage and protect yourself against these kinds of astronomical damages. For even more peace of mind, if you can afford the marginal extra cost, the best option is to also take out a personal liability umbrella policy. This type of policy will raise your liability limit to a level that covers almost any event.
+_SOLUTION:_ For a small increase in your premium you can get a lot more liability coverage and protect yourself against these kinds of astronomical damages. For even more peace of mind, if you can afford the marginal extra cost, the best option is to also take out a personal liability umbrella policy. This type of policy will raise your liability limit to a level that covers almost any event.
 
 #### 2. Collision Cover
 
