@@ -59,7 +59,7 @@ title-img: "/img/avatar-icon.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name:
+  name: "SuperMonedero"
   email: "hola@supermonedero.com"
   facebook: "supermonedero"  # eg. daattali
   github: yourname    # eg. daattali
