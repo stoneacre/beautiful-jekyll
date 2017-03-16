@@ -54,7 +54,7 @@ Is it the card with the lowest fees that can make payments easier? Are you inter
 How you answer these questions will help determine what card is best for you. We’ve broken down our analysis into these major categories to help you start the process. If you have one specific type of card in mind, jump to the section covering our top picks that will match your needs.
 
 ### Cards With The Lowest Rates
-For most consumers, the most important thing in a credit card is affordability. If you don’t want to pay an annual fee or lofty monthly interest payments, consider these cards for you and your family. 
+For most consumers, the most important thing in a credit card is affordability. If you don’t want to pay an annual fee or lofty monthly interest payments, consider these cards for you and your family.
 
 | **Card Name**                                                 | **APR**                                                                          | **Annual fee**                                                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
