@@ -65,7 +65,7 @@ For most consumers, the most important thing in a credit card is affordability. 
 
 The interest rates shown are all variable – meaning that the card company has the right to raise (or lower) the APR as they see fit. The majority of credit card APRs are variable, so it is important to read the fine print before signing on the dotted line. We show an APR range in the table above. If you have a high credit score, credit card companies will generally issue you a lower APR. If your credit score is low, you will receive a higher APR. Not sure where your credit score stands? [Read our article](http://supermonedero.com/2017-01-26-credit-score-101/) covering the ins and outs of how credit scores work.
 
-Keep in mind: For some cards, paying your balance 60 days late will cause you to receive a penalty APR – which can be as high as 29.99%. Again, reading the fine print and understanding how your APR can fluctuate is critical – even for these low-interest rate cards.
+Keep in mind: For some cards, paying your balance 60days late will cause you to receive a penalty APR – which can be as high as 29.99%. Again, reading the fine print and understanding how your APR can fluctuate is critical – even for these low-interest rate cards.
 
 ### Cards Built for Improving a Credit Score
 If you are looking to establish credit history, or repair bad credit, consider these cards. 
