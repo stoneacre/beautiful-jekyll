@@ -36,19 +36,19 @@ Depending on your current credit score, there are a few credit cards that offer 
 
 If you feel like you can pay off your credit card debt within the 0% promotional period, this might be the best route for you. Some companies even accept debt from non-credit cards - so it is important to review all your options. 
 
-**Chase Slate:**
+**[Chase Slate:](https://creditcards.chase.com/credit-cards/chase-slate)**
 _Promotional Transfer Fee:_ 0% APR  on transfers for 15 months 
 _APR After Promotion:_15.49%-24.24%
 
-**Citi Simplicity Card**
+**[Citi Simplicity Card](https://www.citi.com/credit-cards/credit-card-details/citi.action?ID=citi-simplicity-credit-card)**
 _Promotional Transfer Fee:_ 0% APR on transfers for 21 months 
 _APR After Promotion:_ 13.49% - 23.49
 
-**Barclaycard Ring Mastercard**
+**[Barclaycard Ring Mastercard](https://home.barclaycardus.com/cards/barclaycard-ring-mastercard.html)**
 _APR:_ 8.5% (variable)
 _Transfer Fee:_ $0
 
-**Discover IT 18 Month Balance Transfer**
+**[Discover IT 18 Month Balance Transfer](https://www.credit.com/credit-cards/card/discover-it)**
 _Promotional Transfer Fee:_ 0% APR on transfers for 18 months.
 _APR After Promotion:_ 11.49%-23.49%
 
