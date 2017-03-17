@@ -61,17 +61,17 @@ There are also banks that specialize in servicing those in the Latino community.
 
 ## Latino-Focused Banks and Credit Unions
 
-### Latino Community Credit Union
+### [Latino Community Credit Union](https://latinoccu.org/)
 
 This credit union, servicing Latinos in North Carolina, is a leader in providing Latino-focused banking and financial services. It started in 2000 and has a leadership team of individuals from 19 countries. This truly diverse group provides [educational videos in Spanish](http://latinoccu.org/personal/financial-guidance/educational-videos/), [e-learning opportunities](http://latinoccu.org/personal/financial-guidance/e-learning/), and in-branch workshops. For Latino’s based in North Carolina, or the East Coast in general, this is a very good bank to consider.
 
-### Comunidad Latina Federal Credit Union
+### [Comunidad Latina Federal Credit Union](http://www.clfcu.org/)
 For Latinos in California, the Comunidad Latina Federal Credit Union in Santa Ana is a good option. Like the Latino Community Credit Union, this credit union specializes in providing financial services to Latino customers. [Their rate and fee information](http://www.clfcu.org/rates/fees.html) is offered in Spanish and English, and the firm provides bilingual customer support at their branch offices.
 
-### Community Trust Prospera
+### [Community Trust Prospera](https://www.self-helpfcu.org/)
 Re-branded as the Self-Help Federal Credit Union, this is another California-based institution which is uniquely suited to service Latinos. [With 17 locations](https://www.self-helpfcu.org/locations) in California and two in Florida, this is  a nationwide credit union which can provide financial services many smaller banks may miss.  
 
-### Bethex Federal Credit Union
+### [Bethex Federal Credit Union](http://www.cdcu.coop/bethex-federal-credit-union/)
 This credit union, based in the Bronx, New York, offers one of the best remittance programs in the nation. Remittance is bank jargon for when a foreign worker, living and working within the United States, sends money back to family in their home country. This credit union employs ten people in their remittance department and has taken special interest in providing this service to members. If you are located on the East Coast and sending money to Mexico, Central America or South America is important to you, consider Bethex Federal Credit Union.
 
 If you live elsewhere, ask a potential bank or credit union what kind of remittance services they offer before opening an account.
@@ -79,12 +79,12 @@ If you live elsewhere, ask a potential bank or credit union what kind of remitta
 ## National Banks to Consider
 While these three banks are at the cutting edge of providing Latino-specific services, the reality is that many readers may not have a branch location in their city. For this reason, it is wise to at least consider partnering with a national bank like Bank of America, Capital One or U.S. Bancorp. Below are two large national banks, which we have found to provide above average Latino-focused services.
 
-### BB&T Bank
+### [BB&T Bank](https://www.bbt.com/campaigns/start.page)
 As the 14th largest bank in the United States, BB&T has taken a unique understanding to the needs of Latinos and other under-banked customers. The firm has established a multicultural markets division with a specific goal of attracting more Latino millennials (born between 1982 and 2004) to their firm. A large part of this outreach is education, as 31% of Latino millennials say educational services are an important offering from a bank. Just 22% of older Latinos view this education as a core component of a bank’s offering. In 2012, BB&T was recognized by the US Hispanic Chamber of Commerce as being a leader in diversity outreach.
 
 [The bank offers a Spanish language website](https://www.bbt.com/about/cra/bbt-welcomes-hispanic-clients.page) and provides Spanish-language customer service at their vecino financial centers. These locations are in 12 states and Washington DC. If you are Latino millennial , BB&T Bank may be a good option.
 
-### TD Bank
+### [TD Bank](https://www.tdbank.com/)
 Originally formed in Canada as Toronto-Dominion Bank, it has recently made major inroads into the U.S. banking market. In 2004 the bank rebranded themselves as TD Banknorth N.A. and reincorporated in Delaware. TD Bank is now the 12th largest in the United States with $276 billion in total assets.
 
 This bank has stated that “Hispanics are an increasingly influential economic force, presenting banks with an opportunity to gain business, but also grow and support their communities.” This type of language shows that TD Bank takes the needs, and influence, of Latinos seriously and has made moves to understand the needs of the Latino community. The firm provides a Spanish language website and has bilingual employees at a number of core locations. 
