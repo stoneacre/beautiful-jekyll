@@ -32,7 +32,7 @@ If you spot any mistakes or errors on your credit report, contact the bank that 
 ## What is a good credit score?
 To be fair, there is not an exact set number which determines a good or bad score. Banks take into account a number of factors when making a lending decisions and your credit score is just one component of it. For example, even if you have just an average score, but have a good and stable job, you might still get a loan easily. Similarly, having a stellar credit score will not grant you a loan that far exceeds your paying capacity. Here is a helpful infographic by Experian explaining the broad ranges of credit scores and what they mean. Use this as a broad guideline, rather than something which is set in concrete.
 
-![Fico score range.PNG]({{site.baseurl}}/img/Fico score range.PNG)
+![B7_EXP_Understanding_the_FICO_Score_Range_IFGX_Visuals3.jpg]({{site.baseurl}}/img/B7_EXP_Understanding_the_FICO_Score_Range_IFGX_Visuals3.jpg)
 
 Image Source: http://www.experian.com/
 
