@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'How to Build Credit '
 ---
 # How to build credit
@@ -68,7 +68,4 @@ In addition, certain organizations help consumers build credit with low interest
 Since 2011, it has been possible to use your rent payments to build your credit. Unlike all other credit products, this is not automatic, and you have to voluntarily opt in. Keep in mind, however, that it works both ways and once you join, any delayed rent payment will start to affect your credit score adversely. Here are some websites that you can register on for this: [Rental Kharma](https://rentalkharma.com/), [Rent Track](http://www.renttrack.com/).
 
 ## Conclusion
-Your credit scores are affected by your payment history of the last 7 to 10 years. They affect all your borrowings and these days even employers are checking the credit reports of their potential or existing employees! Therefore, it is important to keep on top of everything that can potentially affect your credit report. Make sure you pay all your loans on time, do not take on too many loans and stay well below your maximum credit limit – if you do this, you will build a stellar credit in no time! 
-
-
-
+Your credit scores are affected by your payment history of the last 7 to 10 years. They affect all your borrowings and these days even employers are checking the credit reports of their potential or existing employees! Therefore, it is important to keep on top of everything that can potentially affect your credit report. Make sure you pay all your loans on time, do not take on too many loans and stay well below your maximum credit limit – if you do this, you will build a stellar credit in no time!
