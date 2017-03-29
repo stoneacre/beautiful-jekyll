@@ -3,7 +3,6 @@ layout: post
 published: true
 title: 'How to Build Credit '
 ---
-# How to build credit
 
 _Credit reports are like a permanent record of your borrowing history and credit scores are a sort of report card which show how well you have been behaving when it comes to borrowing. They were created as a tool for banks and other lenders to gauge a borrower and check their past records before they could lend to a new customer. Before we take a deep dive into how to build credit or improve your score, it would serve us well to look at what a credit report is actually made of and what affects your score._
 
