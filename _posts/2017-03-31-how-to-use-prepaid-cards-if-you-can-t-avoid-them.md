@@ -64,12 +64,18 @@ Historically, prepaid cards have developed a reputation for providing consumers 
 
 American Express, Kaiku, and PayPal all offer highly competitive rates and provide a simple fund loading process. For Latinos, the Univision MasterCard and Coopera Prepaid Reloadable Visa card are both popular options. 
 
-Univision MasterCard
-This card is unique, in that replacement of money is available if your card is lost or stolen. At a monthly maintenance fee of $9.95, there are more affordable options when it comes to this out of pocket expense associated with prepaid cards. With this said, the card offers a network of in-network ATMS for no-fee cash withdrawals and offers no fees for depositing funds from paychecks, government benefits or tax refunds. Lastly, the card provides 24/7 bilingual customer service at no additional cost.
-Coopera Prepaid Card
-The Coopera prepaid card is a good alternative, as this card has partnered with a number of credit unions throughout the Southwest United States. This relationship allows for easy in-person deposits by allowing customers to work with a bank teller when loading funds. While the card only charges a $5.95 per month maintenance fee, which is waived with a card load of $300 or more, the card makes up for this lower monthly fee in other areas. Phone support is $1.00 per call for automated assistance and $1.50 per call for operator assistance. An additional card associated with the account will cost $10 per card.
+> ## [Univision MasterCard](http://www.univisiontarjeta.com/en/)
 
-Final Thoughts
+>> This card is unique, in that replacement of money is available if your card is lost or stolen. At a monthly maintenance fee of $9.95, there are more affordable options when it comes to this out of pocket expense associated with prepaid cards. With this said, the card offers a network of in-network ATMS for no-fee cash withdrawals and offers no fees for depositing funds from paychecks, government benefits or tax refunds. Lastly, the card provides 24/7 bilingual customer service at no additional cost.
+
+> ## [Coopera Prepaid Card](http://www.cooperacard.com/)
+
+>> The Coopera prepaid card is a good alternative, as this card has partnered with a number of credit unions throughout the Southwest United States. This relationship allows for easy in-person deposits by allowing customers to work with a bank teller when loading funds. While the card only charges a $5.95 per month maintenance fee, which is waived with a card load of $300 or more, the card makes up for this lower monthly fee in other areas. Phone support is $1.00 per call for automated assistance and $1.50 per call for operator assistance. An additional card associated with the account will cost $10 per card.
+
+## Final Thoughts
+
 These are just two options to consider, and the information above is just an overview of the card features and fees. With any major financial decision, it is important to read the fine print and develop a firm understanding of every fee, limitation and service charge which will apply.
+
 Take the time to shop around your local market to determine exactly which cards are best for you, your family and your financial situation. Word of mouth can be a powerful way to understand which companies to partner with and which companies to avoid. 
+
 If you have to use a prepaid card, taking these steps will help ensure you find the right card for you and your family.
