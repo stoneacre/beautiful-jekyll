@@ -37,25 +37,31 @@ _While it may sound like there are mostly drawbacks to prepaid and secured cards
 Here are six reasons why a prepaid card may be the right fit. Again, prepaid cards should be used as an option of last resort if a bank will not issue you a standard credit or debit card.
 
 1.**Fund Management**
+
 One of the biggest risks in having a credit card is the ability to spend money which can’t readily be paid back. In the United States, the average household has $16,061 in credit card debt. For most Americans, this means months or years of making payments. Every month that the credit card balance goes unpaid, the credit card issuer is charging interest against the balance.
 
 A prepaid card is a very simple way to help you stick to a budget and only make purchases you can afford to pay back.
 
 2.**Fund Security**
+
 Regarding security – it is true that prepaid cards have less general protections than credit or debit cards. A major benefit, however, is the fact that if someone steals your prepaid card, they will only able to spend the money which is already loaded onto the card. If your credit or debit card is stolen, there is the possibility that the perpetrator can spend the entire balance of your bank account or use your credit card until the credit limit is reached.
 
 For this reason, many Latinos prefer to use prepaid cards when making purchases online or with vendors over the phone. The idea here is that the fewer people that have your personal banking information, the better. Again, if a prepaid card is compromised you are only risking the current balance of the card.
 
 3.**Electronic Payment for Individual without a Bank Account**
+
 Currently, 51.1% of Latinos do not utilize a checking account. If you are one of these individuals and don’t like carrying cash, a prepaid card can be a great option. This card will allow you to make purchases online or utilize electronic bill paying services from phone, internet or utility providers. 
 
 4.**Building Better Spending Habits**
+
 This is very similar to the first item on this list but should be thought about a bit differently. By using a prepaid card, you are, in many ways, forced to create a monthly household budget. This is one financial planning item that the majority of American could use help with. If using a prepaid card helps you establish a monthly budget or spend your money more efficiently, you will find yourself ahead of the game.
 
 5.**Gift Giving**
+
 Don’t know what to get someone for a birthday or Christmas? Consider a prepaid card. This is a better option than a gift certificate, as the person receiving the card can use the money anywhere they see fit. This approach is a bit more classy than just giving cash as a gift, and the person will appreciate the gift even more when they make their purchase using the card.
 
 6.**Payroll Solutions**
+
 Many companies are moving towards prepaid cards as a mean to conduct payroll. This eliminates paper waste from writing checks and typically reduces the time until the funds are available. If you are a business owner, this can be a great way to pay your employees more rapidly and reduce the clutter associated with bi-weekly payroll processing.
 
 ### How to Choose, and Use, a Prepaid Card
