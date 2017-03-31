@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How To Use Prepaid Cards If You Can't Avoid Them
 ---
 There are a lot of card options out there when it comes to managing your personal finances. 
