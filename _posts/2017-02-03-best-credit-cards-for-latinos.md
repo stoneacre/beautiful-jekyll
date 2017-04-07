@@ -3,6 +3,26 @@ layout: post
 published: true
 title: Best Credit Cards for Latinos
 ---
+
+This blog is part of the blog series _"How to start your personal finances from 0"_ 
+
+1- The basics
+- [Checking accounts 101](http://supermonedero.com/2017-01-26-2017-01-26-checking-account-101/)
+- [Credit score 101](http://supermonedero.com/2017-01-26-credit-score-101/)
+- [Credit cards 101](http://supermonedero.com/2017-01-26-credit-cards-101/)
+
+2- [Select your bank](http://supermonedero.com/2017-02-03-best-banks-for-latinos/)
+
+3- _[Select your first credit card](http://supermonedero.com/2017-02-03-best-credit-cards-for-latinos/)_
+
+4- [Start building your credit](http://supermonedero.com/2017-03-29-how-to-build-credit/)
+
+
+
+## Best Credit Cards for Latinos 
+
+
+
 If you are looking for a credit card in 2017, you are not alone. 
 
 A credit card can be a great way to establish credit, simplify your monthly bills, and even earn airline miles. The truth of the matter is, however, that Latinos still use credit cards less than the average American. 
