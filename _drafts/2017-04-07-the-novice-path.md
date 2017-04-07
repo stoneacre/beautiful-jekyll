@@ -21,7 +21,7 @@ Read the following articles..
 
 5- [Start building your credit](http://supermonedero.com/2017-03-29-how-to-build-credit/)
 
-##Where to go after covering the basics
+## Where to go after covering the basics
 
 Once you have this covered you can start thinking on getting [insurance](http://supermonedero.com/2017-01-26-insurance-101/) or even a [mortgage](http://supermonedero.com/2017-01-26-mortgage-101/)! Super Monedero is full of personal finance articles and we are always adding new topics aimed to the Latino community. 
 
