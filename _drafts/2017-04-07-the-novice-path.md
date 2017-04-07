@@ -5,9 +5,7 @@ title: The novice path
 ---
 ## How to start your personal finances from 0
 
-Starting from 0 is hard bla bla that's why we prepared the following customized list for you.
-
-Read the following articles..
+Starting from 0 is hard and we know it. That's why we prepared a series of articles that will give your the necessary knowledge platform that you need for taking off! First you will review the basics and then you will learn what products are better for you. 
 
 
 1- Start with the basics
@@ -25,4 +23,4 @@ Read the following articles..
 
 Once you have this covered you can start thinking on getting [insurance](http://supermonedero.com/2017-01-26-insurance-101/) or even a [mortgage](http://supermonedero.com/2017-01-26-mortgage-101/)! Super Monedero is full of personal finance articles and we are always adding new topics aimed to the Latino community. 
 
-Remember to sign up for our [email list](http://eepurl.com/cylgnX) in order to get the latest updates. Email us at hola@supermonedero.com if you have any additional questions. 
+Remember to sign up for our [email list](http://eepurl.com/cylgnX) in order to get the latest updates. Email us at hola@supermonedero.com if you have any additional questions.
