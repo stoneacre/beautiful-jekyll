@@ -4,9 +4,14 @@ published: false
 title: Start here
 ---
 
-About Super Monedero paragraph.
+## Super what?
 
-After a while, we discovered that most of our visitors always fall in two categories: newcomers to personal finance or people trying to get their credit score back on track. That's why we prepared two "paths" that you can follow. 
+Super Monedero is a Personal Finance Website by Latinos for Latinos. Our mission is helping our community to grow and improve with free and accesible content tailored to their specific needs.
+
+
+## Where should I start?
+
+We discovered that most of our visitors always fell in two categories: newcomers to personal finance or people trying to get their credit score back on track. That's why we prepared two "paths" that you can follow. 
 
 If you need to start your personal finance life, go here.
 
