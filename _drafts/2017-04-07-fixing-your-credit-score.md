@@ -5,7 +5,7 @@ title: Fixing your credit score
 ---
 ## How to fix your credit
 
-Fixing your credit after a couple of mishaps can be though. That's why Super Monedero prepare a series of articles that will help you to get your finances back in track. We will teach you the credit score basics, how to fix it and how to get the best financial products in the meanwhile. 
+Fixing your credit after a couple of mishaps can be though. That's why Super Monedero prepared a series of articles that will help you get your finances back in track. We will teach you the credit score basics, how to fix it and how to get the best financial products in the meantime.
 
 
 1- [Understand how credit score works](http://supermonedero.com/2017-01-26-credit-score-101/)
