@@ -4,6 +4,28 @@ published: true
 title: 'How to Build Credit '
 ---
 
+This blog is part of the blog series _"How to start your personal finances from 0"_ 
+
+1- The basics
+- [Checking accounts 101](http://supermonedero.com/2017-01-26-2017-01-26-checking-account-101/)
+- [Credit score 101](http://supermonedero.com/2017-01-26-credit-score-101/)
+- [Credit cards 101](http://supermonedero.com/2017-01-26-credit-cards-101/)
+
+2- [Select your bank](http://supermonedero.com/2017-02-03-best-banks-for-latinos/)
+
+3- [Select your first credit card](http://supermonedero.com/2017-02-03-best-credit-cards-for-latinos/)
+
+4- _[Start building your credit](http://supermonedero.com/2017-03-29-how-to-build-credit/)_
+
+
+
+
+
+
+
+## How to build credit
+
+
 _Credit reports are like a permanent record of your borrowing history and credit scores are a sort of report card which show how well you have been behaving when it comes to borrowing. They were created as a tool for banks and other lenders to gauge a borrower and check their past records before they could lend to a new customer. Before we take a deep dive into how to build credit or improve your score, it would serve us well to look at what a credit report is actually made of and what affects your score._
 
 ## What affects my credit score?
