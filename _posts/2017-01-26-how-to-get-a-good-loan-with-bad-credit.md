@@ -3,6 +3,27 @@ layout: post
 published: true
 title: How to Get a Good Loan with Bad Credit
 ---
+This blog is part of the blog series _"How to fix your credit"_ 
+
+
+1- [Start fixing your credit](http://supermonedero.com/2017-01-26-how-to-fix-your-credit/)
+
+2- [Consider debt consolidation](http://supermonedero.com/2017-01-27-debt-consolidation/)
+
+3- Learn how to get...
+
+-[...a credit card with bad credit](http://supermonedero.com/2017-01-26-how-to-have-a-credit-card-with-bad-credit/)
+
+-_[...a loan with bad credit](http://supermonedero.com/2017-01-26-how-to-get-a-good-loan-with-bad-credit/)_
+
+
+If you want to learn more about our learning paths, go [here](http://supermonedero.com/2017-04-07-start-here/).
+
+
+## How to Get a Good Loan with Bad Credit
+
+
+
 
 Almost all of us go through a bad patch sometimes which can lead us into financial trouble. It could be the result of a bad financial decision, or something that was never really in our control. However, credit reporting agencies only look at hard facts and your credit scores can therefore, take a hit.
 

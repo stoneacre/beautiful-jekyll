@@ -3,6 +3,29 @@ layout: post
 published: true
 title: How to Fix your Credit
 ---
+This blog is part of the blog series _"How to fix your credit"_ 
+
+
+1- _[Start fixing your credit](http://supermonedero.com/2017-01-26-how-to-fix-your-credit/)_
+
+2- [Consider debt consolidation](http://supermonedero.com/2017-01-27-debt-consolidation/)
+
+3- Learn how to get...
+
+-[...a credit card with bad credit](http://supermonedero.com/2017-01-26-how-to-have-a-credit-card-with-bad-credit/)
+
+-[...a loan with bad credit](http://supermonedero.com/2017-01-26-how-to-get-a-good-loan-with-bad-credit/)
+
+
+If you want to learn more about our learning paths, go [here](http://supermonedero.com/2017-04-07-start-here/).
+
+
+## How to Fix your Credit
+
+
+
+
+
 Having a bad credit score makes life difficult. Learning how to fix credit scores will make life cheaper and easier. Banks use credit reports to alert one another to customers that may be a high risk. This makes credit cheaper for those with a good score, but makes credit more expensive, if not impossible, for those with bad scores.
 
 The good news is that you can fix the problem. If you learn how credit scores are calculated and take the right steps, you can get your score back up to a level where you can open a bank account and even take on new debt. This article will teach you how to erase a bad credit history and improve your credit.

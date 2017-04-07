@@ -3,6 +3,26 @@ layout: post
 published: true
 title: Best Credit Cards for Latinos
 ---
+
+This blog is part of the blog series _"How to start your personal finances from 0"_ 
+
+1- The basics
+- [Checking accounts 101](http://supermonedero.com/2017-01-26-2017-01-26-checking-account-101/)
+- [Credit score 101](http://supermonedero.com/2017-01-26-credit-score-101/)
+- [Credit cards 101](http://supermonedero.com/2017-01-26-credit-cards-101/)
+
+2- [Select your bank](http://supermonedero.com/2017-02-03-best-banks-for-latinos/)
+
+3- _[Select your first credit card](http://supermonedero.com/2017-02-03-best-credit-cards-for-latinos/)_
+
+4- [Start building your credit](http://supermonedero.com/2017-03-29-how-to-build-credit/)
+
+
+
+## Best Credit Cards for Latinos 
+
+
+
 If you are looking for a credit card in 2017, you are not alone. 
 
 A credit card can be a great way to establish credit, simplify your monthly bills, and even earn airline miles. The truth of the matter is, however, that Latinos still use credit cards less than the average American. 
@@ -54,27 +74,27 @@ Is it the card with the lowest fees that can make payments easier? Are you inter
 How you answer these questions will help determine what card is best for you. We’ve broken down our analysis into these major categories to help you start the process. If you have one specific type of card in mind, jump to the section covering our top picks that will match your needs.
 
 ### Cards With The Lowest Rates
-For most consumers, the most important thing in a credit card is affordability. If you don’t want to pay an annual fee or lofty monthly interest payments, consider these cards for you and your family. 
+For most consumers, the most important thing in a credit card is affordability. If you don’t want to pay an annual fee or lofty monthly interest payments, consider these cards for you and your family.
 
 | **Card Name**                                                 | **APR**                                                                          | **Annual fee**                                                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Capital One VentureOne                                    | 12.49% - 22.49%                                                                                | $0                                                                                                                                                        |
-| Discover it Cashback Match                                    | 11.49% - 23.49%                                                                                 | $0                                                                                                                                                        |
-| BankAmericard                                    | 11.49% - 21.49%                                                                                | $0                                                                                                                                                        |
+| [Capital One VentureOne](https://www.capitalone.com/credit-cards/ventureone/)                                    | 12.49% - 22.49%                                                                                | $0                                                                                                                                                        |
+| [Discover it Cashback Match](https://www.discover.com/credit-cards/cash-back/it-card.html)                                    | 11.49% - 23.49%                                                                                 | $0                                                                                                                                                        |
+| [BankAmericard](https://www.bankofamerica.com/credit-cards/products/bankamericard-credit-card/)                                    | 11.49% - 21.49%                                                                                | $0                                                                                                                                                        |
 
 
 The interest rates shown are all variable – meaning that the card company has the right to raise (or lower) the APR as they see fit. The majority of credit card APRs are variable, so it is important to read the fine print before signing on the dotted line. We show an APR range in the table above. If you have a high credit score, credit card companies will generally issue you a lower APR. If your credit score is low, you will receive a higher APR. Not sure where your credit score stands? [Read our article](http://supermonedero.com/2017-01-26-credit-score-101/) covering the ins and outs of how credit scores work.
 
-Keep in mind: For some cards, paying your balance 60 days late will cause you to receive a penalty APR – which can be as high as 29.99%. Again, reading the fine print and understanding how your APR can fluctuate is critical – even for these low-interest rate cards.
+Keep in mind: For some cards, paying your balance 60days late will cause you to receive a penalty APR – which can be as high as 29.99%. Again, reading the fine print and understanding how your APR can fluctuate is critical – even for these low-interest rate cards.
 
 ### Cards Built for Improving a Credit Score
 If you are looking to establish credit history, or repair bad credit, consider these cards. 
 
 | **Card Name**                                                 | **APR**                                                                          | **Credit Range Recommended**                                                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| First Progress Platinum Elite                                    | 19.99%                                                                                | 350 - 629                                                                                                                                                        |
-| Capital One Secured MasterCard                                    | 24.99%                                                                               | 250 – 629                                                                                                                                                        |
-| Discover it Secured Card                                    | 23.49%                                                                                | 250 - 689                                                                                                                                                        |
+| [First Progress Platinum Elite](https://www.firstprogress.com/card_options)                                    | 19.99%                                                                                | 350 - 629                                                                                                                                                        |
+| [Capital One Secured MasterCard](https://www.capitalone.com/credit-cards/secured-mastercard/)                                    | 24.99%                                                                               | 250 – 629                                                                                                                                                        |
+| [Discover it Secured Card](https://www.discover.com/credit-cards/secured/)                                    | 23.49%                                                                                | 250 - 689                                                                                                                                                        |
 
 
 All three of these cards are secured cards, meaning you will need to put down a deposit with the card company before you can make any purchases. In the event you can’t pay back your balance, the card company will take this deposit in order to recover the funds they are owed. This deposit, and the relatively high APRs associated with these cards, are reflective of the card companies risk in issuing the card to an individual with poor or non-existent credit.
@@ -86,8 +106,8 @@ For many families, generating airline mileage points for their expenses can be a
 
 | **Card Name**                                                 | **Travel Reward**                                                                          | **Mileage Bonus**                            | **APR**                                                                                                                                                                                                                                                                      |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Discover it Miles                                    | 1.5 miles for every $1                                                                                | Zero                                                | 11.49% - 23.49%                                                                                                        |
-| Capital One Venture Rewards                                    | 2 miles for every $1                                                                               | 40,000 miles after spending $3,000 within three months   |13.49% - 23.49%                                                                                                                                                       
+| [Discover it Miles](https://www.discover.com/credit-cards/travel/miles-card.html)                                    | 1.5 miles for every $1                                                                                | Zero                                                | 11.49% - 23.49%                                                                                                        |
+| [Capital One Venture Rewards](https://www.capitalone.com/credit-cards/venture/)                                    | 2 miles for every $1                                                                               | 40,000 miles after spending $3,000 within three months   |13.49% - 23.49%                                                                                                                                                       
 
 Another item to consider when choosing a travel rewards card, is which airline your family typically uses when traveling. If you and your family mostly fly Delta, ensure that the card miles you earn are valid through Delta. If you mostly fly United, find a card which has partnered with United.
 
@@ -97,9 +117,9 @@ The idea behind cash back cards is that you accrue cash as you use your card. Th
 
 | **Card Name**                                                 | **Cash Back Rate**                                                                          | **Bonus Offers**                            | **Credit Range Recommended**                                                                                                                                                                                                                                                                      |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Discover it Cashback Match                                    | 1.00%                                                                                 | Cash back match on first-year purchases                                                | 690 – 850        
-| Blue Cash Preferred                                    | 1.00%                                                                                 | $150 cash back after $1,000 spent in first three months                                                | 690 – 850 |
-| Cash Freedom Unlimited                                   | 1.50%                                                                                 | $150 cash back after $500 spent in first three months                                                | 690 – 850 |
+| [Discover it Cashback Match](https://www.discover.com/credit-cards/cash-back/it-card.html)                                    | 1.00%                                                                                 | Cash back match on first-year purchases                                                | 690 – 850        
+| [Blue Cash Preferred](https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/)                                    | 1.00%                                                                                 | $150 cash back after $1,000 spent in first three months                                                | 690 – 850 |
+| [Cash Freedom Unlimited](https://creditcards.chase.com/credit-cards/chase-freedom-unlimited2?CELL=6309&RAF2=FH24R8)                                   | 1.50%                                                                                 | $150 cash back after $500 spent in first three months                                                | 690 – 850 |
 
         
 

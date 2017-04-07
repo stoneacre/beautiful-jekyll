@@ -11,7 +11,7 @@ The Credit Card Act of 2009 ([Click Here](http://www.consumerfinance.gov/credit-
 
 There are many credit cards available to students - each with their own benefits. The card that you’ll benefit the from depends on your needs. We’ve put together a list of some of the most popular credit cards out there - along with the pros and cons to help you make an informed decision on the best card for you.
 
-## Discover It® Chrome for Students
+## [Discover It® Chrome for Students](https://www.discover.com/credit-cards/student/chrome-card.html)
 
 | Annual Fee | APR              | Intro Promotions                        | Top Reward                                                                          |
 |------------|------------------|-----------------------------------------|-------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ There are many credit cards available to students - each with their own benefits
 
 The Discover IT Chrome for Students Credit Card is a great option for those who are just starting to build credit. With a 0% introductory APR, high potential rewards and an integration with Amazon.com there are many great features of this card. However, if you are planning on going overseas, using this card might not be best option. 
 
-## Wells Fargo Cash Back College Visa
+## [Wells Fargo Cash Back College Visa](https://www.wellsfargo.com/credit-cards/cash-back-college-card/)
 
 | Annual Fee | APR              | Intro Promotions                        | Top Reward                                      |
 |------------|------------------|-----------------------------------------|-------------------------------------------------|
@@ -57,7 +57,7 @@ The Discover IT Chrome for Students Credit Card is a great option for those who 
 
 Coupled with a reliable rewards program, the Wells Fargo Cash Back College Visa is a great card for students that are looking for a card with a low APR and resources that will help better manage money. 
 
-## BankAmericard Cash Rewards Card for Students
+## [BankAmericard Cash Rewards Card for Students](https://www.bankofamerica.com/credit-cards/products/student-cash-back-credit-card/)
 
 | Annual Fee | APR              | Intro Promotions                        | Top Reward                                                                                                           |
 |------------|------------------|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Coupled with a reliable rewards program, the Wells Fargo Cash Back College Visa 
 
 While the card does offer 0% interest for the first 12 months, after the 12 month period, a relatively high interest rate does kick in. On top of this, if a payment is missed, there is an ARP penalty of 29.99% that applies to the first missed payment. Because of this, it is important to be aware of your balance and make payments on time, or you can rack up large amounts of interest. 
 
-## Citi ThankYou® Preferred Card for College Students
+## [Citi ThankYou® Preferred Card for College Students](https://www.citi.com/credit-cards/credit-card-details/citi.action?ID=citi-thankyou-preferred-credit-cards-for-college-students)
 
 | Annual Fee | APR              | Intro Promotions                       | Top Reward                                                                                        |
 |------------|------------------|----------------------------------------|---------------------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ _**NOTE:**
 Not everyone can be approved for the credit cards listed above. Either because they lack the credit or they must obtain a secured credit card, as we mentioned at the beginning. Below are credit cards that are available to you either as secured cards - or cards that require no to little credit._
 
 
-## Journey® Student Rewards from Capital One®
+## [Journey® Student Rewards from Capital One®](https://www.capitalone.com/credit-cards/journey-student/)
 
 | Annual Fee | APR       | Intro Promotions | Top Reward                                                                           |
 |------------|-----------|------------------|--------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Not everyone can be approved for the credit cards listed above. Either because t
 This is a no thrills credit card - that is geared towards students who are just starting to build out their credit. A nice benefit of this card is the ability to pick a monthly due date.
 
 
-## Open Sky℠ Secured Visa® Credit Card
+## [Open Sky℠ Secured Visa® Credit Card](https://www.openskycc.com/)
 
 | Annual Fee | APR      | Intro Promotions | Top Reward                                                                     |
 |------------|----------|------------------|--------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ This is a no thrills credit card - that is geared towards students who are just 
 
 If you suffer from bad credit - this is a card that will help get you back on track. With a minimum security deposit of $200 - you can increase your credit line up to $3,000. Watch out for added fees though such as Credit Line increase fees, deposit funds fee and Credit Decrease Fees of $25 each.
 
-## primor® Secured Visa Gold Credit Card
+## [primor® Secured Visa Gold Credit Card](http://www.creditcards.com/credit-cards/primor-secured-visa-gold-card-237010480.php)
 
 | Annual Fee | APR   | Intro Promotions | Top Reward |
 |------------|-------|------------------|------------|
