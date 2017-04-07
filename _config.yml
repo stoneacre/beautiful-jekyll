@@ -23,6 +23,7 @@ description: Personal Finance Advice by Latinos for Latinos!
 
 # List of links in the navigation bar
 navbar-links:
+  Start here: "2017-04-07-start-here/"
   Credit Cards:
     - Best Credit Cards: "2017-02-03-best-credit-cards-for-latinos/"
     - Credit Card Basics: "2017-01-26-credit-cards-101/"
