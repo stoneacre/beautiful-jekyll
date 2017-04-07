@@ -3,6 +3,27 @@ layout: post
 published: true
 title: How to Have a Credit Card with Bad Credit
 ---
+This blog is part of the blog series _"How to fix your credit"_ 
+
+
+1- [Start fixing your credit](http://supermonedero.com/2017-01-26-how-to-fix-your-credit/)
+
+2- [Consider debt consolidation](http://supermonedero.com/2017-01-27-debt-consolidation/)
+
+3- Learn how to get...
+
+_-[...a credit card with bad credit](http://supermonedero.com/2017-01-26-how-to-have-a-credit-card-with-bad-credit/)_
+
+-[...a loan with bad credit](http://supermonedero.com/2017-01-26-how-to-get-a-good-loan-with-bad-credit/)
+
+
+If you want to learn more about our learning paths, go [here](http://supermonedero.com/2017-04-07-start-here/).
+
+
+
+## How to Have a Credit Card with Bad Credit
+
+
 Whether you’re buying a home, car, boat or paying for college tuition, your credit score is critical. Most of us have had bumps in the road of life. For some of us, this means a credit score which is lower than we would like.
 
 In this article, we will explore how to go about getting a credit card with bad credit, what pitfalls to avoid in using your credit card, and how you can actually improve your credit score using a new or existing credit card.
