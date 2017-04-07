@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Fixing your credit score
 ---
 ## How to fix your credit
