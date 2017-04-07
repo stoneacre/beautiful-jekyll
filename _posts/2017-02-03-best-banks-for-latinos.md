@@ -3,6 +3,29 @@ layout: post
 published: true
 title: Best banks for Latinos
 ---
+This blog is part of the blog series _"How to start your personal finances from 0"_ 
+
+1- The basics
+- [Checking accounts 101](http://supermonedero.com/2017-01-26-2017-01-26-checking-account-101/)
+- [Credit score 101](http://supermonedero.com/2017-01-26-credit-score-101/)
+- [Credit cards 101](http://supermonedero.com/2017-01-26-credit-cards-101/)
+
+3- _[Select your bank](http://supermonedero.com/2017-02-03-best-banks-for-latinos/)_
+
+4- [Select your first credit card](http://supermonedero.com/2017-02-03-best-credit-cards-for-latinos/)
+
+5- [Start building your credit](http://supermonedero.com/2017-03-29-how-to-build-credit/)
+
+If you want to learn more about our learning paths, go [here](http://supermonedero.com/2017-04-07-start-here/).
+
+
+## Best banks for Latinos
+
+
+
+
+
+
 Are you looking for a bank? If so, you are not alone. 
 
 Just over half of all Latinos, 51.1% to be exact, do not currently have a bank account. An account can be a great way to secure your finances and feel more confident when completing transactions. In this article we will explore what to consider when looking for a bank and what we have determined to be some of the best banks for Latinos
