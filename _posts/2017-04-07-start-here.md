@@ -6,7 +6,7 @@ title: Start here
 
 ## Super what?
 
-Super Monedero is a personal finance website made by Latinos for Latinos. Our mission is to help our community grow and improve with accessible free content tailored to one's specific needs.
+Super Monedero is a personal finance website made by Latinos for Latinos. Our mission is to help our community grow and improve with accessible free content tailored to one's own specific needs.
 
 
 ## Where should I start?
