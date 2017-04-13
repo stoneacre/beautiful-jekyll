@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Why to Avoid Pre-Paid Cards '
 ---
 Pre-paid cards are one of the fastest growing segments of the card industry in the US. On first look, it seems like they have a lot to offer when compared with other options. However, there are two sides to every story and in the end, pre-paid cards might end up costing you more than what they are worth. Let’s start with the basics first.
@@ -87,4 +87,4 @@ The best alternatives to pre-paid cards are obviously credit cards or debit card
 
 The primary disadvantage of prepaid cards is higher transaction costs and a slightly higher risk of fraud or theft. Furthermore, most of the advantages of such cards can be more cheaply gained with other viable alternatives.
 
-If you still have to go for a prepaid card, stick to the ones offered by reputable companies like American Express. It might also be a good idea to ask for and thoroughly check a comprehensive list of all fees and charges. 
+If you still have to go for a prepaid card, stick to the ones offered by reputable companies like American Express. It might also be a good idea to ask for and thoroughly check a comprehensive list of all fees and charges.
