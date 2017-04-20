@@ -92,12 +92,12 @@ layout: cards
 <script type="text/javascript">
   $(document).ready(function() {
 
-    var category                = null;
-    var score                   = null;
-    var latino_friendly         = false;
-    var no_fee                  = false;
-    var no_balance_transfer_fee = false;
-    var no_foreign_fee          = false;
+    var category              = null;
+    var score                 = null;
+    var latinoFriendly        = false;
+    var noFee                 = false;
+    var noBalanceTransferFee  = false;
+    var noForeignFee          = false;
 
     loadData();
     displayData();
@@ -105,19 +105,19 @@ layout: cards
     function displayData() {
       $('#category-' + category).addClass('active');
       $('#score-' + score).addClass('active');
-      $('#latino_friendly').prop('checked', latino_friendly);
-      $('#no_fee').prop('checked', no_fee);
-      $('#no_balance_transfer_fee').prop('checked', no_balance_transfer_fee);
-      $('#no_foreign_fee').prop('checked', no_foreign_fee);
+      $('#latino_friendly').prop('checked', latinoFriendly);
+      $('#no_fee').prop('checked', noFee);
+      $('#no_balance_transfer_fee').prop('checked', noBalanceTransferFee);
+      $('#no_foreign_fee').prop('checked', noForeignFee);
     }
 
     function loadData() {
-      category                = url('?category') != 'undefined' ? url('?category') : category = 'improve';
-      score                   = url('?score') != 'undefined' ? url('?score') : score = 'excellent';
-      latino_friendly         = getBoolean('latino_friendly');
-      no_fee                  = getBoolean('no_fee');
-      no_balance_transfer_fee = getBoolean('no_balance_transfer_fee');
-      no_foreign_fee          = getBoolean('no_foreign_fee');
+      category             = url('?category') != 'undefined' ? url('?category') : category = 'improve';
+      score                = url('?score') != 'undefined' ? url('?score') : score = 'excellent';
+      latinoFriendly       = getBoolean('latino_friendly');
+      noFee                = getBoolean('no_fee');
+      noBalanceTransferFee = getBoolean('no_balance_transfer_fee');
+      noForeignFee         = getBoolean('no_foreign_fee');
     }
 
     function getBoolean(name) {
