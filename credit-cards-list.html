@@ -9,19 +9,19 @@ layout: cards
   <div class="col-sm-3" style="height: 100%; ">
     <h4>Categories</h4>
     <div class="list-group">
-      <a href="#" id="category-improve" class="list-group-item"><i class="fa fa-level-up" aria-hidden="true"></i>&nbsp;&nbsp;Improve my Credit Score</a>
-      <a href="#" id="category-miles" class="list-group-item"><i class="fa fa-plane" aria-hidden="true"></i>&nbsp;&nbsp;Get Miles</a>
-      <a href="#" id="category-rewards" class="list-group-item"><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;&nbsp;Rewards</a>
-      <a href="#" id="category-savings" class="list-group-item"><i class="fa fa-percent" aria-hidden="true"></i>&nbsp;&nbsp;Savings</a>
-      <a href="#" id="category-cashback" class="list-group-item"><i class="fa fa-money" aria-hidden="true"></i>&nbsp;&nbsp;Cash Back</a>
+      <a href="javascript:void(0);" id="category-improve" class="list-group-item"><i class="fa fa-level-up" aria-hidden="true"></i>&nbsp;&nbsp;Improve my Credit Score</a>
+      <a href="javascript:void(0);" id="category-miles" class="list-group-item"><i class="fa fa-plane" aria-hidden="true"></i>&nbsp;&nbsp;Get Miles</a>
+      <a href="javascript:void(0);" id="category-rewards" class="list-group-item"><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;&nbsp;Rewards</a>
+      <a href="javascript:void(0);" id="category-savings" class="list-group-item"><i class="fa fa-percent" aria-hidden="true"></i>&nbsp;&nbsp;Savings</a>
+      <a href="javascript:void(0);" id="category-cashback" class="list-group-item"><i class="fa fa-money" aria-hidden="true"></i>&nbsp;&nbsp;Cash Back</a>
     </div>
 
     <h4>Credit Score</h4>
     <div class="list-group">
-      <a href="#" id="score-excellent" class="list-group-item">Excellent</a>
-      <a href="#" id="score-good" class="list-group-item">Good</a>
-      <a href="#" id="score-average" class="list-group-item">Average</a>
-      <a href="#" id="score-poor" class="list-group-item">Poor</a>
+      <a href="javascript:void(0);" id="score-excellent" class="list-group-item">Excellent</a>
+      <a href="javascript:void(0);" id="score-good" class="list-group-item">Good</a>
+      <a href="javascript:void(0);" id="score-average" class="list-group-item">Average</a>
+      <a href="javascript:void(0);" id="score-poor" class="list-group-item">Poor</a>
     </div>
     <div class="text-center">
       <button class="btn btn-info" type="submit">Get Your Free Credit Card Score</button>
@@ -29,22 +29,22 @@ layout: cards
 
     <h4>Fees</h4>
     <div class="checkbox checkbox-primary">
-      <input type="checkbox" id="no_fee">
-      <label for="no_fee">No Annual Fee</label>
+      <input type="checkbox" id="check-no-fee">
+      <label for="check-no-fee">No Annual Fee</label>
     </div>
     <div class="checkbox checkbox-primary">
-      <input type="checkbox" id="no_balance_transfer_fee">
-      <label for="no_balance_transfer_fee">No Balance Transfer Fee</label>
+      <input type="checkbox" id="check-no-balance-transfer-fee">
+      <label for="check-no-balance-transfer-fee">No Balance Transfer Fee</label>
     </div>
     <div class="checkbox checkbox-primary">
-      <input type="checkbox" id="no_foreign_fee">
-      <label for="no_foreign_fee">No Foreign Transaction Fee</label>
+      <input type="checkbox" id="check-no-foreign-fee">
+      <label for="check-no-foreign-fee">No Foreign Transaction Fee</label>
     </div>
 
     <h4>Options</h4>
     <div class="checkbox checkbox-primary">
-      <input type="checkbox" id="latino_friendly">
-      <label for="latino_friendly">Latino Friendly</label>
+      <input type="checkbox" id="check-latino-friendly">
+      <label for="check-latino-friendly">Latino Friendly</label>
     </div>
   </div>
 
@@ -86,12 +86,10 @@ layout: cards
   </tbody>
 </table>
   </div>
-
 </div>
 
 <script type="text/javascript">
   $(document).ready(function() {
-
     var category              = null;
     var score                 = null;
     var latinoFriendly        = false;
@@ -100,15 +98,21 @@ layout: cards
     var noForeignFee          = false;
 
     loadData();
-    displayData();
+    updateView();
 
-    function displayData() {
+    function updateView() {
       $('#category-' + category).addClass('active');
       $('#score-' + score).addClass('active');
-      $('#latino_friendly').prop('checked', latinoFriendly);
-      $('#no_fee').prop('checked', noFee);
-      $('#no_balance_transfer_fee').prop('checked', noBalanceTransferFee);
-      $('#no_foreign_fee').prop('checked', noForeignFee);
+      $('#check-latino-friendly').prop('checked', latinoFriendly);
+      $('#check-no-fee').prop('checked', noFee);
+      $('#check-no-balance-transfer-fee').prop('checked', noBalanceTransferFee);
+      $('#check-no-foreign-fee').prop('checked', noForeignFee);
+    }
+
+    function clearView() {
+      $("a[id*='category']").removeClass('active');
+      $("a[id*='score']").removeClass('active');
+      $("input[id*='check-']").prop('checked', false);
     }
 
     function loadData() {
@@ -121,12 +125,47 @@ layout: cards
     }
 
     function getBoolean(name) {
-      var retval = false;
+      var retval = 'undefined';
       if(url('?' + name) != 'undefined') {
-        if(url('?' + name) == '1') { retval = true; }
+        retval = url('?' + name) == '1';
       }
       return retval;
     }
 
+    $("a[id*='category-']").click(function() { updateSelection($(this).attr('id')); });
+    $("a[id*='score-']").click(function() { updateSelection($(this).attr('id')); });
+    $("input[id*='check-']").click(function() { updateSelection($(this).attr('id')); });
+
+    function updateSelection(id) {
+      var type  = id.split('-')[0];
+      var value = id.substring(id.indexOf('-') + 1)
+
+      switch(type) {
+        case 'category':
+         category = value;
+         break;
+        case 'score':
+          score = value;
+          break;
+        case 'check':
+          switch(value) {
+            case 'latino-friendly':
+              latinoFriendly = $('#' + id).prop('checked');
+              break;
+            case 'no-fee':
+              noFee = $('#' + id).prop('checked');
+              break;
+            case 'no-balance-transfer-fee':
+              noBalanceTransferFee = $('#' + id).prop('checked');
+              break;
+            case 'no-foreign-fee':
+              noForeignFee = $('#' + id).prop('checked');
+              break;
+          }
+          break;
+      }
+      clearView();
+      updateView();
+    }
   });
 </script>
