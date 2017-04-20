@@ -49,136 +49,10 @@ layout: cards
   </div>
 
   <div class="col-sm-9">
-    <h2>Rewards Credit Cards</h2>
+    <h1>Rewards Credit Cards</h1>
     <p>A rewards credit card can help you earn cash back, travel rewards and other perks with everyday purchases. Compare NerdWallet's best offers below, including some deals from our partners.</p>
-    <table class="table shadow">
-      <tbody>
-        <tr>
-          <td width="75%">
-            <h3>Credit Card Name</h3>
-          </td>
-          <td rowspan="4" align="center">
-            <table class='table borderless card-actions' width="100%">
-              <tr><td align="center"><img src="https://c1.nerdwallet.com/images/3098_ae7c22ba546250043c1c6565ebb2ed3f_M.jpg" /></td></tr>
-              <tr><td align="center"><button class="btn btn-success" type="submit">Apply Now</button></td></tr>
-              <tr><td align="center"><button class="btn btn-info" type="submit">View Details</button></td></tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td>Annual Fee: <b>$xxx.xx</b> - Rewards rate: <b>xx.xx%</b></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Quick review paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta nec velit sit amet ullamcorper. In hac habitasse platea dictumst.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="checkbox checkbox-primary">
-              <input type="checkbox" id="compare-card">
-              <label for="compare-card" class="small">Compare this card</label>
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <table class="table shadow">
-      <tbody>
-        <tr>
-          <td width="75%">
-            <h3>Credit Card Name</h3>
-          </td>
-          <td rowspan="4" align="center">
-            <table class='table borderless card-actions' width="100%">
-              <tr><td align="center"><img src="https://c1.nerdwallet.com/images/3098_ae7c22ba546250043c1c6565ebb2ed3f_M.jpg" /></td></tr>
-              <tr><td align="center"><button class="btn btn-success" type="submit">Apply Now</button></td></tr>
-              <tr><td align="center"><button class="btn btn-info" type="submit">View Details</button></td></tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td>Annual Fee: <b>$xxx.xx</b> - Rewards rate: <b>xx.xx%</b></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Quick review paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta nec velit sit amet ullamcorper. In hac habitasse platea dictumst.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="checkbox checkbox-primary">
-              <input type="checkbox" id="compare-card">
-              <label for="compare-card" class="small">Compare this card</label>
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <table class="table shadow">
-      <tbody>
-        <tr>
-          <td width="75%">
-            <h3>Credit Card Name</h3>
-          </td>
-          <td rowspan="4" align="center">
-            <table class='table borderless card-actions' width="100%">
-              <tr><td align="center"><img src="https://c1.nerdwallet.com/images/3098_ae7c22ba546250043c1c6565ebb2ed3f_M.jpg" /></td></tr>
-              <tr><td align="center"><button class="btn btn-success" type="submit">Apply Now</button></td></tr>
-              <tr><td align="center"><button class="btn btn-info" type="submit">View Details</button></td></tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td>Annual Fee: <b>$xxx.xx</b> - Rewards rate: <b>xx.xx%</b></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Quick review paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta nec velit sit amet ullamcorper. In hac habitasse platea dictumst.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="checkbox checkbox-primary">
-              <input type="checkbox" id="compare-card">
-              <label for="compare-card" class="small">Compare this card</label>
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <table class="table shadow">
-      <tbody>
-        <tr>
-          <td width="75%">
-            <h3>Credit Card Name</h3>
-          </td>
-          <td rowspan="4" align="center">
-            <table class='table borderless card-actions' width="100%">
-              <tr><td align="center"><img src="https://c1.nerdwallet.com/images/3098_ae7c22ba546250043c1c6565ebb2ed3f_M.jpg" /></td></tr>
-              <tr><td align="center"><button class="btn btn-success" type="submit">Apply Now</button></td></tr>
-              <tr><td align="center"><button class="btn btn-info" type="submit">View Details</button></td></tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td>Annual Fee: <strong>$xxx.xx</strong> - Rewards rate: <strong>xx.xx%</strong></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Quick review paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta nec velit sit amet ullamcorper. In hac habitasse platea dictumst.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="checkbox checkbox-primary">
-              <input type="checkbox" id="compare-card">
-              <label for="compare-card" class="small">Compare this card</label>
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+
+    <div id="cards-table"></div>
 
   </div>
 </div>
@@ -194,6 +68,7 @@ layout: cards
 
     loadData();
     updateView();
+    loadCardsTable();
 
     $("a[id*='category-']").click(function() {
       updateSelection(this.id);
@@ -265,6 +140,44 @@ layout: cards
       }
       updateView();
     }
+
+    function loadCardsTable() {
+
+
+
+
+
+      var cardTable =
+      "<table class='table card shadow'>\
+        <tbody>\
+          <tr>\
+            <td colspane='2' width='75%'><h3>%%card_name%%</h3></td>\
+            <td rowspan='4'>\
+              <table class='table borderless card-actions'>\
+                <tr><td><img class='img-responsive' src='%%card_image_url%%' /></td></tr>\
+                <tr><td><button class='btn btn-success' type='submit'>Apply Now</button></td></tr>\
+                <tr><td><button class='btn btn-info' type='submit'>View Details</button></td></tr>\
+              </table>\
+            </td>\
+          </tr>\
+          <tr><td>Annual Fee: <strong>$%%card_annual_fee%%</strong> - Rewards rate: <strong>%%card_rewards_rate%%%</strong></td></tr>\
+          <tr><td><p>%%card_details%%</p></td></tr>\
+          <tr>\
+            <td>\
+              <div class='checkbox checkbox-primary'>\
+                <input type='checkbox' id='compare-card'>\
+                <label for='compare-card' class='small text-uppercase'>Compare this card</label>\
+              </div>\
+            </td>\
+          </tr>\
+        </tbody>\
+      </table>";
+      for(x = 0; x < 10; x++) {
+        $('#cards-table').append(cardTable);
+      }
+    }
+
+
   });
 </script>
 
@@ -273,12 +186,21 @@ layout: cards
     margin-right: 10px !important;
   }
 
+  table.card label {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
   table.shadow {
     box-shadow: 0px 1px 2px #888888;
   }
 
-  .borderless td, .borderless th {
+  .borderless td,
+  .borderless th {
     border: none;
+  }
+
+  table.card-actions {
+    width: 100%;
   }
 
   table.card-actions tr,
@@ -290,4 +212,6 @@ layout: cards
     background: white !important;
     text-align: center !important;
   }
+
+
 </style>
