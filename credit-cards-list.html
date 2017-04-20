@@ -1,0 +1,132 @@
+---
+layout: cards
+---
+
+<script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="/js/url.min.js"></script>
+
+<div class="row">
+  <div class="col-sm-3" style="height: 100%; ">
+    <h4>Categories</h4>
+    <div class="list-group">
+      <a href="#" id="category-improve" class="list-group-item"><i class="fa fa-level-up" aria-hidden="true"></i>&nbsp;&nbsp;Improve my Credit Score</a>
+      <a href="#" id="category-miles" class="list-group-item"><i class="fa fa-plane" aria-hidden="true"></i>&nbsp;&nbsp;Get Miles</a>
+      <a href="#" id="category-rewards" class="list-group-item"><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;&nbsp;Rewards</a>
+      <a href="#" id="category-savings" class="list-group-item"><i class="fa fa-percent" aria-hidden="true"></i>&nbsp;&nbsp;Savings</a>
+      <a href="#" id="category-cashback" class="list-group-item"><i class="fa fa-money" aria-hidden="true"></i>&nbsp;&nbsp;Cash Back</a>
+    </div>
+
+    <h4>Credit Score</h4>
+    <div class="list-group">
+      <a href="#" id="score-excellent" class="list-group-item">Excellent</a>
+      <a href="#" id="score-good" class="list-group-item">Good</a>
+      <a href="#" id="score-average" class="list-group-item">Average</a>
+      <a href="#" id="score-poor" class="list-group-item">Poor</a>
+    </div>
+    <div class="text-center">
+      <button class="btn btn-info" type="submit">Get Your Free Credit Card Score</button>
+    </div>
+
+    <h4>Fees</h4>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="no_fee">
+      <label for="no_fee">No Annual Fee</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="no_balance_transfer_fee">
+      <label for="no_balance_transfer_fee">No Balance Transfer Fee</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="no_foreign_fee">
+      <label for="no_foreign_fee">No Foreign Transaction Fee</label>
+    </div>
+
+    <h4>Options</h4>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="latino_friendly">
+      <label for="latino_friendly">Latino Friendly</label>
+    </div>
+  </div>
+
+  <div class="col-sm-9">
+    <h2>Rewards Credit Cards</h2>
+    <p>A rewards credit card can help you earn cash back, travel rewards and other perks with everyday purchases. Compare NerdWallet's best offers below, including some deals from our partners.</p>
+<table class="table">
+  <thead>
+    <tr>
+      <th></th>
+      <th width="20%">Annual Fee</th>
+      <th width="20%">Reward Rate</th>
+      <th width="20%">Intro Bonus Rate</th>
+      <th width="20%">Annual Rewards</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td>@mdo</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var category                = null;
+    var score                   = null;
+    var latino_friendly         = false;
+    var no_fee                  = false;
+    var no_balance_transfer_fee = false;
+    var no_foreign_fee          = false;
+
+    loadData();
+    displayData();
+
+    function displayData() {
+      $('#category-' + category).addClass('active');
+      $('#score-' + score).addClass('active');
+      $('#latino_friendly').prop('checked', latino_friendly);
+      $('#no_fee').prop('checked', no_fee);
+      $('#no_balance_transfer_fee').prop('checked', no_balance_transfer_fee);
+      $('#no_foreign_fee').prop('checked', no_foreign_fee);
+    }
+
+    function loadData() {
+      category                = url('?category') != 'undefined' ? url('?category') : category = 'improve';
+      score                   = url('?score') != 'undefined' ? url('?score') : score = 'excellent';
+      latino_friendly         = getBoolean('latino_friendly');
+      no_fee                  = getBoolean('no_fee');
+      no_balance_transfer_fee = getBoolean('no_balance_transfer_fee');
+      no_foreign_fee          = getBoolean('no_foreign_fee');
+    }
+
+    function getBoolean(name) {
+      var retval = false;
+      if(url('?' + name) != 'undefined') {
+        if(url('?' + name) == '1') { retval = true; }
+      }
+      return retval;
+    }
+
+  });
+</script>
