@@ -4,6 +4,7 @@ layout: cards
 
 <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" src="/js/url.min.js"></script>
+<script type="text/javascript" src="/js/sheetrock.min.js"></script>
 
 <div class="row">
   <div class="col-sm-3" style="height: 100%; ">
@@ -59,6 +60,8 @@ layout: cards
 
 <script type="text/javascript">
   $(document).ready(function() {
+    var sheetUrl = "https://docs.google.com/spreadsheets/d/14nDVwVvubdeUDVDRKxkq1P5hgaqUNk_k1ekHLKyqooY/edit#gid=0";
+
     var category = null;
     var score = null;
     var latinoFriendly = false;
@@ -94,12 +97,12 @@ layout: cards
     }
 
     function loadData() {
-      category = url('?category') != 'undefined' ? url('?category') : category = 'improve';
-      score = url('?score') != 'undefined' ? url('?score') : score = 'excellent';
-      latinoFriendly = getBoolean('?latino_friendly');
-      noFee = getBoolean('?no_fee');
+      category        = url('?category') != 'undefined' ? url('?category') : category = 'improve';
+      score           = url('?score') != 'undefined' ? url('?score') : score = 'excellent';
+      latinoFriendly  = getBoolean('?latino_friendly');
+      noFee           = getBoolean('?no_fee');
       noBalanceTransferFee = getBoolean('?no_balance_transfer_fee');
-      noForeignFee = getBoolean('?no_foreign_fee');
+      noForeignFee    = getBoolean('?no_foreign_fee');
     }
 
     function getBoolean(name) {
@@ -142,12 +145,7 @@ layout: cards
     }
 
     function loadCardsTable() {
-
-
-
-
-
-      var cardTable =
+      var cardTemplateHtml =
       "<table class='table card shadow'>\
         <tbody>\
           <tr>\
@@ -160,7 +158,8 @@ layout: cards
               </table>\
             </td>\
           </tr>\
-          <tr><td>Annual Fee: <strong>$%%card_annual_fee%%</strong> - Rewards rate: <strong>%%card_rewards_rate%%%</strong></td></tr>\
+          <tr><td>Annual Fee: <strong>%%card_annual_fee%%</strong><br />\
+          Rewards rate: <strong>%%card_rewards_rate%%</strong></td></tr>\
           <tr><td><p>%%card_details%%</p></td></tr>\
           <tr>\
             <td>\
@@ -172,11 +171,35 @@ layout: cards
           </tr>\
         </tbody>\
       </table>";
-      for(x = 0; x < 10; x++) {
-        $('#cards-table').append(cardTable);
-      }
+
+      var cardsHtml = '';
+      sheetrock({
+        url: sheetUrl,
+        query: "select A, S, U, W order by A desc",
+        callback: function(error, options, response) {
+          if (!error) {
+            rowNumber = 0;
+            response.rows.forEach(function(item) {
+              if(rowNumber > 0) {
+                cardsHtml += fillCardTable(cardTemplateHtml, item.cellsArray)
+              }
+              else {
+                rowNumber = 1;
+              }
+            });
+            $('#cards-table').append(cardsHtml);
+          }
+        }
+      });
     }
 
+    function fillCardTable(html, values) {
+      html = html.replace('%%card_name%%', values[0]);
+      html = html.replace('%%card_rewards_rate%%', values[1]);
+      html = html.replace('%%card_annual_fee%%', values[2]);
+      html = html.replace('%%card_image_url%%', values[3]);
+      return html;
+    }
 
   });
 </script>
