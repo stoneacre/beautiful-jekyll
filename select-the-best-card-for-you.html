@@ -1,0 +1,53 @@
+---
+layout: page
+title: Let Us Select the Best Card for You!
+use-site-title: true
+bigimg: "/img/latino_family.jpg"
+---
+
+<script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+
+<form id="cardsForm" action="/credit-cards-list">
+  <div class="row">
+    <div class="col-sm-6">
+      <select name="score" class="form-control" required>
+        <option value="">Select your Credit Card Score</option>
+        <option value="poor">Poor</option>
+        <option value="average">Average</option>
+        <option value="good">Good</option>
+        <option value="excellent">Excellent</option>
+        <option value="excellent">I don't know</option>
+      </select>
+    </div>
+    <div class="col-sm-6">
+      <select name="category" class="form-control" required>
+        <option value="">I would like to...</option>
+        <option value="improve">Improve my Credit Score</option>
+        <option value="miles">Get Miles</option>
+        <option value="rewards">Rewards</option>
+        <option value="savings">Savings</option>
+        <option value="cashback">Cash Back</option>
+      </select>
+    </div>
+  </div>
+  <div class="row text-center">
+    <button type="submit" class="btn btn-primary">This text is a placeholder!</button>
+  </div>
+</form>
+
+<style type="text/css">
+  .row { margin-bottom: 15px; }
+  label.error { color:#cc0000; }
+</style>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#cardsForm').validate({
+      messages: {
+        score: "What's your Credit Card Score?",
+        category: "What do you want?"
+      }
+    });
+  });
+</script>
