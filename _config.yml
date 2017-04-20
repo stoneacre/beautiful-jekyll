@@ -25,6 +25,7 @@ description: Personal Finance Advice by Latinos for Latinos!
 navbar-links:
   Start here: "2017-04-07-start-here/"
   Credit Cards:
+    - Best Credit Card For You: "select-the-best-card-for-you/"
     - Best Credit Cards: "2017-02-03-best-credit-cards-for-latinos/"
     - Credit Card Basics: "2017-01-26-credit-cards-101/"
     - Credit Card with Bad Credit: "2017-01-26-how-to-have-a-credit-card-with-bad-credit/"
@@ -91,7 +92,7 @@ footer-links-active:
   xing: false
   stackoverflow: false
   snapchat: false
-  instagram: true  
+  instagram: true
   youtube: false
   spotify: false
   telephone: false
