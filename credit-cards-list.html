@@ -142,6 +142,7 @@ layout: cards
           break;
       }
       updateView();
+      loadCardsTable();
     }
 
     function loadCardsTable() {
@@ -172,11 +173,15 @@ layout: cards
         </tbody>\
       </table>";
 
+     // sheetrock({...});
       var cardsHtml = '';
+      $('#cards-table').empty().data('sheetrockLoaded', false);
       sheetrock({
         url: sheetUrl,
-        query: "select A, S, U, W order by A",
+        query: generateQuery(),
+        reset: true,
         callback: function(error, options, response) {
+          console.log(error);
           if (!error) {
             rowNumber = 0;
             response.rows.forEach(function(item) {
@@ -199,6 +204,30 @@ layout: cards
       html = html.replace('%%card_annual_fee%%', values[2]);
       html = html.replace('%%card_image_url%%', values[3]);
       return html;
+    }
+
+    function generateQuery() {
+      whereCategory = '';
+      switch(category) {
+        case 'rewards':
+          whereCategory = 'E = "Y" ';
+        case 'cashback':
+          whereCategory = 'F = "Y" ';
+        case 'travel':
+          whereCategory = 'G = "Y" ';
+        case 'lowinterest':
+          whereCategory = 'H = "Y" ';
+        case 'student':
+          whereCategory = 'I = "Y" ';
+      }
+
+      whereScore = 'O LIKE "%' + score + '%" ';
+
+      query  = "SELECT A, S, U, W "
+      query += "WHERE " + whereCategory + "AND " + whereScore;
+      query += "ORDER BY A"
+      console.log(query);
+      return query;
     }
 
   });
@@ -236,5 +265,7 @@ layout: cards
     text-align: center !important;
   }
 
-
+  button.btn {
+    font-family: "Open Sans";
+  }
 </style>
