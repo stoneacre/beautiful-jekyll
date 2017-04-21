@@ -154,8 +154,8 @@ layout: cards
             <td rowspan='4'>\
               <table class='table borderless card-actions'>\
                 <tr><td><img class='img-responsive' src='%%card_image_url%%' /></td></tr>\
-                <tr><td><button class='btn btn-success' type='submit'>Apply Now</button></td></tr>\
-                <tr><td><button class='btn btn-info' type='submit'>View Details</button></td></tr>\
+                <tr><td><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success' type='submit'>Apply Now</a></td></tr>\
+                <tr><td><a href='javascript:void(0);' class='btn btn-info' type='submit'>View Details</a></td></tr>\
               </table>\
             </td>\
           </tr>\
@@ -165,15 +165,14 @@ layout: cards
           <tr>\
             <td>\
               <div class='checkbox checkbox-primary'>\
-                <input type='checkbox' id='compare-card'>\
-                <label for='compare-card' class='small text-uppercase'>Compare this card</label>\
+                <input type='checkbox' id='compare-card-%%card_id%%'>\
+                <label for='compare-card-%%card_id%%' class='small text-uppercase'>Compare this card</label>\
               </div>\
             </td>\
           </tr>\
         </tbody>\
       </table>";
 
-     // sheetrock({...});
       var cardsHtml = '';
       $('#cards-table').empty().data('sheetrockLoaded', false);
       sheetrock({
@@ -199,10 +198,12 @@ layout: cards
     }
 
     function fillCardTable(html, values) {
-      html = html.replace('%%card_name%%', values[0]);
-      html = html.replace('%%card_rewards_rate%%', values[1]);
-      html = html.replace('%%card_annual_fee%%', values[2]);
-      html = html.replace('%%card_image_url%%', values[3]);
+      html = html.replace(/%%card_id%%/g, values[0]);
+      html = html.replace(/%%card_name%%/g, values[1]);
+      html = html.replace(/%%card_rewards_rate%%/g, values[2]);
+      html = html.replace(/%%card_annual_fee%%/g, values[3]);
+      html = html.replace(/%%card_image_url%%/g, values[4]);
+      html = html.replace(/%%card_apply_now_url%%/g, values[5]);
       return html;
     }
 
@@ -210,22 +211,27 @@ layout: cards
       whereCategory = '';
       switch(category) {
         case 'rewards':
-          whereCategory = 'E = "Y" ';
-        case 'cashback':
           whereCategory = 'F = "Y" ';
-        case 'travel':
+          break;
+        case 'cashback':
           whereCategory = 'G = "Y" ';
-        case 'lowinterest':
+          break;
+        case 'travel':
           whereCategory = 'H = "Y" ';
-        case 'student':
+          break;
+        case 'lowinterest':
           whereCategory = 'I = "Y" ';
+          break;
+        case 'student':
+          whereCategory = 'J = "Y" ';
+          break;
       }
 
-      whereScore = 'O LIKE "%' + score + '%" ';
+      whereScore = 'P LIKE "%' + score + '%" ';
 
-      query  = "SELECT A, S, U, W "
-      query += "WHERE " + whereCategory + "AND " + whereScore;
-      query += "ORDER BY A"
+      query  = 'SELECT A, B, T, Q, X, Y ';
+      query += 'WHERE ' + whereCategory + 'AND ' + whereScore;
+      query += 'ORDER BY A';
       console.log(query);
       return query;
     }
@@ -238,7 +244,9 @@ layout: cards
     margin-right: 10px !important;
   }
 
-  table.card label {
+  table.card label,
+  button.btn,
+  a.btn {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
@@ -265,7 +273,4 @@ layout: cards
     text-align: center !important;
   }
 
-  button.btn {
-    font-family: "Open Sans";
-  }
 </style>
