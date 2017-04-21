@@ -175,7 +175,7 @@ layout: cards
       var cardsHtml = '';
       sheetrock({
         url: sheetUrl,
-        query: "select A, S, U, W order by A desc",
+        query: "select A, S, U, W order by A",
         callback: function(error, options, response) {
           if (!error) {
             rowNumber = 0;
