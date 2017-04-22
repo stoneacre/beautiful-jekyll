@@ -104,11 +104,9 @@ $(document).ready(function () {
     if (cardsToCompare.length > 0) {
       cardsToCompare.length == 1 ? $('#btn-compare-cards').addClass('disabled') : $('#btn-compare-cards').removeClass('disabled');
       $('#badge-cards-to-compare-count').text(cardsToCompare.length);
-      $("#footer-compare").slideDown("fast", function () { });
+      $("#footer-compare").slideDown("fast");
     }
-    else {
-      $("#footer-compare").slideUp("fast", function () { });
-    }
+    else { $("#footer-compare").slideUp("fast"); }
   }
 
   function loadData() {
@@ -269,7 +267,7 @@ $(document).ready(function () {
   }
 
   function generateQuery() {
-    whereCategory = '';
+    var whereCategory = '';
     switch (category) {
       case 'rewards':
         whereCategory = 'F = "Y" ';
@@ -288,11 +286,80 @@ $(document).ready(function () {
         break;
     }
 
-    whereScore = 'P LIKE "%' + score + '%" ';
+    var whereScore = 'P LIKE "%' + score + '%" ';
 
+    var whereNoAnnualFee = '';
+    var whereNoBalanceTransferFee = '';
+    var whereNoForeignFee = '';
     noFee === true ? whereNoAnnualFee = 'AND K = "N" ' : whereNoAnnualFee = '';
     noBalanceTransferFee === true ? whereNoBalanceTransferFee = 'AND L = "N" ' : whereNoBalanceTransferFee = '';
     noForeignFee === true ? whereNoForeignFee = 'AND M = "N" ' : whereNoForeignFee = '';
+
+    var whereNetwork = '';
+    if (networkAmex || networkDiscover || networkVisaMastercard) {
+      var used = false;
+      whereNetwork = 'AND (';
+      if (networkAmex) {
+        whereNetwork += 'C = "American Express"';
+        used = true;
+      }
+      if (networkDiscover) {
+        if (used) whereNetwork += ' OR ';
+        whereNetwork += 'C = "Discover"';
+        used = true;
+      }
+      if (networkVisaMastercard) {
+        if (used) whereNetwork += ' OR ';
+        whereNetwork += 'C = "Visa/Mastercard"';
+      }
+      whereNetwork += ') ';
+    }
+
+    var whereFinancial = '';
+    if (financialAmex || financialBankOfAmerica || financialBarclaycard || financialCapitalOne || financialChase || financialCiti || financialDiscover || financialWellsFargo) {
+      var used = false;
+      whereFinancial = 'AND (';
+      if (financialAmex) {
+        whereFinancial += 'D = "American Express"';
+        used = true;
+      }
+      if (financialBankOfAmerica) {
+        if (used) whereFinancial += ' OR ';
+        whereFinancial += 'D = "Bank of America"';
+        used = true;
+      }
+      if (financialBarclaycard) {
+        if (used) whereFinancial += ' OR ';
+        whereFinancial += 'D = "Barclaycard"';
+        used = true;
+      }
+      if (financialCapitalOne) {
+        if (used) whereFinancial += ' OR ';
+        whereFinancial += 'D = "Capital One"';
+        used = true;
+      }
+      if (financialChase) {
+        if (used) whereFinancial += ' OR ';
+        whereFinancial += 'D = "Chase"';
+        used = true;
+      }
+      if (financialCiti) {
+        if (used) whereFinancial += ' OR ';
+        whereFinancial += 'D = "Citi"';
+        used = true;
+      }
+      if (financialDiscover) {
+        if (used) whereFinancial += ' OR ';
+        whereFinancial += 'D = "Discover"';
+        used = true;
+      }
+      if (financialWellsFargo) {
+        if (used) whereFinancial += ' OR ';
+        whereFinancial += 'D = "Wells Fargo"';
+      }
+      whereFinancial += ') ';
+    }
+
     latinoFriendly === true ? whereLatinoFriendly = 'AND E = "Y" ' : whereLatinoFriendly = '';
 
     query = 'SELECT A, B, T, Q, X, Y ';
@@ -300,8 +367,11 @@ $(document).ready(function () {
     query += whereNoAnnualFee;
     query += whereNoBalanceTransferFee;
     query += whereNoForeignFee;
+    query += whereNetwork;
+    query += whereFinancial;
     query += whereLatinoFriendly;
     query += 'ORDER BY B';
+    console.log(query);
     return query;
   }
 
