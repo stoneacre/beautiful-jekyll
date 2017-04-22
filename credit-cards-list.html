@@ -50,11 +50,8 @@ layout: cards
   </div>
 
   <div class="col-sm-9">
-    <h1>Rewards Credit Cards</h1>
-    <p>A rewards credit card can help you earn cash back, travel rewards and other perks with everyday purchases. Compare NerdWallet's best offers below, including some deals from our partners.</p>
-
+    <div id="page-header"></div>
     <div id="cards-table"></div>
-
   </div>
 </div>
 
@@ -68,6 +65,29 @@ layout: cards
     var noFee = false;
     var noBalanceTransferFee = false;
     var noForeignFee = false;
+
+    var pageData = {
+      'rewards': [
+        'Rewards Credit Cards',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      ],
+      'cashback': [
+        'Cash Back Credit Cards',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      ],
+      'travel': [
+        'Travel Credit Cards',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      ],
+      'lowinterest': [
+        'Low Interest Credit Cards',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      ],
+      'student': [
+        'Student Credit Cards',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      ]
+    };
 
     loadData();
     updateView();
@@ -94,6 +114,9 @@ layout: cards
       $('#check-no-fee').prop('checked', noFee);
       $('#check-no-balance-transfer-fee').prop('checked', noBalanceTransferFee);
       $('#check-no-foreign-fee').prop('checked', noForeignFee);
+
+      $('#page-header').empty();
+      $('#cards-table').empty().data('sheetrockLoaded', false);
     }
 
     function loadData() {
@@ -146,55 +169,70 @@ layout: cards
     }
 
     function loadCardsTable() {
+      var pageHeaderTemplateHtml =
+        "<h1>%%page_title%%</h1>\
+        <p>%%page_subtitle%%</p>";
+
       var cardTemplateHtml =
-      "<table class='table card shadow'>\
-        <tbody>\
-          <tr>\
-            <td colspane='2' width='75%'><h3>%%card_name%%</h3></td>\
-            <td rowspan='4'>\
-              <table class='table borderless card-actions'>\
-                <tr><td><img class='img-responsive' src='%%card_image_url%%' /></td></tr>\
-                <tr><td><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success' type='submit'>Apply Now</a></td></tr>\
-                <tr><td><a href='javascript:void(0);' class='btn btn-info' type='submit'>View Details</a></td></tr>\
-              </table>\
-            </td>\
-          </tr>\
-          <tr><td>Annual Fee: <strong>%%card_annual_fee%%</strong><br />\
-          Rewards rate: <strong>%%card_rewards_rate%%</strong></td></tr>\
-          <tr><td><p>%%card_details%%</p></td></tr>\
-          <tr>\
-            <td>\
-              <div class='checkbox checkbox-primary'>\
-                <input type='checkbox' id='compare-card-%%card_id%%'>\
-                <label for='compare-card-%%card_id%%' class='small text-uppercase'>Compare this card</label>\
-              </div>\
-            </td>\
-          </tr>\
-        </tbody>\
-      </table>";
+        "<table class='table card shadow'>\
+          <tbody>\
+            <tr>\
+              <td colspane='2' width='75%'><h3>%%card_name%%</h3></td>\
+              <td rowspan='4'>\
+                <table class='table borderless card-actions'>\
+                  <tr><td><img class='img-responsive' src='%%card_image_url%%' /></td></tr>\
+                  <tr><td><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success' type='submit'>Apply Now</a></td></tr>\
+                  <tr><td><a href='javascript:void(0);' class='btn btn-info' type='submit'>View Details</a></td></tr>\
+                </table>\
+              </td>\
+            </tr>\
+            <tr><td>Annual Fee: <strong>%%card_annual_fee%%</strong><br />\
+            Rewards rate: <strong>%%card_rewards_rate%%</strong></td></tr>\
+            <tr><td><p>%%card_details%%</p></td></tr>\
+            <tr>\
+              <td>\
+                <div class='checkbox checkbox-primary'>\
+                  <input type='checkbox' id='compare-card-%%card_id%%'>\
+                  <label for='compare-card-%%card_id%%' class='small text-uppercase'>Compare this card</label>\
+                </div>\
+              </td>\
+            </tr>\
+          </tbody>\
+        </table>";
 
       var cardsHtml = '';
-      $('#cards-table').empty().data('sheetrockLoaded', false);
       sheetrock({
         url: sheetUrl,
         query: generateQuery(),
         reset: true,
         callback: function(error, options, response) {
-          console.log(error);
           if (!error) {
-            rowNumber = 0;
-            response.rows.forEach(function(item) {
-              if(rowNumber > 0) {
-                cardsHtml += fillCardTable(cardTemplateHtml, item.cellsArray)
-              }
-              else {
-                rowNumber = 1;
-              }
-            });
+            console.log(response.rows.length);
+            if(response.rows.length > 1) {  // Because it always returns the first row
+              rowNumber = 0;
+              response.rows.forEach(function(item) {
+                if(rowNumber > 0) {
+                  cardsHtml += fillCardTable(cardTemplateHtml, item.cellsArray);
+                }
+                else {
+                  rowNumber = 1;
+                }
+              });
+            }
+            else {
+              cardsHtml = "<h3>No Results</h3><p>We currently don't have an offer that matches that criteria.</p>";
+            }
+            $('#page-header').html(fillPageData(pageHeaderTemplateHtml, pageData[category]));
             $('#cards-table').append(cardsHtml);
           }
         }
       });
+    }
+
+    function fillPageData(html, values) {
+      html = html.replace('%%page_title%%', values[0]);
+      html = html.replace('%%page_subtitle%%', values[1]);
+      return html;
     }
 
     function fillCardTable(html, values) {
