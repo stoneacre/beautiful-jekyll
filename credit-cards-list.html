@@ -25,7 +25,7 @@ layout: cards
       <a href="javascript:void(0);" id="score-poor" class="list-group-item">Poor</a>
     </div>
     <div class="text-center">
-      <button class="btn btn-info" type="submit">Get Your Free Credit Card Score</button>
+      <a id="clickme" class="btn btn-info" type="submit">Get Your Free Credit Card Score</a>
     </div>
 
     <h4>Fees</h4>
@@ -50,10 +50,13 @@ layout: cards
   </div>
 
   <div class="col-sm-9">
+    <div id="loading-message" class="text-center"><img src="https://s-media-cache-ak0.pinimg.com/originals/0c/0e/aa/0c0eaa265be5c74d3d25f87f8bcc87e0.gif" width="300" /></div>
     <div id="page-header"></div>
     <div id="cards-table"></div>
   </div>
 </div>
+
+<div id="footer-compare"></div>
 
 <script type="text/javascript">
   $(document).ready(function() {
@@ -171,7 +174,7 @@ layout: cards
     function loadCardsTable() {
       var pageHeaderTemplateHtml =
         "<h1>%%page_title%%</h1>\
-        <p>%%page_subtitle%%</p>";
+        <p class='post-meta'>%%page_subtitle%%</p>";
 
       var cardTemplateHtml =
         "<table class='table card shadow'>\
@@ -200,6 +203,7 @@ layout: cards
           </tbody>\
         </table>";
 
+      $('#loading-message').show();
       var cardsHtml = '';
       sheetrock({
         url: sheetUrl,
@@ -222,6 +226,7 @@ layout: cards
             else {
               cardsHtml = "<h3>No Results</h3><p>We currently don't have an offer that matches that criteria.</p>";
             }
+            $('#loading-message').hide();
             $('#page-header').html(fillPageData(pageHeaderTemplateHtml, pageData[category]));
             $('#cards-table').append(cardsHtml);
           }
@@ -273,8 +278,13 @@ layout: cards
       console.log(query);
       return query;
     }
-
   });
+
+      $( "#clickme" ).click(function() {
+      $( "#footer-compare" ).slideDown( "slow", function() {
+        // Animation complete.
+      });
+    });
 </script>
 
 <style type="text/css">
@@ -311,4 +321,18 @@ layout: cards
     text-align: center !important;
   }
 
+  #footer-compare {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    background:#337ab7;
+    z-index: 1000;
+    display: none;
+  }
+
+  #loading-message {
+    display: none;
+  }
 </style>
