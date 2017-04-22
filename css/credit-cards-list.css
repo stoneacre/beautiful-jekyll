@@ -1,0 +1,58 @@
+i.fa {
+  margin-right: 10px !important;
+}
+
+table.card label,
+button.btn,
+a.btn {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+table.shadow {
+  box-shadow: 0px 1px 2px #888888;
+}
+
+.borderless td,
+.borderless th {
+  border: none;
+}
+
+table.card-actions {
+  width: 100%;
+}
+
+table.card-actions tr,
+table.card-actions tr td {
+  border: none !important;
+}
+
+table.card-actions tr td {
+  background: white !important;
+  text-align: center !important;
+}
+
+#footer-compare {
+  background: #337ab7;
+  bottom: 0px;
+  box-shadow: 0px -2px 6px 0px #444;;
+  display: none;
+  height: 50px;
+  left: 0px;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+#loading-message {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display: none;
+  height:18em;
+  left: 50%;
+  margin-left: -15em;
+  margin-top: -9em;
+  position:fixed;
+  top: 50%;
+  width:30em;
+}
