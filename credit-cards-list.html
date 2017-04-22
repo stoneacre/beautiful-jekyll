@@ -50,13 +50,20 @@ layout: cards
   </div>
 
   <div class="col-sm-9">
-    <div id="loading-message" class="text-center"><img src="https://s-media-cache-ak0.pinimg.com/originals/0c/0e/aa/0c0eaa265be5c74d3d25f87f8bcc87e0.gif" width="300" /></div>
+    <div id="loading-message" class="text-center">
+      <img src="https://s-media-cache-ak0.pinimg.com/originals/0c/0e/aa/0c0eaa265be5c74d3d25f87f8bcc87e0.gif" width="300" />
+      <h3>Loading cards...</h3>
+    </div>
     <div id="page-header"></div>
     <div id="cards-table"></div>
   </div>
 </div>
 
-<div id="footer-compare"></div>
+<div id="footer-compare" class="text-center">
+  <a href='javascript:void(0);' id='btn-compare-cards' class='btn btn-success'><i class="fa fa-credit-card" aria-hidden="true"></i>Compare Cards <span id="badge-cards-to-compare-count" class="badge"></span></a>
+  &nbsp;
+  <a href='javascript:void(0);' id='btn-reset-cards-to-compare' class='btn btn-default'>Reset</a>
+</div>
 
 <script type="text/javascript">
   $(document).ready(function() {
@@ -68,6 +75,7 @@ layout: cards
     var noFee = false;
     var noBalanceTransferFee = false;
     var noForeignFee = false;
+    var cardsToCompare = [];
 
     var pageData = {
       'rewards': [
@@ -105,6 +113,19 @@ layout: cards
     $("input[id*='check-']").click(function() {
       updateSelection(this.id);
     });
+    $('#btn-compare-cards').click(function() {
+      compareCards();
+    });
+    $('#btn-reset-cards-to-compare').click(function() {
+      resetCardsToCompare();
+    });
+
+    $('body').on('click', "input[id*='compare-card-']", function() {
+      updateCardsToCompare(this.id);
+    });
+    $('body').on('click', "input[id*='label-compare-card-']", function() {
+      updateCardsToCompare(this.id);
+    });
 
     function updateView() {
       $("a[id*='category']").removeClass('active');
@@ -118,8 +139,14 @@ layout: cards
       $('#check-no-balance-transfer-fee').prop('checked', noBalanceTransferFee);
       $('#check-no-foreign-fee').prop('checked', noForeignFee);
 
-      $('#page-header').empty();
-      $('#cards-table').empty().data('sheetrockLoaded', false);
+      if(cardsToCompare.length > 0) {
+        cardsToCompare.length == 1 ? $('#btn-compare-cards').addClass('disabled') : $('#btn-compare-cards').removeClass('disabled');
+        $('#badge-cards-to-compare-count').text(cardsToCompare.length);
+        $("#footer-compare").slideDown( "fast", function() {});
+      }
+      else {
+        $("#footer-compare").slideUp( "fast", function() {});
+      }
     }
 
     function loadData() {
@@ -172,6 +199,9 @@ layout: cards
     }
 
     function loadCardsTable() {
+      $('#page-header').empty();
+      $('#cards-table').empty().data('sheetrockLoaded', false);
+
       var pageHeaderTemplateHtml =
         "<h1>%%page_title%%</h1>\
         <p class='post-meta'>%%page_subtitle%%</p>";
@@ -195,8 +225,8 @@ layout: cards
             <tr>\
               <td>\
                 <div class='checkbox checkbox-primary'>\
-                  <input type='checkbox' id='compare-card-%%card_id%%'>\
-                  <label for='compare-card-%%card_id%%' class='small text-uppercase'>Compare this card</label>\
+                  <input type='checkbox' id='compare-card-%%card_id%%' %%checked%% data-id='%%card_id%%'>\
+                  <label id='label-compare-card-%%card_id%%' for='compare-card-%%card_id%%' data-id='%%card_id%%' class='small text-uppercase'>Compare this card</label>\
                 </div>\
               </td>\
             </tr>\
@@ -211,7 +241,6 @@ layout: cards
         reset: true,
         callback: function(error, options, response) {
           if (!error) {
-            console.log(response.rows.length);
             if(response.rows.length > 1) {  // Because it always returns the first row
               rowNumber = 0;
               response.rows.forEach(function(item) {
@@ -224,11 +253,11 @@ layout: cards
               });
             }
             else {
-              cardsHtml = "<h3>No Results</h3><p>We currently don't have an offer that matches that criteria.</p>";
+              cardsHtml = '<h3>No Results</h3><p>We currently don\'t have an offer that matches that criteria.</p>';
             }
             $('#loading-message').hide();
             $('#page-header').html(fillPageData(pageHeaderTemplateHtml, pageData[category]));
-            $('#cards-table').append(cardsHtml);
+            $('#cards-table').html(cardsHtml);
           }
         }
       });
@@ -247,6 +276,12 @@ layout: cards
       html = html.replace(/%%card_annual_fee%%/g, values[3]);
       html = html.replace(/%%card_image_url%%/g, values[4]);
       html = html.replace(/%%card_apply_now_url%%/g, values[5]);
+      if($.inArray(parseInt(values[0]), cardsToCompare) != -1) {
+        html = html.replace(/%%checked%%/g, 'checked');
+      }
+      else {
+        html = html.replace(/%%checked%%/g, '');
+      }
       return html;
     }
 
@@ -272,19 +307,44 @@ layout: cards
 
       whereScore = 'P LIKE "%' + score + '%" ';
 
+      noFee === true ? whereNoAnnualFee = 'AND K = "N" ' : whereNoAnnualFee = '';
+      noBalanceTransferFee === true ? whereNoBalanceTransferFee = 'AND L = "N" ' : whereNoBalanceTransferFee = '';
+      noForeignFee === true ? whereNoForeignFee = 'AND M = "N" ' : whereNoForeignFee = '';
+      latinoFriendly === true ? whereLatinoFriendly = 'AND E = "Y" ' : whereLatinoFriendly = '';
+
       query  = 'SELECT A, B, T, Q, X, Y ';
       query += 'WHERE ' + whereCategory + 'AND ' + whereScore;
-      query += 'ORDER BY A';
-      console.log(query);
+      query += whereNoAnnualFee;
+      query += whereNoBalanceTransferFee;
+      query += whereNoForeignFee;
+      query += whereLatinoFriendly;
+      query += 'ORDER BY B';
       return query;
     }
+
+    function updateCardsToCompare(id) {
+      var cardId = $('#' + id).data('id');
+      if($('#' + id).prop('checked') && $.inArray(cardId, cardsToCompare) === -1) {
+        cardsToCompare.push(cardId);
+      }
+      else {
+        cardsToCompare.splice($.inArray(cardId, cardsToCompare), 1);
+      }
+      updateView();
+    }
+
+    function resetCardsToCompare() {
+      cardsToCompare = [];
+      $("input[id*='compare-card-']").prop('checked', false);
+      updateView();
+    }
+
+    function compareCards() {
+      window.location.href = url();
+    }
+
   });
 
-      $( "#clickme" ).click(function() {
-      $( "#footer-compare" ).slideDown( "slow", function() {
-        // Animation complete.
-      });
-    });
 </script>
 
 <style type="text/css">
@@ -322,17 +382,28 @@ layout: cards
   }
 
   #footer-compare {
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    height:40px;
-    width:100%;
-    background:#337ab7;
-    z-index: 1000;
+    background: #337ab7;
+    bottom: 0px;
+    box-shadow: 0px -2px 6px 0px #444;;
     display: none;
+    height: 50px;
+    left: 0px;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
   }
 
   #loading-message {
+    background-color: #fff;
+    border: 1px solid #ccc;
     display: none;
-  }
+    height:18em;
+    left: 50%;
+    margin-left: -15em;
+    margin-top: -9em;
+    position:fixed;
+    top: 50%;
+    width:30em;
+}
 </style>
