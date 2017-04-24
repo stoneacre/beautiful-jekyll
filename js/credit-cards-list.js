@@ -71,7 +71,7 @@ $(document).ready(function () {
   $('#btn-reset-cards-to-compare').click(function () {
     resetCardsToCompare();
   });
-  $('body').on('click', "input[id*='toggle-card-details-']", function () {
+  $('body').on('click', "a[id*='toggle-card-details-']", function () {
     toggleDetails(this.id);
   });
   $('body').on('click', "input[id*='compare-card-']", function () {
@@ -199,7 +199,7 @@ $(document).ready(function () {
           <tbody>\
             <tr>\
               <td colspane='2' width='75%'><h3>%%card_name%%</h3></td>\
-              <td rowspan='4'>\
+              <td rowspan='3'>\
                 <table class='table borderless card-actions'>\
                   <tr><td><img class='img-responsive' src='%%card_image_url%%' /></td></tr>\
                   <tr><td><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a></td></tr>\
@@ -207,19 +207,50 @@ $(document).ready(function () {
                 </table>\
               </td>\
             </tr>\
-            <tr><td>Annual Fee: <strong>%%card_annual_fee%%</strong><br />\
-            Rewards rate: <strong>%%card_rewards_rate%%</strong></td></tr>\
-            <tr><td><p>%%card_details%%</p></td></tr>\
+            <tr><td><p>Annual Fee: <strong>%%card_annual_fee%%</strong><br />\
+            Rewards rate: <strong>%%card_rewards_rate%%</strong></p>\
+            <p>%%card_details%%</p></td></tr>\
             <tr>\
-              <td>\
+              <td class='valign-middle'>\
                 <div class='checkbox checkbox-primary'>\
                   <input type='checkbox' id='compare-card-%%card_id%%' %%checked%% data-id='%%card_id%%'>\
                   <label id='label-compare-card-%%card_id%%' for='compare-card-%%card_id%%' data-id='%%card_id%%' class='small text-uppercase'>Compare this card</label>\
                 </div>\
               </td>\
             </tr>\
-            <tr id='details-card-%%card_id%%' style='display: none;'>\
-              <td colspan='3'><p>Details</p></td>\
+            <tr id='row-details-card-%%card_id%%' style='display: none;'>\
+              <td colspan='3' class='card-details'>\
+                <div id='details-card-%%card_id%%' class='row' style='display: none;'>\
+                  <div class='col-sm-6'>\
+                    <table class='table'>\
+                      <tbody>\
+                        <tr><td>Introductory APR Offer</td><td class='details-values'>%%card_introductory_apr%%</td></tr>\
+                        <tr><td>Introductory Reward Bonus</td><td class='details-values'>%%card_introductory_reward%%</td></tr>\
+                        <tr><td>APR</td><td class='details-values'>%%card_apr%%</td></tr>\
+                        <tr><td>Reward Rate</td><td class='details-values'>%%card_rewards_rate%%</td></tr>\
+                        <tr><td>Balance Transfer Fee</td><td class='details-values'>%%card_balance_transfer_fee%%</td></tr>\
+                        <tr><td>Foreign Transaction Fee</td><td class='details-values'>%%card_foreign_transaction_fee%%</td></tr>\
+                      </tbody>\
+                    </table>\
+                  </div>\
+                  <div class='col-sm-3'>\
+                    <table class='table'>\
+                      <tbody>\
+                        <tr><td>Pros</td></tr>\
+                        <tr><td>Lorem Ipsum</td></tr>\
+                      </tbody>\
+                    </table>\
+                  </div>\
+                  <div class='col-sm-3'>\
+                    <table class='table'>\
+                      <tbody>\
+                        <tr><td>Cons</td></tr>\
+                        <tr><td>Lorem Ipsum</td></tr>\
+                      </tbody>\
+                    </table>\
+                  </div>\
+                </div>\
+              </td>\
             </tr>\
           </tbody>\
         </table>";
@@ -268,6 +299,11 @@ $(document).ready(function () {
     html = html.replace(/%%card_annual_fee%%/g, values[4]);
     html = html.replace(/%%card_image_url%%/g, values[5]);
     html = html.replace(/%%card_apply_now_url%%/g, values[6]);
+    html = html.replace(/%%card_introductory_apr%%/g, values[7]);
+    html = html.replace(/%%card_introductory_reward%%/g, values[8]);
+    html = html.replace(/%%card_apr%%/g, values[9]);
+    html = html.replace(/%%card_balance_transfer_fee%%/g, values[10]);
+    html = html.replace(/%%card_foreign_transaction_fee%%/g, values[11]);
     if ($.inArray(parseInt(values[0]), cardsToCompare) != -1) {
       html = html.replace(/%%checked%%/g, 'checked');
     }
@@ -376,7 +412,7 @@ $(document).ready(function () {
 
     latinoFriendly === true ? whereLatinoFriendly = 'AND F = "Y" ' : whereLatinoFriendly = '';
 
-    query = 'SELECT A, B, E, U, S, Z, AA ';
+    query = 'SELECT A, B, E, V, S, Z, AA, P, W, Q, T, U ';
     query += 'WHERE ' + whereCategory + 'AND ' + whereScore;
     query += whereNoAnnualFee;
     query += whereNoBalanceTransferFee;
@@ -410,5 +446,11 @@ $(document).ready(function () {
     if (cardsToCompare.length > 0) {
       window.location.href = '/credit-cards-compare/?cards=' + cardsToCompare.join('-');
     }
+  }
+
+  function toggleDetails(id) {
+    var cardId = $('#' + id).data('id');
+    $("#row-details-card-" + cardId).show();
+    $("#details-card-" + cardId).slideDown("fast");
   }
 });
