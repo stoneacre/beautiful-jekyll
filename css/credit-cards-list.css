@@ -56,3 +56,23 @@ table.card-actions tr td {
   top: 50%;
   width:30em;
 }
+
+.alert, .alert h4 {
+  color: #c09853;
+  padding: 0px;
+}
+
+.alert p {
+  margin: 0;
+}
+
+.alert {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  background-color: #fcf8e3;
+  border-radius: 4px;
+  border: 1px solid #fbeed5;
+  margin-bottom: 20px;
+  padding: 8px 35px 8px 14px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}

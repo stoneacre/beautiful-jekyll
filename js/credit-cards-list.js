@@ -244,7 +244,7 @@ $(document).ready(function () {
             });
           }
           else {
-            cardsHtml = '<h3>No Results</h3><p>We currently don\'t have an offer that matches that criteria.</p>';
+            cardsHtml = '<div class="alert alert-block"><h4>No Results</h4><p>It looks like we don\'t have any cards that match your filters</p></div>';
           }
           $('#loading-message').hide();
           $('#page-header').html(fillPageData(pageHeaderTemplateHtml, pageData[category]));
