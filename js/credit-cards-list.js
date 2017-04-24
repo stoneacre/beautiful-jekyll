@@ -67,6 +67,9 @@ $(document).ready(function () {
   $('#btn-reset-cards-to-compare').click(function () {
     resetCardsToCompare();
   });
+  $('body').on('click', "input[id*='toggle-card-details-']", function () {
+    toggleDetails(this.id);
+  });
   $('body').on('click', "input[id*='compare-card-']", function () {
     updateCardsToCompare(this.id);
   });
@@ -195,8 +198,8 @@ $(document).ready(function () {
               <td rowspan='4'>\
                 <table class='table borderless card-actions'>\
                   <tr><td><img class='img-responsive' src='%%card_image_url%%' /></td></tr>\
-                  <tr><td><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success' type='submit'>Apply Now</a></td></tr>\
-                  <tr><td><a href='javascript:void(0);' class='btn btn-info' type='submit'>View Details</a></td></tr>\
+                  <tr><td><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a></td></tr>\
+                  <tr><td><a id='toggle-card-details-%%card_id%%' data-id='%%card_id%%' href='javascript:void(0);' class='btn btn-info'>View Details</a></td></tr>\
                 </table>\
               </td>\
             </tr>\
@@ -210,6 +213,9 @@ $(document).ready(function () {
                   <label id='label-compare-card-%%card_id%%' for='compare-card-%%card_id%%' data-id='%%card_id%%' class='small text-uppercase'>Compare this card</label>\
                 </div>\
               </td>\
+            </tr>\
+            <tr id='details-card-%%card_id%%' style='display: none;'>\
+              <td colspan='3'><p>Details</p></td>\
             </tr>\
           </tbody>\
         </table>";
@@ -270,47 +276,47 @@ $(document).ready(function () {
     var whereCategory = '';
     switch (category) {
       case 'rewards':
-        whereCategory = 'F = "Y" ';
-        break;
-      case 'cashback':
         whereCategory = 'G = "Y" ';
         break;
-      case 'travel':
+      case 'cashback':
         whereCategory = 'H = "Y" ';
         break;
-      case 'lowinterest':
+      case 'travel':
         whereCategory = 'I = "Y" ';
         break;
-      case 'student':
+      case 'lowinterest':
         whereCategory = 'J = "Y" ';
+        break;
+      case 'student':
+        whereCategory = 'K = "Y" ';
         break;
     }
 
-    var whereScore = 'P LIKE "%' + score + '%" ';
+    var whereScore = 'Q LIKE "%' + score + '%" ';
 
     var whereNoAnnualFee = '';
     var whereNoBalanceTransferFee = '';
     var whereNoForeignFee = '';
-    noFee === true ? whereNoAnnualFee = 'AND K = "N" ' : whereNoAnnualFee = '';
-    noBalanceTransferFee === true ? whereNoBalanceTransferFee = 'AND L = "N" ' : whereNoBalanceTransferFee = '';
-    noForeignFee === true ? whereNoForeignFee = 'AND M = "N" ' : whereNoForeignFee = '';
+    noFee === true ? whereNoAnnualFee = 'AND L = "N" ' : whereNoAnnualFee = '';
+    noBalanceTransferFee === true ? whereNoBalanceTransferFee = 'AND M = "N" ' : whereNoBalanceTransferFee = '';
+    noForeignFee === true ? whereNoForeignFee = 'AND N = "N" ' : whereNoForeignFee = '';
 
     var whereNetwork = '';
     if (networkAmex || networkDiscover || networkVisaMastercard) {
       var used = false;
       whereNetwork = 'AND (';
       if (networkAmex) {
-        whereNetwork += 'C = "American Express"';
+        whereNetwork += 'D = "American Express"';
         used = true;
       }
       if (networkDiscover) {
         if (used) whereNetwork += ' OR ';
-        whereNetwork += 'C = "Discover"';
+        whereNetwork += 'D = "Discover"';
         used = true;
       }
       if (networkVisaMastercard) {
         if (used) whereNetwork += ' OR ';
-        whereNetwork += 'C = "Visa/Mastercard"';
+        whereNetwork += 'D = "Visa/Mastercard"';
       }
       whereNetwork += ') ';
     }
@@ -320,49 +326,49 @@ $(document).ready(function () {
       var used = false;
       whereFinancial = 'AND (';
       if (financialAmex) {
-        whereFinancial += 'D = "American Express"';
+        whereFinancial += 'E = "American Express"';
         used = true;
       }
       if (financialBankOfAmerica) {
         if (used) whereFinancial += ' OR ';
-        whereFinancial += 'D = "Bank of America"';
+        whereFinancial += 'E = "Bank of America"';
         used = true;
       }
       if (financialBarclaycard) {
         if (used) whereFinancial += ' OR ';
-        whereFinancial += 'D = "Barclaycard"';
+        whereFinancial += 'E = "Barclaycard"';
         used = true;
       }
       if (financialCapitalOne) {
         if (used) whereFinancial += ' OR ';
-        whereFinancial += 'D = "Capital One"';
+        whereFinancial += 'E = "Capital One"';
         used = true;
       }
       if (financialChase) {
         if (used) whereFinancial += ' OR ';
-        whereFinancial += 'D = "Chase"';
+        whereFinancial += 'E = "Chase"';
         used = true;
       }
       if (financialCiti) {
         if (used) whereFinancial += ' OR ';
-        whereFinancial += 'D = "Citi"';
+        whereFinancial += 'E = "Citi"';
         used = true;
       }
       if (financialDiscover) {
         if (used) whereFinancial += ' OR ';
-        whereFinancial += 'D = "Discover"';
+        whereFinancial += 'E = "Discover"';
         used = true;
       }
       if (financialWellsFargo) {
         if (used) whereFinancial += ' OR ';
-        whereFinancial += 'D = "Wells Fargo"';
+        whereFinancial += 'E = "Wells Fargo"';
       }
       whereFinancial += ') ';
     }
 
-    latinoFriendly === true ? whereLatinoFriendly = 'AND E = "Y" ' : whereLatinoFriendly = '';
+    latinoFriendly === true ? whereLatinoFriendly = 'AND F = "Y" ' : whereLatinoFriendly = '';
 
-    query = 'SELECT A, B, T, Q, X, Y ';
+    query = 'SELECT A, B, U, R, Y, Z ';
     query += 'WHERE ' + whereCategory + 'AND ' + whereScore;
     query += whereNoAnnualFee;
     query += whereNoBalanceTransferFee;
