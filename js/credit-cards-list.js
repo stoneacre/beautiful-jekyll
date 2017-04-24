@@ -45,6 +45,10 @@ $(document).ready(function () {
     'student': [
       'Student Credit Cards',
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    ],
+    'improve': [
+      'Improve Credit Score',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
     ]
   };
 
@@ -259,10 +263,11 @@ $(document).ready(function () {
   function fillCardTable(html, values) {
     html = html.replace(/%%card_id%%/g, values[0]);
     html = html.replace(/%%card_name%%/g, values[1]);
-    html = html.replace(/%%card_rewards_rate%%/g, values[2]);
-    html = html.replace(/%%card_annual_fee%%/g, values[3]);
-    html = html.replace(/%%card_image_url%%/g, values[4]);
-    html = html.replace(/%%card_apply_now_url%%/g, values[5]);
+    html = html.replace(/%%card_details%%/g, values[2]);
+    html = html.replace(/%%card_rewards_rate%%/g, values[3]);
+    html = html.replace(/%%card_annual_fee%%/g, values[4]);
+    html = html.replace(/%%card_image_url%%/g, values[5]);
+    html = html.replace(/%%card_apply_now_url%%/g, values[6]);
     if ($.inArray(parseInt(values[0]), cardsToCompare) != -1) {
       html = html.replace(/%%checked%%/g, 'checked');
     }
@@ -290,9 +295,12 @@ $(document).ready(function () {
       case 'student':
         whereCategory = 'K = "Y" ';
         break;
+      case 'improve':
+        whereCategory = 'L = "Y" ';
+        break;
     }
 
-    var whereScore = 'Q LIKE "%' + score + '%" ';
+    var whereScore = 'R LIKE "%' + score + '%" ';
 
     var whereNoAnnualFee = '';
     var whereNoBalanceTransferFee = '';
@@ -306,17 +314,17 @@ $(document).ready(function () {
       var used = false;
       whereNetwork = 'AND (';
       if (networkAmex) {
-        whereNetwork += 'D = "American Express"';
+        whereNetwork += 'C = "American Express"';
         used = true;
       }
       if (networkDiscover) {
         if (used) whereNetwork += ' OR ';
-        whereNetwork += 'D = "Discover"';
+        whereNetwork += 'C = "Discover"';
         used = true;
       }
       if (networkVisaMastercard) {
         if (used) whereNetwork += ' OR ';
-        whereNetwork += 'D = "Visa/Mastercard"';
+        whereNetwork += 'C = "Visa/Mastercard"';
       }
       whereNetwork += ') ';
     }
@@ -326,49 +334,49 @@ $(document).ready(function () {
       var used = false;
       whereFinancial = 'AND (';
       if (financialAmex) {
-        whereFinancial += 'E = "American Express"';
+        whereFinancial += 'D = "American Express"';
         used = true;
       }
       if (financialBankOfAmerica) {
         if (used) whereFinancial += ' OR ';
-        whereFinancial += 'E = "Bank of America"';
+        whereFinancial += 'D = "Bank of America"';
         used = true;
       }
       if (financialBarclaycard) {
         if (used) whereFinancial += ' OR ';
-        whereFinancial += 'E = "Barclaycard"';
+        whereFinancial += 'D = "Barclaycard"';
         used = true;
       }
       if (financialCapitalOne) {
         if (used) whereFinancial += ' OR ';
-        whereFinancial += 'E = "Capital One"';
+        whereFinancial += 'D = "Capital One"';
         used = true;
       }
       if (financialChase) {
         if (used) whereFinancial += ' OR ';
-        whereFinancial += 'E = "Chase"';
+        whereFinancial += 'D = "Chase"';
         used = true;
       }
       if (financialCiti) {
         if (used) whereFinancial += ' OR ';
-        whereFinancial += 'E = "Citi"';
+        whereFinancial += 'D = "Citi"';
         used = true;
       }
       if (financialDiscover) {
         if (used) whereFinancial += ' OR ';
-        whereFinancial += 'E = "Discover"';
+        whereFinancial += 'D = "Discover"';
         used = true;
       }
       if (financialWellsFargo) {
         if (used) whereFinancial += ' OR ';
-        whereFinancial += 'E = "Wells Fargo"';
+        whereFinancial += 'D = "Wells Fargo"';
       }
       whereFinancial += ') ';
     }
 
     latinoFriendly === true ? whereLatinoFriendly = 'AND F = "Y" ' : whereLatinoFriendly = '';
 
-    query = 'SELECT A, B, U, R, Y, Z ';
+    query = 'SELECT A, B, E, U, S, Z, AA ';
     query += 'WHERE ' + whereCategory + 'AND ' + whereScore;
     query += whereNoAnnualFee;
     query += whereNoBalanceTransferFee;
