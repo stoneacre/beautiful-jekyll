@@ -28,27 +28,27 @@ $(document).ready(function () {
   var pageData = {
     'rewards': [
       'Rewards Credit Cards',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      'There are many credit cards that offer great reward opportunities. We have researched the cards that will help you put a little extra money in your pocket each time you use it.'
     ],
     'cashback': [
       'Cash Back Credit Cards',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      'Sorting through the variety of credit cards that offer cash back rewards for the purchases you make can be daunting. We gathered below a list of the best cash back credit cards we could find for you to make a better decision.'
     ],
     'travel': [
       'Travel Credit Cards',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      'Traveling can be expensive. Luckily there are credit cards that are up to the task on lessening the burden. We gathered together a list of credit cards that offer great travel reward benefits.'
     ],
     'lowinterest': [
       'Low Interest Credit Cards',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      'Having a credit card with a low interest rate can save you money. While some credit cards offer 0% interest as an introductory rate, others will have a low ongoing rate. It’s important to keep an eye on what your APR is - as you might end up paying more for an ongoing balance.'
     ],
     'student': [
       'Student Credit Cards',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      'Building a positive credit history and establishing good credit will impact you greatly in the future. Credit cards help determine your eligibility for car loans, renting an apartment/house, purchasing a home, or even gaining employment. Below is a list of credit cards we gathered that are the best for students.'
     ],
     'improve': [
       'Improve Credit Score',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      'Whether you’re buying a home, car, boat or paying for college tuition, your credit score is critical. Most of us have had bumps in the road of life. For some of us, this means a credit score which is lower than we would like. Below is a list of credit cards we gathered that can help you to rebuild your credit.'
     ]
   };
 

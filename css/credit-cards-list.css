@@ -31,6 +31,10 @@ table.card-actions tr td {
   text-align: center !important;
 }
 
+table.card-actions a.btn {
+  width: 90%;
+}
+
 .table>tbody>tr>td .valign-middle {
   vertical-align: niddle !important;
 }
