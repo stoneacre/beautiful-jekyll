@@ -203,7 +203,7 @@ $(document).ready(function () {
                 <table class='table borderless card-actions'>\
                   <tr><td><img class='img-responsive' src='%%card_image_url%%' /></td></tr>\
                   <tr><td><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a></td></tr>\
-                  <tr><td><a id='toggle-card-details-%%card_id%%' data-id='%%card_id%%' href='javascript:void(0);' class='btn btn-info'>View Details</a></td></tr>\
+                  <tr><td><a id='toggle-card-details-%%card_id%%' data-id='%%card_id%%' data-toggle='hidden' href='javascript:void(0);' class='btn btn-info'>View Details</a></td></tr>\
                 </table>\
               </td>\
             </tr>\
@@ -214,7 +214,7 @@ $(document).ready(function () {
               <td class='valign-middle'>\
                 <div class='checkbox checkbox-primary'>\
                   <input type='checkbox' id='compare-card-%%card_id%%' %%checked%% data-id='%%card_id%%'>\
-                  <label id='label-compare-card-%%card_id%%' for='compare-card-%%card_id%%' data-id='%%card_id%%' class='small text-uppercase'>Compare this card</label>\
+                  <label id='label-compare-card-%%card_id%%' for='compare-card-%%card_id%%' data-id='%%card_id%%' data-toggle='hidden' class='small text-uppercase'>Compare this card</label>\
                 </div>\
               </td>\
             </tr>\
@@ -450,7 +450,19 @@ $(document).ready(function () {
 
   function toggleDetails(id) {
     var cardId = $('#' + id).data('id');
-    $("#row-details-card-" + cardId).show();
-    $("#details-card-" + cardId).slideDown("fast");
+    var toggle = $('#' + id).data('toggle');
+    if(toggle == 'hidden' || toggle == 'undefined') {
+      $("#row-details-card-" + cardId).show();
+      $("#details-card-" + cardId).slideDown("fast");
+      $('#' + id).data('toggle', 'visible');
+      $('#' + id).text('Hide Details');
+    }
+    else {
+      $("#details-card-" + cardId).slideUp("fast", function() {
+        $("#row-details-card-" + cardId).hide();
+      });
+      $('#' + id).data('toggle', 'hidden');
+      $('#' + id).text('View Details');
+    }
   }
 });
