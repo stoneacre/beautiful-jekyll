@@ -310,6 +310,9 @@ $(document).ready(function () {
     if (values[15] == 'Y') {
       html = html.replace(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal'></div>");
     }
+    else {
+      html = html.replace(/%%card_div_seal%%/g, '');
+    }
 
     if ($.inArray(parseInt(values[0]), cardsToCompare) != -1) {
       html = html.replace(/%%checked%%/g, 'checked');
