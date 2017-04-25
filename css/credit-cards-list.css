@@ -102,3 +102,13 @@ table.card-actions a.btn {
  .fa-thumbs-o-down {
    color: red;
  }
+
+ .card-seal {
+   background: url('/img/seal.png') no-repeat;
+   height: 117px;
+   margin-top: 0px;
+   position: absolute;
+   right: 5px;
+   width: 96px;
+   z-index: 1000;
+ }

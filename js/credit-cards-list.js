@@ -201,7 +201,7 @@ $(document).ready(function () {
               <td colspane='2' width='75%'><h3>%%card_name%%</h3></td>\
               <td rowspan='3'>\
                 <table class='table borderless card-actions'>\
-                  <tr><td><img class='img-responsive' src='%%card_image_url%%' /></td></tr>\
+                  <tr><td>%%card_div_seal%%<img class='img-responsive' src='%%card_image_url%%' /></td></tr>\
                   <tr><td><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a></td></tr>\
                   <tr><td><a id='toggle-card-details-%%card_id%%' data-id='%%card_id%%' data-toggle='hidden' href='javascript:void(0);' class='btn btn-info'>View Details</a></td></tr>\
                 </table>\
@@ -306,6 +306,10 @@ $(document).ready(function () {
     html = html.replace(/%%card_foreign_transaction_fee%%/g, values[11]);
     html = html.replace(/%%card_pros%%/g, toBullets(values[13]));
     html = html.replace(/%%card_cons%%/g, toBullets(values[14]));
+
+    if (values[15] == 'Y') {
+      html = html.replace(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal'></div>");
+    }
 
     if ($.inArray(parseInt(values[0]), cardsToCompare) != -1) {
       html = html.replace(/%%checked%%/g, 'checked');
@@ -415,7 +419,7 @@ $(document).ready(function () {
 
     latinoFriendly === true ? whereLatinoFriendly = 'AND F = "Y" ' : whereLatinoFriendly = '';
 
-    query = 'SELECT A, B, E, V, S, Z, AA, P, W, Q, T, U, AB, AC, AD ';
+    query = 'SELECT A, B, E, V, S, Z, AA, P, W, Q, T, U, AB, AC, AD, F ';
     query += 'WHERE ' + whereCategory + 'AND ' + whereScore;
     query += whereNoAnnualFee;
     query += whereNoBalanceTransferFee;
