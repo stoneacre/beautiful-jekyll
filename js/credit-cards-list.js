@@ -21,7 +21,7 @@ $(document).ready(function () {
   var financialDiscover = false;
   var financialWellsFargo = false;
 
-  var latinoFriendly = false;
+  var latinoFirst = false;
 
   var cardsToCompare = [];
 
@@ -106,7 +106,7 @@ $(document).ready(function () {
     $('#check-financial-discover').prop('checked', financialDiscover);
     $('#check-financial-wells-fargo').prop('checked', financialWellsFargo);
 
-    $('#check-latino-friendly').prop('checked', latinoFriendly);
+    $('#check-latino-first').prop('checked', latinoFirst);
 
     if (cardsToCompare.length > 0) {
       cardsToCompare.length == 1 ? $('#btn-compare-cards').addClass('disabled') : $('#btn-compare-cards').removeClass('disabled');
@@ -134,8 +134,8 @@ $(document).ready(function () {
         break;
       case 'check':
         switch (value) {
-          case 'latino-friendly':
-            latinoFriendly = $('#' + id).prop('checked');
+          case 'latino-first':
+            latinoFirst = $('#' + id).prop('checked');
             break;
           case 'no-fee':
             noFee = $('#' + id).prop('checked');
@@ -420,7 +420,7 @@ $(document).ready(function () {
       whereFinancial += ') ';
     }
 
-    latinoFriendly === true ? whereLatinoFriendly = 'AND F = "Y" ' : whereLatinoFriendly = '';
+    latinoFirst === true ? whereLatinoFirst = 'AND F = "Y" ' : whereLatinoFirst = '';
 
     query = 'SELECT A, B, E, V, S, Z, AA, P, W, Q, T, U, AB, AC, AD, F ';
     query += 'WHERE ' + whereCategory + 'AND ' + whereScore;
@@ -429,7 +429,7 @@ $(document).ready(function () {
     query += whereNoForeignFee;
     query += whereNetwork;
     query += whereFinancial;
-    query += whereLatinoFriendly;
+    query += whereLatinoFirst;
     query += 'ORDER BY B';
     console.log(query);
     return query;
