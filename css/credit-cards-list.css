@@ -94,3 +94,11 @@ table.card-actions a.btn {
    font-weight: bold;
    width: 50%;
  }
+
+.fa-thumbs-o-up {
+   color: green;
+ }
+
+ .fa-thumbs-o-down {
+   color: red;
+ }

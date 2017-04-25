@@ -236,16 +236,16 @@ $(document).ready(function () {
                   <div class='col-sm-3'>\
                     <table class='table'>\
                       <tbody>\
-                        <tr><td>Pros</td></tr>\
-                        <tr><td>Lorem Ipsum</td></tr>\
+                        <tr><td><i class='fa fa-thumbs-o-up'></i>Pros</td></tr>\
+                        <tr><td>%%card_pros%%</td></tr>\
                       </tbody>\
                     </table>\
                   </div>\
                   <div class='col-sm-3'>\
                     <table class='table'>\
                       <tbody>\
-                        <tr><td>Cons</td></tr>\
-                        <tr><td>Lorem Ipsum</td></tr>\
+                        <tr><td><i class='fa fa-thumbs-o-down'></i>Cons</td></tr>\
+                        <tr><td>%%card_cons%%</td></tr>\
                       </tbody>\
                     </table>\
                   </div>\
@@ -304,6 +304,9 @@ $(document).ready(function () {
     html = html.replace(/%%card_apr%%/g, values[9]);
     html = html.replace(/%%card_balance_transfer_fee%%/g, values[10]);
     html = html.replace(/%%card_foreign_transaction_fee%%/g, values[11]);
+    html = html.replace(/%%card_pros%%/g, toBullets(values[13]));
+    html = html.replace(/%%card_cons%%/g, toBullets(values[14]));
+
     if ($.inArray(parseInt(values[0]), cardsToCompare) != -1) {
       html = html.replace(/%%checked%%/g, 'checked');
     }
@@ -412,7 +415,7 @@ $(document).ready(function () {
 
     latinoFriendly === true ? whereLatinoFriendly = 'AND F = "Y" ' : whereLatinoFriendly = '';
 
-    query = 'SELECT A, B, E, V, S, Z, AA, P, W, Q, T, U ';
+    query = 'SELECT A, B, E, V, S, Z, AA, P, W, Q, T, U, AB, AC, AD ';
     query += 'WHERE ' + whereCategory + 'AND ' + whereScore;
     query += whereNoAnnualFee;
     query += whereNoBalanceTransferFee;
@@ -451,18 +454,33 @@ $(document).ready(function () {
   function toggleDetails(id) {
     var cardId = $('#' + id).data('id');
     var toggle = $('#' + id).data('toggle');
-    if(toggle == 'hidden' || toggle == 'undefined') {
+    if (toggle == 'hidden' || toggle == 'undefined') {
       $("#row-details-card-" + cardId).show();
       $("#details-card-" + cardId).slideDown("fast");
       $('#' + id).data('toggle', 'visible');
       $('#' + id).text('Hide Details');
     }
     else {
-      $("#details-card-" + cardId).slideUp("fast", function() {
+      $("#details-card-" + cardId).slideUp("fast", function () {
         $("#row-details-card-" + cardId).hide();
       });
       $('#' + id).data('toggle', 'hidden');
       $('#' + id).text('View Details');
     }
+  }
+
+  function toBullets(text) {
+    var ul = '';
+    var items = text.split(';');
+    if (items.length >= 1) {
+      ul = '<ul>';
+      items.forEach(function (item) {
+        if (item != '') {
+          ul += '<li>' + item + '</li>';
+        }
+      });
+      ul += '</ul>';
+    }
+    return ul;
   }
 });
