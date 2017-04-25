@@ -479,6 +479,7 @@ $(document).ready(function () {
   function toBullets(text) {
     var ul = '';
     var items = text.split(';');
+    console.log(items.length);
     if (items.length >= 1) {
       ul = '<ul>';
       items.forEach(function (item) {

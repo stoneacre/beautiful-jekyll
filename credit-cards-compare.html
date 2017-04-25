@@ -2,8 +2,87 @@
 layout: cards
 ---
 
-<script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
-<script type="text/javascript" src="/js/url.min.js"></script>
-<script type="text/javascript" src="/js/sheetrock.min.js"></script>
+<script type='text/javascript' src='/js/jquery-1.11.2.min.js'></script>
+<script type='text/javascript' src='/js/url.min.js'></script>
+<script type='text/javascript' src='/js/sheetrock.min.js'></script>
+<script type='text/javascript' src='/js/tableHeadFixer.js'></script>
 
-<div class="row"></div>
+
+<div class='outer'>
+  <div class='scrollable'>
+    <table id='card-compare'>
+      <tbody>
+        <tr><td>Your Selected Cards</td></tr>
+        <tr><td>Recommended Credit Score</td></tr>
+        <tr><td>Annual Fee</td></tr>
+        <tr><td>Great for</td></tr>
+        <tr><td>Rewards</td></tr>
+        <tr><td>APR</td></tr>
+        <tr><td>Bonus Offer</td></tr>
+        <tr><td>Pros</td></tr>
+        <tr><td>Cons</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<script type='text/javascript'>
+  var sheetUrl = "https://docs.google.com/spreadsheets/d/14nDVwVvubdeUDVDRKxkq1P5hgaqUNk_k1ekHLKyqooY/edit#gid=0";
+
+  $(document).ready(function () {
+    var cardsToCompare = [];
+    var cardsData = [];
+
+    loadData();
+    if(cardsToCompare.length == 0) {
+      location.href = '/credit-cards-list.html';
+    }
+
+    loadCardsData();
+
+
+    $('#card-compare').tableHeadFixer({ 'left' : 1 });
+
+    for(x = 1; x < 100; x++) {
+      $("#card-compare tr").append("<td class='card-column'>Col</td>");
+    }
+
+    function loadData() {
+      var cards = url('?cards');
+      if(cards) {
+        cardsToCompare = cards.split('-');
+      }
+    }
+
+    function loadCardsData() {
+      console.log(cardsToCompare);
+      cardsToCompare.forEach(function (cardId) {
+        loadOneCardData(cardId);
+      });
+    }
+
+    function loadOneCardData(cardId) {
+      sheetrock({
+        url: sheetUrl,
+        query: 'SELECT * WHERE A = ' + cardId,
+        reset: true,
+        callback: function (error, options, response) {
+          console.log(response);
+          if (!error && response.rows[1] != 'undefined') {
+            cardsData.push(response.rows[1]);
+          }
+        }
+      });
+      return null;
+    }
+  });
+</script>
+
+<style type="text/css">
+  .card-column {
+    min-width: 300px;
+    text-align: center;
+    vertical-align: middle;
+  }
+</style>
