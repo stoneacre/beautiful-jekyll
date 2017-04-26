@@ -10,9 +10,9 @@ layout: cards
 
 <link rel="stylesheet" type="text/css" href="/css/credit-cards-compare.css">
 
-
 <div class='outer'>
-  <div class='scrollable'>
+
+  <div class='scrollable' style="margin: auto; width: 90%;">
     <table id='card-compare'>
       <tbody>
         <tr><td>Your Selected Cards</td></tr>
@@ -120,10 +120,10 @@ layout: cards
     function cardHeader(data) {
       html =
         "<img class='img-responsive' src='%%card_image_url%%' />\
-        <h4>%%card_name%%</h4>\
+        <h4 class='card-name'>%%card_name%%</h4>\
         <a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a></td>\
         ";
-      return html;
+      return replaceTags(html, data);
     }
 
     function whatsGreatFor(data) {
@@ -148,6 +148,31 @@ layout: cards
       }
       return categories;
     }
+
+    function replaceTags(html, data) {
+      html = html.replace(/%%card_id%%/g, data[0]);
+      html = html.replace(/%%card_name%%/g, data[1]);
+      html = html.replace(/%%card_details%%/g, data[4]);
+      html = html.replace(/%%card_rewards_rate%%/g, data[21]);
+      html = html.replace(/%%card_annual_fee%%/g, data[18]);
+      html = html.replace(/%%card_image_url%%/g, data[25]);
+      html = html.replace(/%%card_apply_now_url%%/g, data[26]);
+      html = html.replace(/%%card_introductory_apr%%/g, data[15]);
+      html = html.replace(/%%card_introductory_reward%%/g, data[22]);
+      html = html.replace(/%%card_apr%%/g, data[16]);
+      html = html.replace(/%%card_balance_transfer_fee%%/g, data[19]);
+      html = html.replace(/%%card_foreign_transaction_fee%%/g, data[20]);
+      html = html.replace(/%%card_pros%%/g, toBullets(data[28]));
+      html = html.replace(/%%card_cons%%/g, toBullets(data[29]));
+
+      if (data[5] == 'Y') {
+        html = html.replace(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal'></div>");
+      } else {
+        html = html.replace(/%%card_div_seal%%/g, '');
+      }
+      return html;
+    }
+
   });
 
 </script>
@@ -160,5 +185,9 @@ layout: cards
     height: 100px;
     text-align: center;
     vertical-align: top;
+  }
+
+  .card-name {
+    min-height: 60px;
   }
 </style>
