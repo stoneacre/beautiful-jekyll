@@ -8,6 +8,8 @@ layout: cards
 <script type='text/javascript' src='/js/tableHeadFixer.js'></script>
 <script type="text/javascript" src="/js/credit-cards-common.js"></script>
 
+<link rel="stylesheet" type="text/css" href="/css/credit-cards-compare.css">
+
 
 <div class='outer'>
   <div class='scrollable'>
@@ -83,6 +85,7 @@ layout: cards
           var cellHtml = '';
           switch(column++) {
             case 0:
+              cellHtml = cardHeader(card);
               break;
             case 1:
               cellHtml = capitalizeFirstLetter(card[17]);
@@ -114,6 +117,15 @@ layout: cards
       });
     }
 
+    function cardHeader(data) {
+      html =
+        "<img class='img-responsive' src='%%card_image_url%%' />\
+        <h4>%%card_name%%</h4>\
+        <a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a></td>\
+        ";
+      return html;
+    }
+
     function whatsGreatFor(data) {
       var categories = '';
       if(data[6] == 'Y') {
@@ -136,7 +148,6 @@ layout: cards
       }
       return categories;
     }
-
   });
 
 </script>

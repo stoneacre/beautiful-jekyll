@@ -1,0 +1,5 @@
+@import url('credit-cards-common.css');
+
+.card-column a.btn {
+  width: 90%;
+}

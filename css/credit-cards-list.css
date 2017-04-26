@@ -1,21 +1,7 @@
-i.fa {
-  margin-right: 10px !important;
-}
+@import url('credit-cards-common.css');
 
-table.card label,
-button.btn,
-a.btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
 
-table.shadow {
-  box-shadow: 0px 1px 2px #888888;
-}
 
-.borderless td,
-.borderless th {
-  border: none;
-}
 
 table.card-actions {
   width: 100%;
@@ -35,10 +21,6 @@ table.card-actions a.btn {
   width: 90%;
 }
 
-.table>tbody>tr>td .valign-middle {
-  vertical-align: niddle !important;
-}
-
 #footer-compare {
   background: #337ab7;
   bottom: 0px;
@@ -52,39 +34,6 @@ table.card-actions a.btn {
   z-index: 1000;
 }
 
-#loading-message {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  display: none;
-  height:18em;
-  left: 50%;
-  margin-left: -15em;
-  margin-top: -9em;
-  position:fixed;
-  top: 50%;
-  width:30em;
-}
-
-.alert, .alert h4 {
-  color: #c09853;
-  padding: 0px;
-}
-
-.alert p {
-  margin: 0;
-}
-
-.alert {
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  background-color: #fcf8e3;
-  border-radius: 4px;
-  border: 1px solid #fbeed5;
-  margin-bottom: 20px;
-  padding: 8px 35px 8px 14px;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-}
-
 .card-details {
   background: #fcf8e3;
 }
@@ -95,20 +44,3 @@ table.card-actions a.btn {
    width: 50%;
  }
 
-.fa-thumbs-o-up {
-   color: green;
- }
-
- .fa-thumbs-o-down {
-   color: red;
- }
-
- .card-seal {
-   background: url('/img/seal.png') no-repeat;
-   height: 117px;
-   margin-top: 0px;
-   position: absolute;
-   right: 5px;
-   width: 96px;
-   z-index: 1000;
- }
