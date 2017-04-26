@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   var sheetUrl = "https://docs.google.com/spreadsheets/d/14nDVwVvubdeUDVDRKxkq1P5hgaqUNk_k1ekHLKyqooY/edit#gid=0";
 
   var category = null;
@@ -56,28 +56,28 @@ $(document).ready(function() {
   updateView();
   loadCardsTable();
 
-  $("a[id*='category-']").click(function() {
+  $("a[id*='category-']").click(function () {
     updateSelection(this.id);
   });
-  $("a[id*='score-']").click(function() {
+  $("a[id*='score-']").click(function () {
     updateSelection(this.id);
   });
-  $("input[id*='check-']").click(function() {
+  $("input[id*='check-']").click(function () {
     updateSelection(this.id);
   });
-  $('#btn-compare-cards').click(function() {
+  $('#btn-compare-cards').click(function () {
     compareCards();
   });
-  $('#btn-reset-cards-to-compare').click(function() {
+  $('#btn-reset-cards-to-compare').click(function () {
     resetCardsToCompare();
   });
-  $('body').on('click', "a[id*='toggle-card-details-']", function() {
+  $('body').on('click', "a[id*='toggle-card-details-']", function () {
     toggleDetails(this.id);
   });
-  $('body').on('click', "input[id*='compare-card-']", function() {
+  $('body').on('click', "input[id*='compare-card-']", function () {
     updateCardsToCompare(this.id);
   });
-  $('body').on('click', "input[id*='label-compare-card-']", function() {
+  $('body').on('click', "input[id*='label-compare-card-']", function () {
     updateCardsToCompare(this.id);
   });
 
@@ -258,17 +258,20 @@ $(document).ready(function() {
 
     $('#loading-message').show();
     var cardsHtml = '';
+    var thisCardHtml = '';
     sheetrock({
       url: sheetUrl,
       query: generateQuery(),
       reset: true,
-      callback: function(error, options, response) {
+      callback: function (error, options, response) {
         if (!error) {
           if (response.rows.length > 1) { // Because it always returns the first row
             rowNumber = 0;
-            response.rows.forEach(function(item) {
+            response.rows.forEach(function (item) {
               if (rowNumber > 0) {
-                cardsHtml += fillCardTable(cardTemplateHtml, item.cellsArray);
+                thisCardHtml = replaceTags(cardTemplateHtml, item.cellsArray);
+                thisCardHtml = markCardToCompare(thisCardHtml, item.cellsArray);
+                cardsHtml += thisCardHtml;
               } else {
                 rowNumber = 1;
               }
@@ -290,28 +293,7 @@ $(document).ready(function() {
     return html;
   }
 
-  function fillCardTable(html, values) {
-    html = html.replace(/%%card_id%%/g, values[0]);
-    html = html.replace(/%%card_name%%/g, values[1]);
-    html = html.replace(/%%card_details%%/g, values[2]);
-    html = html.replace(/%%card_rewards_rate%%/g, values[3]);
-    html = html.replace(/%%card_annual_fee%%/g, values[4]);
-    html = html.replace(/%%card_image_url%%/g, values[5]);
-    html = html.replace(/%%card_apply_now_url%%/g, values[6]);
-    html = html.replace(/%%card_introductory_apr%%/g, values[7]);
-    html = html.replace(/%%card_introductory_reward%%/g, values[8]);
-    html = html.replace(/%%card_apr%%/g, values[9]);
-    html = html.replace(/%%card_balance_transfer_fee%%/g, values[10]);
-    html = html.replace(/%%card_foreign_transaction_fee%%/g, values[11]);
-    html = html.replace(/%%card_pros%%/g, toBullets(values[13]));
-    html = html.replace(/%%card_cons%%/g, toBullets(values[14]));
-
-    if (values[15] == 'Y') {
-      html = html.replace(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal'></div>");
-    } else {
-      html = html.replace(/%%card_div_seal%%/g, '');
-    }
-
+  function markCardToCompare(html, values) {
     if ($.inArray(parseInt(values[0]), cardsToCompare) != -1) {
       html = html.replace(/%%checked%%/g, 'checked');
     } else {
@@ -343,14 +325,28 @@ $(document).ready(function() {
         break;
     }
 
-    var whereScore = 'R LIKE "%' + score + '%" ';
+    var whereScore = '';
+    switch (score) {
+      case 'poor':
+        whereScore = 'R = "Y" ';
+        break;
+      case 'average':
+        whereScore = 'S = "Y" ';
+        break;
+      case 'good':
+        whereScore = 'T = "Y" ';
+        break;
+      case 'excellent':
+        whereScore = 'U = "Y" ';
+        break;
+    }
 
     var whereNoAnnualFee = '';
     var whereNoBalanceTransferFee = '';
     var whereNoForeignFee = '';
-    noFee === true ? whereNoAnnualFee = 'AND L = "N" ' : whereNoAnnualFee = '';
-    noBalanceTransferFee === true ? whereNoBalanceTransferFee = 'AND M = "N" ' : whereNoBalanceTransferFee = '';
-    noForeignFee === true ? whereNoForeignFee = 'AND N = "N" ' : whereNoForeignFee = '';
+    noFee === true ? whereNoAnnualFee = 'AND M = "N" ' : whereNoAnnualFee = '';
+    noBalanceTransferFee === true ? whereNoBalanceTransferFee = 'AND N = "N" ' : whereNoBalanceTransferFee = '';
+    noForeignFee === true ? whereNoForeignFee = 'AND O = "N" ' : whereNoForeignFee = '';
 
     var whereNetwork = '';
     if (networkAmex || networkDiscover || networkVisaMastercard) {
@@ -419,7 +415,7 @@ $(document).ready(function() {
 
     latinoFirst === true ? whereLatinoFirst = 'AND F = "Y" ' : whereLatinoFirst = '';
 
-    query = 'SELECT A, B, E, V, S, Z, AA, P, W, Q, T, U, AB, AC, AD, F ';
+    query = 'SELECT * ';
     query += 'WHERE ' + whereCategory + 'AND ' + whereScore;
     query += whereNoAnnualFee;
     query += whereNoBalanceTransferFee;
@@ -462,7 +458,7 @@ $(document).ready(function() {
       $('#' + id).data('toggle', 'visible');
       $('#' + id).text('Hide Details');
     } else {
-      $("#details-card-" + cardId).slideUp("fast", function() {
+      $("#details-card-" + cardId).slideUp("fast", function () {
         $("#row-details-card-" + cardId).hide();
       });
       $('#' + id).data('toggle', 'hidden');

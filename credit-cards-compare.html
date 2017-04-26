@@ -88,10 +88,10 @@ layout: cards
               cellHtml = cardHeader(card);
               break;
             case 1:
-              cellHtml = capitalizeFirstLetter(card[17]);
+              cellHtml = toBullets(getCreditScoreString([card[17], card[18], card[19], card[20]]));
               break;
             case 2:
-              cellHtml = card[18];
+              cellHtml = card[21];
               break;
             case 3:
               cellHtml = toBullets(whatsGreatFor(card));
@@ -106,10 +106,10 @@ layout: cards
               cellHtml = card[22];
               break;
             case 7:
-              cellHtml = toBullets(card[28]);
+              cellHtml = toBullets(card[31]);
               break;
             case 8:
-              cellHtml = toBullets(card[29]);
+              cellHtml = toBullets(card[32]);
               break;
           }
           $(this).html(cellHtml);
@@ -148,31 +148,6 @@ layout: cards
       }
       return categories;
     }
-
-    function replaceTags(html, data) {
-      html = html.replace(/%%card_id%%/g, data[0]);
-      html = html.replace(/%%card_name%%/g, data[1]);
-      html = html.replace(/%%card_details%%/g, data[4]);
-      html = html.replace(/%%card_rewards_rate%%/g, data[21]);
-      html = html.replace(/%%card_annual_fee%%/g, data[18]);
-      html = html.replace(/%%card_image_url%%/g, data[25]);
-      html = html.replace(/%%card_apply_now_url%%/g, data[26]);
-      html = html.replace(/%%card_introductory_apr%%/g, data[15]);
-      html = html.replace(/%%card_introductory_reward%%/g, data[22]);
-      html = html.replace(/%%card_apr%%/g, data[16]);
-      html = html.replace(/%%card_balance_transfer_fee%%/g, data[19]);
-      html = html.replace(/%%card_foreign_transaction_fee%%/g, data[20]);
-      html = html.replace(/%%card_pros%%/g, toBullets(data[28]));
-      html = html.replace(/%%card_cons%%/g, toBullets(data[29]));
-
-      if (data[5] == 'Y') {
-        html = html.replace(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal'></div>");
-      } else {
-        html = html.replace(/%%card_div_seal%%/g, '');
-      }
-      return html;
-    }
-
   });
 
 </script>
