@@ -35,48 +35,58 @@ layout: cards
     var cardsData = [];
 
     loadData();
-    if(cardsToCompare.length == 0) {
+    if (cardsToCompare.length == 0) {
       location.href = '/credit-cards-list.html';
     }
 
     loadCardsData();
 
+    // Because it is async
+    var timer = setInterval(function () {
+      if (cardsData.length == cardsToCompare.length) {
+        clearInterval(timer);
+        loadPageData();
+      }
+    }, 100);
 
-    $('#card-compare').tableHeadFixer({ 'left' : 1 });
-
-    for(x = 1; x < 100; x++) {
-      $("#card-compare tr").append("<td class='card-column'>Col</td>");
-    }
+    $('#card-compare').tableHeadFixer({ 'left': 1 });
 
     function loadData() {
       var cards = url('?cards');
-      if(cards) {
+      if (cards) {
         cardsToCompare = cards.split('-');
       }
     }
 
-    function loadCardsData() {
-      console.log(cardsToCompare);
+    function loadCardsData(cardId) {
       cardsToCompare.forEach(function (cardId) {
-        loadOneCardData(cardId);
+        var query = 'SELECT * WHERE A = ' + cardId;
+        sheetrock({
+          url: sheetUrl,
+          query: query,
+          reset: true,
+          callback: function (error, options, response) {
+            if (!error) {
+              cardsData.push(response.rows[0].cellsArray);
+            }
+          }
+        });
       });
     }
 
-    function loadOneCardData(cardId) {
-      sheetrock({
-        url: sheetUrl,
-        query: 'SELECT * WHERE A = ' + cardId,
-        reset: true,
-        callback: function (error, options, response) {
-          console.log(response);
-          if (!error && response.rows[1] != 'undefined') {
-            cardsData.push(response.rows[1]);
-          }
-        }
+    function loadPageData() {
+      var indexes = [1, 17, 18, 5, 6, 3, 2, 5, 6];
+      cardsData.forEach(function (card) {
+        $("#card-compare tr").append("<td class='card-column'>" + card[1] + "</td>");
+        var x = 0;
+        $("#card-compare td:last-child").each(function () {
+          $(this).html(card[indexes[x++]]);
+        });
       });
-      return null;
     }
+
   });
+
 </script>
 
 <style type="text/css">
