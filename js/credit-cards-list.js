@@ -1,6 +1,4 @@
 $(document).ready(function () {
-  var sheetUrl = "https://docs.google.com/spreadsheets/d/14nDVwVvubdeUDVDRKxkq1P5hgaqUNk_k1ekHLKyqooY/edit#gid=0";
-
   var category = null;
   var score = null;
 
@@ -266,15 +264,10 @@ $(document).ready(function () {
       callback: function (error, options, response) {
         if (!error) {
           if (response.rows.length > 1) { // Because it always returns the first row
-            rowNumber = 0;
             response.rows.forEach(function (item) {
-              if (rowNumber > 0) {
-                thisCardHtml = replaceTags(cardTemplateHtml, item.cellsArray);
-                thisCardHtml = markCardToCompare(thisCardHtml, item.cellsArray);
-                cardsHtml += thisCardHtml;
-              } else {
-                rowNumber = 1;
-              }
+              thisCardHtml = replaceTags(cardTemplateHtml, item.cellsArray);
+              thisCardHtml = markCardToCompare(thisCardHtml, item.cellsArray);
+              cardsHtml += thisCardHtml;
             });
           } else {
             cardsHtml = '<div class="alert alert-block"><h4>No Results</h4><p>It looks like we don\'t have any cards that match your filters</p></div>';
@@ -282,6 +275,9 @@ $(document).ready(function () {
           $('#loading-message').hide();
           $('#page-header').html(fillPageData(pageHeaderTemplateHtml, pageData[category]));
           $('#cards-table').html(cardsHtml);
+        }
+        else {
+          console.log(error, options, response);
         }
       }
     });
@@ -424,6 +420,7 @@ $(document).ready(function () {
     query += whereFinancial;
     query += whereLatinoFirst;
     query += 'ORDER BY B';
+    console.log(query);
     return query;
   }
 

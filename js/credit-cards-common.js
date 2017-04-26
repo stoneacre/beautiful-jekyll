@@ -1,7 +1,8 @@
+var sheetUrl = "https://docs.google.com/spreadsheets/d/14nDVwVvubdeUDVDRKxkq1P5hgaqUNk_k1ekHLKyqooY/edit#gid=0";
+
 function toBullets(text) {
   var ul = '';
   var items = text.split(';');
-  console.log(items.length);
   if (items.length >= 1) {
     ul = '<ul>';
     items.forEach(function (item) {
@@ -49,12 +50,5 @@ function replaceTags(html, data) {
     html = html.replace(/%%card_div_seal%%/g, '');
   }
 
-  if (typeof cardsToCompare != 'undefined') {
-    if ($.inArray(parseInt(values[0]), cardsToCompare) != -1) {
-      html = html.replace(/%%checked%%/g, 'checked');
-    } else {
-      html = html.replace(/%%checked%%/g, '');
-    }
-  }
   return html;
 }

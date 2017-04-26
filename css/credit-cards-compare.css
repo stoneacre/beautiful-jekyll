@@ -1,5 +1,33 @@
 @import url('credit-cards-common.css');
 
 .card-column a.btn {
+  max-width: 230px;
   width: 90%;
+}
+
+#card-compare {
+  width: 100%;
+}
+
+.scrollable {
+  margin: auto;
+  width: 95%;
+}
+
+.card-column {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.card-image {
+  /*max-width: 250px;*/
+  margin: auto;
+}
+
+.card-name {
+  min-height: 60px;
 }
