@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
   var sheetUrl = "https://docs.google.com/spreadsheets/d/14nDVwVvubdeUDVDRKxkq1P5hgaqUNk_k1ekHLKyqooY/edit#gid=0";
 
   var category = null;
@@ -56,28 +56,28 @@ $(document).ready(function () {
   updateView();
   loadCardsTable();
 
-  $("a[id*='category-']").click(function () {
+  $("a[id*='category-']").click(function() {
     updateSelection(this.id);
   });
-  $("a[id*='score-']").click(function () {
+  $("a[id*='score-']").click(function() {
     updateSelection(this.id);
   });
-  $("input[id*='check-']").click(function () {
+  $("input[id*='check-']").click(function() {
     updateSelection(this.id);
   });
-  $('#btn-compare-cards').click(function () {
+  $('#btn-compare-cards').click(function() {
     compareCards();
   });
-  $('#btn-reset-cards-to-compare').click(function () {
+  $('#btn-reset-cards-to-compare').click(function() {
     resetCardsToCompare();
   });
-  $('body').on('click', "a[id*='toggle-card-details-']", function () {
+  $('body').on('click', "a[id*='toggle-card-details-']", function() {
     toggleDetails(this.id);
   });
-  $('body').on('click', "input[id*='compare-card-']", function () {
+  $('body').on('click', "input[id*='compare-card-']", function() {
     updateCardsToCompare(this.id);
   });
-  $('body').on('click', "input[id*='label-compare-card-']", function () {
+  $('body').on('click', "input[id*='label-compare-card-']", function() {
     updateCardsToCompare(this.id);
   });
 
@@ -112,8 +112,9 @@ $(document).ready(function () {
       cardsToCompare.length == 1 ? $('#btn-compare-cards').addClass('disabled') : $('#btn-compare-cards').removeClass('disabled');
       $('#badge-cards-to-compare-count').text(cardsToCompare.length);
       $("#footer-compare").slideDown("fast");
+    } else {
+      $("#footer-compare").slideUp("fast");
     }
-    else { $("#footer-compare").slideUp("fast"); }
   }
 
   function loadData() {
@@ -261,20 +262,18 @@ $(document).ready(function () {
       url: sheetUrl,
       query: generateQuery(),
       reset: true,
-      callback: function (error, options, response) {
+      callback: function(error, options, response) {
         if (!error) {
-          if (response.rows.length > 1) {  // Because it always returns the first row
+          if (response.rows.length > 1) { // Because it always returns the first row
             rowNumber = 0;
-            response.rows.forEach(function (item) {
+            response.rows.forEach(function(item) {
               if (rowNumber > 0) {
                 cardsHtml += fillCardTable(cardTemplateHtml, item.cellsArray);
-              }
-              else {
+              } else {
                 rowNumber = 1;
               }
             });
-          }
-          else {
+          } else {
             cardsHtml = '<div class="alert alert-block"><h4>No Results</h4><p>It looks like we don\'t have any cards that match your filters</p></div>';
           }
           $('#loading-message').hide();
@@ -309,15 +308,13 @@ $(document).ready(function () {
 
     if (values[15] == 'Y') {
       html = html.replace(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal'></div>");
-    }
-    else {
+    } else {
       html = html.replace(/%%card_div_seal%%/g, '');
     }
 
     if ($.inArray(parseInt(values[0]), cardsToCompare) != -1) {
       html = html.replace(/%%checked%%/g, 'checked');
-    }
-    else {
+    } else {
       html = html.replace(/%%checked%%/g, '');
     }
     return html;
@@ -431,7 +428,6 @@ $(document).ready(function () {
     query += whereFinancial;
     query += whereLatinoFirst;
     query += 'ORDER BY B';
-    console.log(query);
     return query;
   }
 
@@ -439,8 +435,7 @@ $(document).ready(function () {
     var cardId = $('#' + id).data('id');
     if ($('#' + id).prop('checked') && $.inArray(cardId, cardsToCompare) === -1) {
       cardsToCompare.push(cardId);
-    }
-    else {
+    } else {
       cardsToCompare.splice($.inArray(cardId, cardsToCompare), 1);
     }
     updateView();
@@ -466,29 +461,12 @@ $(document).ready(function () {
       $("#details-card-" + cardId).slideDown("fast");
       $('#' + id).data('toggle', 'visible');
       $('#' + id).text('Hide Details');
-    }
-    else {
-      $("#details-card-" + cardId).slideUp("fast", function () {
+    } else {
+      $("#details-card-" + cardId).slideUp("fast", function() {
         $("#row-details-card-" + cardId).hide();
       });
       $('#' + id).data('toggle', 'hidden');
       $('#' + id).text('View Details');
     }
-  }
-
-  function toBullets(text) {
-    var ul = '';
-    var items = text.split(';');
-    console.log(items.length);
-    if (items.length >= 1) {
-      ul = '<ul>';
-      items.forEach(function (item) {
-        if (item != '') {
-          ul += '<li>' + item + '</li>';
-        }
-      });
-      ul += '</ul>';
-    }
-    return ul;
   }
 });
