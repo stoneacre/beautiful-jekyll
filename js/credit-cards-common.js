@@ -1,4 +1,5 @@
 var sheetUrl = "https://docs.google.com/spreadsheets/d/14nDVwVvubdeUDVDRKxkq1P5hgaqUNk_k1ekHLKyqooY/edit#gid=0";
+var MAX_CARDS_TO_COMPARE = 3;
 
 function toBullets(text) {
   var ul = '';

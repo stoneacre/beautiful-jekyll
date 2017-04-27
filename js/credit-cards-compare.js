@@ -6,13 +6,19 @@ $(document).ready(function () {
   if (cardsToCompare.length == 0) {
     location.href = '/credit-cards-list.html';
   }
+  else if (cardsToCompare.length > MAX_CARDS_TO_COMPARE) {
+    cardsToCompare = cardsToCompare.slice(0, MAX_CARDS_TO_COMPARE);
+  }
 
   loadCardsData();
 
   // Because it is async
   var timer = setInterval(function () {
+    $('#loading-message').show();
     if (cardsData.length == cardsToCompare.length) {
       clearInterval(timer);
+      $('#loading-message').hide();
+      $('#card-compare').show();
       loadPageData();
     }
   }, 100);
