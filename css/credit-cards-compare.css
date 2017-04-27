@@ -20,14 +20,20 @@
   min-height: 100px;
   height: 100px;
   text-align: center;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .card-image {
-  /*max-width: 250px;*/
+  max-height: 200px;
   margin: auto;
 }
 
 .card-name {
   min-height: 60px;
+}
+
+.fake-header {
+  background: #f8f8f8;
+  width: 100px;
+  box-shadow: 0px 1px 2px #ccc;
 }
