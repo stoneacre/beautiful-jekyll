@@ -6,12 +6,15 @@ bigimg: "/img/latino_family.jpg"
 ---
 
 <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="/js/jquery.easydropdown.min.js"></script>
 <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/css/easydropdown.css">
 
 <form id="cardsForm" action="/credit-cards-list">
   <div class="row">
     <div class="col-sm-6">
-      <select name="score" class="form-control" required>
+      <select name="score" class="form-control dropdown" required>
         <option value="">Select your Credit Card Score</option>
         <option value="poor">Poor</option>
         <option value="average">Average</option>
@@ -21,7 +24,7 @@ bigimg: "/img/latino_family.jpg"
       </select>
     </div>
     <div class="col-sm-6">
-      <select name="category" class="form-control" required>
+      <select name="category" class="form-control dropdown" required>
         <option value="">I would like to...</option>
         <option value="improve">Improve My Credit Score</option>
         <option value="travel">Earn Miles</option>
@@ -41,6 +44,8 @@ bigimg: "/img/latino_family.jpg"
 <style type="text/css">
   .row { margin-bottom: 15px; }
   label.error { color:#cc0000; }
+
+  .row  .dropdown  { width: 100% !important; }
 </style>
 
 <script type="text/javascript">
