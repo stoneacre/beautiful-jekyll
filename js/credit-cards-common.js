@@ -33,7 +33,7 @@ function replaceTags(html, data) {
   html = html.replace(/%%card_id%%/g, data[0]);
   html = html.replace(/%%card_name%%/g, data[1]);
   html = html.replace(/%%card_details%%/g, data[4]);
-  html = html.replace(/%%card_rewards_rate%%/g, data[21]);
+  html = html.replace(/%%card_rewards_rate%%/g, data[24]);
   html = html.replace(/%%card_annual_fee%%/g, data[21]);
   html = html.replace(/%%card_image_url%%/g, data[28]);
   html = html.replace(/%%card_apply_now_url%%/g, data[29]);

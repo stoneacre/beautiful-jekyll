@@ -300,25 +300,32 @@ $(document).ready(function () {
   }
 
   function generateQuery() {
+    var orderBy = 'ORDER BY B';
     var whereCategory = '';
     switch (category) {
       case 'rewards':
         whereCategory = 'G = "Y" ';
+        orderBy = 'ORDER BY Y DESC';
         break;
       case 'cashback':
         whereCategory = 'H = "Y" ';
+        orderBy = 'ORDER BY Y DESC';
         break;
       case 'travel':
         whereCategory = 'I = "Y" ';
+        orderBy = 'ORDER BY Y DESC';
         break;
       case 'lowinterest':
         whereCategory = 'J = "Y" ';
+        orderBy = 'ORDER BY Q DESC';
         break;
       case 'student':
         whereCategory = 'K = "Y" ';
+        orderBy = 'ORDER BY Q DESC';
         break;
       case 'improve':
         whereCategory = 'L = "Y" ';
+        orderBy = 'ORDER BY Q DESC';
         break;
     }
 
@@ -420,7 +427,7 @@ $(document).ready(function () {
     query += whereNetwork;
     query += whereFinancial;
     query += whereLatinoFirst;
-    query += 'ORDER BY B';
+    query += orderBy;
     console.log(query);
     return query;
   }
