@@ -1,8 +1,5 @@
 @import url('credit-cards-common.css');
 
-
-
-
 table.card-actions {
   width: 100%;
 }
@@ -38,9 +35,9 @@ table.card-actions a.btn {
   background: #fcf8e3;
 }
 
- .card-details .details-values {
-   text-align: right;
-   font-weight: bold;
-   width: 50%;
- }
+.card-details .details-values {
+  text-align: right;
+  font-weight: bold;
+  width: 50%;
+}
 

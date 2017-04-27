@@ -21,7 +21,6 @@ a.btn {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-
 .alert, .alert h4 {
   color: #c09853;
   padding: 0px;
@@ -43,24 +42,24 @@ a.btn {
 }
 
 .fa-thumbs-o-up {
-   color: green;
- }
+  color: green;
+}
 
- .fa-thumbs-o-down {
-   color: red;
- }
+.fa-thumbs-o-down {
+  color: red;
+}
 
- .card-seal {
-   background: url('/img/seal.png') no-repeat;
-   height: 117px;
-   margin-top: 0px;
-   position: absolute;
-   right: 5px;
-   width: 96px;
-   z-index: 1000;
- }
+.card-seal {
+  background: url('/img/seal.png') no-repeat;
+  height: 117px;
+  margin-top: 0px;
+  position: absolute;
+  right: 5px;
+  width: 96px;
+  z-index: 1000;
+}
 
- #loading-message {
+#loading-message {
   background-color: #fff;
   border: 1px solid #ccc;
   display: none;
@@ -71,4 +70,5 @@ a.btn {
   position:fixed;
   top: 50%;
   width:30em;
+  z-index: 9999;
 }

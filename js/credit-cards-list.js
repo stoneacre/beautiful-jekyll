@@ -213,7 +213,7 @@ $(document).ready(function () {
               <td class='valign-middle'>\
                 <div class='checkbox checkbox-primary'>\
                   <input type='checkbox' id='compare-card-%%card_id%%' %%checked%% data-id='%%card_id%%'>\
-                  <label id='label-compare-card-%%card_id%%' for='compare-card-%%card_id%%' data-id='%%card_id%%' data-toggle='hidden' class='small text-uppercase'>Compare this card</label>\
+                  <label id='label-compare-card-%%card_id%%' for='compare-card-%%card_id%%' data-id='%%card_id%%' class='small text-uppercase'>Compare this card</label>\
                 </div>\
               </td>\
             </tr>\
@@ -428,7 +428,13 @@ $(document).ready(function () {
   function updateCardsToCompare(id) {
     var cardId = $('#' + id).data('id');
     if ($('#' + id).prop('checked') && $.inArray(cardId, cardsToCompare) === -1) {
-      cardsToCompare.push(cardId);
+      if (cardsToCompare.length < MAX_CARDS_TO_COMPARE) {
+        cardsToCompare.push(cardId);
+      }
+      else {
+        $('#' + id).prop('checked', false);
+        alert('You can compare up to ' + MAX_CARDS_TO_COMPARE + ' cards.');
+      }
     } else {
       cardsToCompare.splice($.inArray(cardId, cardsToCompare), 1);
     }
