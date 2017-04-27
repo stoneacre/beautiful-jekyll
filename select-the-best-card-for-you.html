@@ -6,13 +6,12 @@ bigimg: "/img/latino_family.jpg"
 ---
 
 <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
-<script type="text/javascript" src="/js/jquery.easydropdown.min.js"></script>
 <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="/css/easydropdown.css">
+<link rel="stylesheet" type="text/css" href="/css/credit-cards-common.css">
 
 <form id="cardsForm" action="/credit-cards-list">
-  <div class="row">
+  <div id="controls" class="row">
     <div class="col-sm-6">
       <select name="score" class="form-control dropdown" required>
         <option value="">Select your Credit Card Score</option>
@@ -32,20 +31,34 @@ bigimg: "/img/latino_family.jpg"
         <option value="cashback">Earn Cash Back</option>
         <option value="lowinterest">Find Low Interest Credit Cards</option>
         <option value="student">Find Best Credit Cards for Students</option>
-
       </select>
     </div>
+    <div class="col-xs-12 text-center">
+      <button id="submit" type="submit" class="btn btn-lg btn-primary"><i class="fa fa-credit-card" aria-hidden="true"></i>Find your Card</button>
+    </div>
   </div>
-  <div class="row text-center">
-    <button type="submit" class="btn btn-primary">Find your Card</button>
+  <div id="get-your-free-score" class="row">
+    <h4>Don't know your score? Get it free!</h4>
+    <a href='javascript:void(0);' target='_blank' class='btn btn-info'>Get Your Free Score</a>
   </div>
+
 </form>
 
 <style type="text/css">
-  .row { margin-bottom: 15px; }
+  .col-xs-12, .col-sm-6 { margin-bottom: 15px; }
   label.error { color:#cc0000; }
+  .row .dropdown  { width: 100% !important; }
+  #controls { margin-top: -150px; }
+  #submit { width: 300px; }
 
-  .row  .dropdown  { width: 100% !important; }
+  #get-your-free-score {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    #controls { margin-top: 0px; }
+  }
 </style>
 
 <script type="text/javascript">
