@@ -72,3 +72,21 @@ a.btn {
   width:30em;
   z-index: 9999;
 }
+
+
+@media (max-width: 1200px) {
+  .card-seal {
+    background: url('/img/seal_small.png') no-repeat;
+    height: 41px;
+    right: 30px;
+    width: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  a.btn {
+    font-size: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+}

@@ -15,10 +15,11 @@
 }
 
 .card-column {
-  min-width: 250px;
+  height: 100px;
   max-width: 250px;
   min-height: 100px;
-  height: 100px;
+  min-width: 250px;
+  padding: 10px;
   text-align: center;
   vertical-align: middle;
 }
@@ -36,4 +37,8 @@
   background: #f8f8f8;
   width: 100px;
   box-shadow: 0px 1px 2px #ccc;
+}
+
+.credit-score {
+  min-height: 75px;
 }

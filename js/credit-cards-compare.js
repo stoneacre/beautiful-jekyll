@@ -59,7 +59,7 @@ $(document).ready(function () {
             cellHtml = cardHeader(card);
             break;
           case 1:
-            cellHtml = toBullets(getCreditScoreString([card[17], card[18], card[19], card[20]]));
+            cellHtml = cardScore(card);
             break;
           case 2:
             cellHtml = card[21];
@@ -89,12 +89,18 @@ $(document).ready(function () {
   }
 
   function cardHeader(data) {
-    html =
+    var html =
       "<img class='card-image img-responsive' src='%%card_image_url%%' />\
       <h4 class='card-name'>%%card_name%%</h4>\
-      <a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a></td>\
+      <a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a>\
       ";
     return replaceTags(html, data);
+  }
+
+  function cardScore(data) {
+    var html = '<div class="credit-score">' + toBullets(getCreditScoreString([data[17], data[18], data[19], data[20]])) + '</div>';
+    html += "<a href='javascript:void(0);' target='_blank' class='btn btn-info'>Get Your Free Score</a>";
+    return html;
   }
 
   function whatsGreatFor(data) {
