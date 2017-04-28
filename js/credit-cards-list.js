@@ -317,15 +317,15 @@ $(document).ready(function () {
         break;
       case 'lowinterest':
         whereCategory = 'J = "Y" ';
-        orderBy = 'ORDER BY Q DESC';
+        orderBy = 'ORDER BY Q ASC';
         break;
       case 'student':
         whereCategory = 'K = "Y" ';
-        orderBy = 'ORDER BY Q DESC';
+        orderBy = 'ORDER BY Q ASC';
         break;
       case 'improve':
         whereCategory = 'L = "Y" ';
-        orderBy = 'ORDER BY Q DESC';
+        orderBy = 'ORDER BY Q ASC';
         break;
     }
 
