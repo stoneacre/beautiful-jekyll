@@ -65,7 +65,7 @@ $(document).ready(function () {
             cellHtml = card[21];
             break;
           case 3:
-            cellHtml = toBullets(whatsGreatFor(card));
+            cellHtml = toBullets(whatsGreatFor(card), 'empty-list-style');
             break;
           case 4:
             cellHtml = card[21];
@@ -106,22 +106,22 @@ $(document).ready(function () {
   function whatsGreatFor(data) {
     var categories = '';
     if (data[6] == 'Y') {
-      categories += 'Rewards;';
+      categories += '<i class="fa fa-trophy" aria-hidden="true"></i>Rewards;';
     }
     if (data[7] == 'Y') {
-      categories += 'Cash Back;';
+      categories += '<i class="fa fa-money" aria-hidden="true"></i>Cash Back;';
     }
     if (data[8] == 'Y') {
-      categories += 'Travel;';
+      categories += '<i class="fa fa-plane" aria-hidden="true"></i>Travel;';
     }
     if (data[9] == 'Y') {
-      categories += 'Low Interest;';
+      categories += '<i class="fa fa-percent" aria-hidden="true"></i>Low Interest;';
     }
     if (data[10] == 'Y') {
-      categories += 'Students;';
+      categories += '<i class="fa fa-graduation-cap" aria-hidden="true"></i>Students;';
     }
     if (data[11] == 'Y') {
-      categories += 'Improve Score;';
+      categories += '<i class="fa fa-level-up" aria-hidden="true"></i>Improve Score;';
     }
     return categories;
   }

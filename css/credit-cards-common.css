@@ -73,6 +73,9 @@ a.btn {
   z-index: 9999;
 }
 
+.empty-list-style {
+  list-style-type: none;
+}
 
 @media (max-width: 1200px) {
   .card-seal {

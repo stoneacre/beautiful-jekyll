@@ -2,11 +2,12 @@ var sheetUrl = "https://docs.google.com/spreadsheets/d/14nDVwVvubdeUDVDRKxkq1P5h
 var MAX_CARDS_TO_COMPARE = 3;
 var URL_GET_FREE_SCORE = 'https://www.creditkarma.com/';
 
-function toBullets(text) {
+function toBullets(text, cssClass) {
   var ul = '';
   var items = text.split(';');
   if (items.length >= 1) {
     ul = '<ul>';
+    if (typeof (cssClass) != 'undefined') { ul = "<ul class='" + cssClass + "'>"; }
     items.forEach(function (item) {
       if (item != '') {
         ul += '<li class="text-left">' + item + '</li>';
