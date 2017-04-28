@@ -99,7 +99,7 @@ $(document).ready(function () {
 
   function cardScore(data) {
     var html = '<div class="credit-score">' + toBullets(getCreditScoreString([data[17], data[18], data[19], data[20]])) + '</div>';
-    html += "<a href='javascript:void(0);' target='_blank' class='btn btn-info'>Get Your Free Score</a>";
+    html += "<a id='btn-get-your-free-credit-score' href='" + URL_GET_FREE_SCORE + "' target='_blank' class='btn btn-info'>Get Your Free Score</a>";
     return html;
   }
 

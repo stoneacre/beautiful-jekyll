@@ -1,5 +1,6 @@
 var sheetUrl = "https://docs.google.com/spreadsheets/d/14nDVwVvubdeUDVDRKxkq1P5hgaqUNk_k1ekHLKyqooY/edit#gid=0";
 var MAX_CARDS_TO_COMPARE = 3;
+var URL_GET_FREE_SCORE = 'https://www.creditkarma.com/';
 
 function toBullets(text) {
   var ul = '';
@@ -44,6 +45,7 @@ function replaceTags(html, data) {
   html = html.replace(/%%card_foreign_transaction_fee%%/g, data[23]);
   html = html.replace(/%%card_pros%%/g, toBullets(data[31]));
   html = html.replace(/%%card_cons%%/g, toBullets(data[32]));
+  html = html.replace(/%%get_free_credit_score%%/g, URL_GET_FREE_SCORE);
 
   if (data[5] == 'Y') {
     html = html.replace(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal'></div>");

@@ -7,6 +7,7 @@ bigimg: "/img/latino_family.jpg"
 
 <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/js/credit-cards-common.js"></script>
 
 <link rel="stylesheet" type="text/css" href="/css/credit-cards-common.css">
 
@@ -38,9 +39,8 @@ bigimg: "/img/latino_family.jpg"
   </div>
   <div id="get-your-free-score" class="row">
     <h4>Don't know your score? Get it free!</h4>
-    <a href='javascript:void(0);' target='_blank' class='btn btn-info'>Get Your Free Score</a>
+    <a id='btn-get-your-free-credit-score' target='_blank' class='btn btn-info'>Get Your Free Score</a>
   </div>
-
 </form>
 
 <style type="text/css">
@@ -68,5 +68,7 @@ bigimg: "/img/latino_family.jpg"
         category: "What do you want?"
       }
     });
+
+    document.getElementById('btn-get-your-free-credit-score').setAttribute('href', URL_GET_FREE_SCORE);
   });
 </script>

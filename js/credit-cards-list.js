@@ -23,6 +23,8 @@ $(document).ready(function () {
 
   var cardsToCompare = [];
 
+  document.getElementById('btn-get-your-free-credit-score').setAttribute('href', URL_GET_FREE_SCORE);
+
   var pageData = {
     'rewards': [
       'Rewards Credit Cards',
