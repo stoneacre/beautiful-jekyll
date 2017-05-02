@@ -202,7 +202,7 @@ $(document).ready(function () {
               <td colspane='2' width='75%'><h3>%%card_name%%</h3></td>\
               <td rowspan='3'>\
                 <table class='table borderless card-actions'>\
-                  <tr><td>%%card_div_seal%%<img class='img-responsive' src='%%card_image_url%%' /></td></tr>\
+                  <tr><td>%%card_div_seal%%<img class='img-responsive btn-block' src='%%card_image_url%%' /></td></tr>\
                   <tr><td><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success vertical-buttons'>Apply Now</a></td></tr>\
                   <tr><td><a id='toggle-card-details-%%card_id%%' data-id='%%card_id%%' data-toggle='hidden' href='javascript:void(0);' class='btn btn-info vertical-buttons'>View Details</a></td></tr>\
                 </table>\
