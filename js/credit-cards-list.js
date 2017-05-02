@@ -307,43 +307,43 @@ $(document).ready(function () {
     switch (category) {
       case 'rewards':
         whereCategory = 'G = "Y" ';
-        orderBy = 'ORDER BY Y DESC';
+        orderBy = 'ORDER BY AA DESC';
         break;
       case 'cashback':
         whereCategory = 'H = "Y" ';
-        orderBy = 'ORDER BY Y DESC';
+        orderBy = 'ORDER BY AA DESC';
         break;
       case 'travel':
         whereCategory = 'I = "Y" ';
-        orderBy = 'ORDER BY Y DESC';
+        orderBy = 'ORDER BY AA DESC';
         break;
       case 'lowinterest':
         whereCategory = 'J = "Y" ';
-        orderBy = 'ORDER BY Q ASC';
+        orderBy = 'ORDER BY R ASC';
         break;
       case 'student':
         whereCategory = 'K = "Y" ';
-        orderBy = 'ORDER BY Q ASC';
+        orderBy = 'ORDER BY R ASC';
         break;
       case 'improve':
         whereCategory = 'L = "Y" ';
-        orderBy = 'ORDER BY Q ASC';
+        orderBy = 'ORDER BY R ASC';
         break;
     }
 
     var whereScore = '';
     switch (score) {
       case 'poor':
-        whereScore = 'R = "Y" ';
-        break;
-      case 'average':
         whereScore = 'S = "Y" ';
         break;
-      case 'good':
+      case 'average':
         whereScore = 'T = "Y" ';
         break;
-      case 'excellent':
+      case 'good':
         whereScore = 'U = "Y" ';
+        break;
+      case 'excellent':
+        whereScore = 'V = "Y" ';
         break;
     }
 

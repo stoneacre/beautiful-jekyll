@@ -62,19 +62,19 @@ $(document).ready(function () {
             cellHtml = cardScore(card);
             break;
           case 2:
-            cellHtml = card[21];
+            cellHtml = card[22];
             break;
           case 3:
             cellHtml = toBullets(whatsGreatFor(card), 'empty-list-style');
             break;
           case 4:
-            cellHtml = card[21];
+            cellHtml = card[25];
             break;
           case 5:
             cellHtml = card[16];
             break;
           case 6:
-            cellHtml = card[22];
+            cellHtml = card[23];
             break;
           case 7:
             cellHtml = toBullets(card[31]);
@@ -98,7 +98,7 @@ $(document).ready(function () {
   }
 
   function cardScore(data) {
-    var html = '<div class="credit-score">' + toBullets(getCreditScoreString([data[17], data[18], data[19], data[20]])) + '</div>';
+    var html = '<div class="credit-score">' + toBullets(getCreditScoreString([data[18], data[19], data[20], data[21]])) + '</div>';
     html += "<a id='btn-get-your-free-credit-score' href='" + URL_GET_FREE_SCORE + "' target='_blank' class='btn btn-info'>Get Your Free Score</a>";
     return html;
   }
