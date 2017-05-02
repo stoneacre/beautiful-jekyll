@@ -90,7 +90,7 @@ $(document).ready(function () {
 
   function cardHeader(data) {
     var html =
-      "<img class='card-image img-responsive btn-block' src='%%card_image_url%%' />\
+      "<img class='card-image img-responsive' src='%%card_image_url%%' />\
       <h4 class='card-name'>%%card_name%%</h4>\
       <a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a>\
       ";
