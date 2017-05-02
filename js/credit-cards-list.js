@@ -203,14 +203,21 @@ $(document).ready(function () {
               <td rowspan='3'>\
                 <table class='table borderless card-actions'>\
                   <tr><td>%%card_div_seal%%<img class='img-responsive' src='%%card_image_url%%' /></td></tr>\
-                  <tr><td><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a></td></tr>\
-                  <tr><td><a id='toggle-card-details-%%card_id%%' data-id='%%card_id%%' data-toggle='hidden' href='javascript:void(0);' class='btn btn-info'>View Details</a></td></tr>\
+                  <tr><td><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success vertical-buttons'>Apply Now</a></td></tr>\
+                  <tr><td><a id='toggle-card-details-%%card_id%%' data-id='%%card_id%%' data-toggle='hidden' href='javascript:void(0);' class='btn btn-info vertical-buttons'>View Details</a></td></tr>\
                 </table>\
               </td>\
             </tr>\
-            <tr><td><p>Annual Fee: <strong>%%card_annual_fee%%</strong><br />\
-            Rewards rate: <strong>%%card_rewards_rate%%</strong></p>\
-            <p>%%card_details%%</p></td></tr>\
+            <tr>\
+              <td><p>Annual Fee: <strong>%%card_annual_fee%%</strong><br />\
+              Rewards rate: <strong>%%card_rewards_rate%%</strong></p>\
+              <p>%%card_details%%</p>\
+                <div class='row horizontal-buttons'>\
+                  <div class='col-sm-6 col-xs-12'><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a></div>\
+                  <div class='col-sm-6 col-xs-12'><a id='toggle-card-details-%%card_id%%' data-id='%%card_id%%' data-toggle='hidden' href='javascript:void(0);' class='btn btn-info'>View Details</a></div>\
+                </div>\
+              </td>\
+            </tr>\
             <tr>\
               <td class='valign-middle'>\
                 <div class='checkbox checkbox-primary'>\
