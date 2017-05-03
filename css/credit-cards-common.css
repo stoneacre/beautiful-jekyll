@@ -90,6 +90,7 @@ a.btn {
   .card-seal {
     background: url('/img/seal_small.png') no-repeat;
     height: 46px;
+    margin-top: -5px !important;
     right: 30px;
     width: 32px;
   }

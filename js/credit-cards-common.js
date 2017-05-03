@@ -49,7 +49,7 @@ function replaceTags(html, data) {
   html = html.replace(/%%get_free_credit_score%%/g, URL_GET_FREE_SCORE);
 
   if (data[5] == 'Y') {
-    html = html.replace(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal'></div>");
+    html = html.replace(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal' title='Our Latino First badge is granted to those financial products that are specially fit for the Latino community'></div>");
   } else {
     html = html.replace(/%%card_div_seal%%/g, '');
   }

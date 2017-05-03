@@ -6,13 +6,24 @@ layout: cards
 <script type="text/javascript" src="/js/url.min.js"></script>
 <script type="text/javascript" src="/js/sheetrock.min.js"></script>
 <script type="text/javascript" src="/js/credit-cards-common.js"></script>
-<script type="text/javascript" src="/js/credit-cards-common.js"></script>
 <script type="text/javascript" src="/js/credit-cards-list.js"></script>
 
 <link rel="stylesheet" type="text/css" href="/css/credit-cards-list.css">
 
 <div class="row">
-  <div class="col-sm-3" style="height: 100%; ">
+
+  <div id="filters-bar" class="col-xs-12">
+    <div class="btn-group btn-group-justified" role="group">
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-bars" aria-hidden="true"></i>Categories</button>
+      </div>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-bars" aria-hidden="true"></i>Filters</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="left-sidebar" class="col-sm-3">
     <h4>Categories</h4>
     <div class="list-group">
       <a href="javascript:void(0);" id="category-rewards" class="list-group-item"><i class="fa fa-trophy" aria-hidden="true"></i>Rewards</a>

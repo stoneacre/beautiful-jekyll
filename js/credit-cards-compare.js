@@ -92,8 +92,7 @@ $(document).ready(function () {
     var html =
       "<img class='card-image img-responsive' src='%%card_image_url%%' />\
       <h4 class='card-name'>%%card_name%%</h4>\
-      <a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a>\
-      ";
+      <a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a>";
     return replaceTags(html, data);
   }
 

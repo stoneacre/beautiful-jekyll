@@ -1,5 +1,9 @@
 @import url('credit-cards-common.css');
 
+#filters-bar {
+  display: none;
+}
+
 table.card-actions {
   width: 100%;
 }
@@ -46,3 +50,12 @@ table.card-actions a.btn {
   margin-bottom: 5px;
 }
 
+@media (max-width: 768px) {
+  #left-sidebar {
+    display: none;
+  }
+
+  #filters-bar {
+    display: inline-block;
+  }
+}
