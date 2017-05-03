@@ -51,10 +51,10 @@ a.btn {
 
 .card-seal {
   background: url('/img/seal.png') no-repeat;
-  height: 117px;
-  margin-top: 0px;
+  height: 131px;
+  margin-top: -15px !important;
   position: absolute;
-  right: 5px;
+  right: 15px;
   width: 96px;
   z-index: 1000;
 }
@@ -89,7 +89,7 @@ a.btn {
 @media (max-width: 1200px) {
   .card-seal {
     background: url('/img/seal_small.png') no-repeat;
-    height: 41px;
+    height: 46px;
     right: 30px;
     width: 32px;
   }
