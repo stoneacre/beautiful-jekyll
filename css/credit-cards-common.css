@@ -70,7 +70,7 @@ a.btn {
   position:fixed;
   top: 50%;
   width:30em;
-  z-index: 9999;
+  z-index: 10000;
 }
 
 .empty-list-style {
