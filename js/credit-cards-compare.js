@@ -1,19 +1,18 @@
-$(document).ready(function () {
+$(document).ready(function() {
   var cardsToCompare = [];
   var cardsData = [];
 
   loadData();
   if (cardsToCompare.length == 0) {
     location.href = '/credit-cards-list.html';
-  }
-  else if (cardsToCompare.length > MAX_CARDS_TO_COMPARE) {
+  } else if (cardsToCompare.length > MAX_CARDS_TO_COMPARE) {
     cardsToCompare = cardsToCompare.slice(0, MAX_CARDS_TO_COMPARE);
   }
 
   loadCardsData();
 
   // Because it is async
-  var timer = setInterval(function () {
+  var timer = setInterval(function() {
     $('#loading-message').show();
     if (cardsData.length == cardsToCompare.length) {
       clearInterval(timer);
@@ -33,13 +32,13 @@ $(document).ready(function () {
   }
 
   function loadCardsData(cardId) {
-    cardsToCompare.forEach(function (cardId) {
+    cardsToCompare.forEach(function(cardId) {
       var query = 'SELECT * WHERE A = ' + cardId;
       sheetrock({
         url: sheetUrl,
         query: query,
         reset: true,
-        callback: function (error, options, response) {
+        callback: function(error, options, response) {
           if (!error) {
             cardsData.push(response.rows[0].cellsArray);
           }
@@ -49,10 +48,10 @@ $(document).ready(function () {
   }
 
   function loadPageData() {
-    cardsData.forEach(function (card) {
+    cardsData.forEach(function(card) {
       $("#card-compare tr").append("<td class='card-column'></td>");
       var column = 0;
-      $("#card-compare td:last-child").each(function () {
+      $("#card-compare td:last-child").each(function() {
         var cellHtml = '';
         switch (column++) {
           case 0:
