@@ -72,7 +72,7 @@ $(document).ready(function () {
     resetCardsToCompare();
   });
   $('#btn-categories-filters').click(function () {
-    $("#left-sidebar").slideDown();
+    toggleCategoriesBar(this.id);
   });
   $('body').on('click', "a[id*='toggle-card-details-']", function () {
     toggleDetails(this.id);
@@ -85,6 +85,10 @@ $(document).ready(function () {
   });
 
   function updateView() {
+    if ($('#filters-bar').is(':visible')) {
+      $("#left-sidebar").slideUp();
+    }
+
     $("a[id*='category']").removeClass('active');
     $("a[id*='score']").removeClass('active');
     $("input[id*='check-']").prop('checked', false);
@@ -203,7 +207,7 @@ $(document).ready(function () {
           <tbody>\
             <tr>\
               <td colspane='2' width='75%'>\
-                <h3>%%card_name%% <span class='no-big'>%%card_div_seal%%</span></h3>\
+                <h3>%%card_name%% <span class='no-big'>%%card_div_seal_title%%</span></h3>\
                 <div class='text-center no-big' style='width: 100%;'>\
                   <img class='img-responsive btn-block' style='max-width:50%;' src='%%card_image_url%%' />\
                 </div>\
@@ -492,6 +496,17 @@ $(document).ready(function () {
       });
       $('#' + id).data('toggle', 'hidden');
       $('#' + id).text('View Details');
+    }
+  }
+
+  function toggleCategoriesBar(id) {
+    var toggle = $('#' + id).data('toggle');
+    if (toggle == 'hidden' || toggle == 'undefined') {
+      $("#left-sidebar").slideDown();
+      $('#' + id).data('toggle', 'visible');
+    } else {
+      $('#' + id).data('toggle', 'hidden');
+      $("#left-sidebar").slideUp();
     }
   }
 });
