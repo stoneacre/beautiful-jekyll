@@ -294,16 +294,16 @@ $(document).ready(function () {
   }
 
   function fillPageData(html, values) {
-    html = html.replace('%%page_title%%', values[0]);
-    html = html.replace('%%page_subtitle%%', values[1]);
+    html = html.replaceAll('%%page_title%%', values[0]);
+    html = html.replaceAll('%%page_subtitle%%', values[1]);
     return html;
   }
 
   function markCardToCompare(html, values) {
     if ($.inArray(parseInt(values[0]), cardsToCompare) != -1) {
-      html = html.replace(/%%checked%%/g, 'checked');
+      html = html.replaceAll(/%%checked%%/g, 'checked');
     } else {
-      html = html.replace(/%%checked%%/g, '');
+      html = html.replaceAll(/%%checked%%/g, '');
     }
     return html;
   }
