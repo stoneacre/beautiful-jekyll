@@ -53,7 +53,7 @@ a.btn {
   background: url('/img/seal.png') no-repeat;
   height: 131px;
   margin-top: -15px !important;
-  position: absolute;
+  position: relative;
   right: 15px;
   width: 96px;
   z-index: 1000;

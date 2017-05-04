@@ -42,3 +42,19 @@
 .credit-score {
   min-height: 75px;
 }
+
+.img-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.img-wrapper .latino-first-badge {
+  background: url(/img/seal.png) no-repeat;
+  height: 131px;
+  position: absolute;
+  right: -10px;
+  width: 96px;
+  z-index: 1000;
+  top: -10px;
+  border: none;
+}

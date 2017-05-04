@@ -90,7 +90,10 @@ $(document).ready(function () {
 
   function cardHeader(data) {
     var html =
-      "<img class='card-image img-responsive' src='%%card_image_url%%' />\
+      "<div class='img-wrapper'>\
+        <img class='card-image img-responsive' src='%%card_image_url%%' />\
+        <div class='latino-first-badge' />\
+      </div>\
       <h4 class='card-name'>%%card_name%%</h4>\
       <a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a>";
     return replaceTags(html, data);
