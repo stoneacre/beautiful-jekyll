@@ -71,6 +71,9 @@ $(document).ready(function () {
   $('#btn-reset-cards-to-compare').click(function () {
     resetCardsToCompare();
   });
+  $('#btn-categories-filters').click(function () {
+    $("#left-sidebar").slideDown();
+  });
   $('body').on('click', "a[id*='toggle-card-details-']", function () {
     toggleDetails(this.id);
   });
