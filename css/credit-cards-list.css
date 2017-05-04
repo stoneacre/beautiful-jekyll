@@ -58,4 +58,8 @@ table.card-actions a.btn {
   #filters-bar {
     display: inline-block;
   }
+
+  .card .right-column {
+    display: none;
+  }
 }

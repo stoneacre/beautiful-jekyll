@@ -96,19 +96,27 @@ a.btn {
   }
 }
 
+.no-big {
+  display: none;
+}
+
+.no-small {
+  display: inline-block;
+}
+
 @media (max-width: 768px) {
-  a.btn {
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 100%;
+  .no-small {
+    display: none;
   }
 
-  .horizontal-buttons {
+  .no-big {
     display: inline-block;
   }
 
-  .vertical-buttons {
-    display: none;
+  .card .right-column a.btn {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
   }
 
   .col-xs-12 {
