@@ -4,6 +4,10 @@
   display: none;
 }
 
+#left-sidebar {
+  display: inline-block;
+}
+
 table.card-actions {
   width: 100%;
 }
