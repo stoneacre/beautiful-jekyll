@@ -214,7 +214,7 @@ $(document).ready(function () {
               <p>%%card_details%%</p>\
                 <div class='row horizontal-buttons'>\
                   <div class='col-sm-6 col-xs-12'><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a></div>\
-                  <div class='col-sm-6 col-xs-12'><a id='toggle-card-details-%%card_id%%' data-id='%%card_id%%' data-toggle='hidden' href='javascript:void(0);' class='btn btn-info'>View Details</a></div>\
+                  <div class='col-sm-6 col-xs-12'><a id='toggle-card-details-horizontal-%%card_id%%' data-id='%%card_id%%' data-toggle='hidden' href='javascript:void(0);' class='btn btn-info'>View Details</a></div>\
                 </div>\
               </td>\
             </tr>\
