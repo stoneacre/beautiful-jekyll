@@ -207,7 +207,7 @@ $(document).ready(function () {
           <tbody>\
             <tr>\
               <td colspane='2' width='75%'>\
-                <h3>%%card_name%% <span class='no-big'>%%card_div_seal%%</span></h3>\
+                <h3>%%card_name%% <span class='no-big'>%%card_div_seal_title%%</span></h3>\
                 <div class='text-center no-big' style='width: 100%;'>\
                   <img class='img-responsive btn-block' style='max-width:50%;' src='%%card_image_url%%' />\
                 </div>\

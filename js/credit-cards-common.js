@@ -55,8 +55,10 @@ function replaceTags(html, data) {
 
   if (data[5] == 'Y') {
     html = html.replaceAll(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal' title='Our Latino First badge is granted to those financial products that are specially fit for the Latino community'></div>");
+    html = html.replaceAll(/%%card_div_seal_title%%/g, "<img src='../img/seal_small.png' title='Our Latino First badge is granted to those financial products that are specially fit for the Latino community' />");
   } else {
     html = html.replaceAll(/%%card_div_seal%%/g, '');
+    html = html.replaceAll(/%%card_div_seal_title%%/g, '');
   }
 
   return html;
