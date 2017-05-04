@@ -98,7 +98,6 @@ a.btn {
 
 @media (max-width: 768px) {
   a.btn {
-    font-size: 10px;
     padding-left: 0px;
     padding-right: 0px;
     width: 100%;
