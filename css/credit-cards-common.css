@@ -21,7 +21,8 @@ a.btn {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.alert, .alert h4 {
+.alert,
+.alert h4 {
   color: #c09853;
   padding: 0px;
 }
@@ -63,13 +64,13 @@ a.btn {
   background-color: #fff;
   border: 1px solid #ccc;
   display: none;
-  height:18em;
+  height: 18em;
   left: 50%;
   margin-left: -15em;
   margin-top: -9em;
-  position:fixed;
+  position: fixed;
   top: 50%;
-  width:30em;
+  width: 30em;
   z-index: 10000;
 }
 
@@ -108,17 +109,14 @@ a.btn {
   .no-small {
     display: none;
   }
-
   .no-big {
     display: inline-block;
   }
-
   .card .right-column a.btn {
     padding-left: 0px;
     padding-right: 0px;
     width: 100%;
   }
-
   .col-xs-12 {
     margin-bottom: 10px;
   }

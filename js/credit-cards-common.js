@@ -1,6 +1,6 @@
 String.prototype.replaceAll = function(search, replacement) {
-    var target = this;
-    return target.split(search).join(replacement);
+  var target = this;
+  return target.split(search).join(replacement);
 };
 
 var sheetUrl = "https://docs.google.com/spreadsheets/d/14nDVwVvubdeUDVDRKxkq1P5hgaqUNk_k1ekHLKyqooY/edit#gid=0";
@@ -12,8 +12,8 @@ function toBullets(text, cssClass) {
   var items = text.split(';');
   if (items.length >= 1) {
     ul = '<ul>';
-    if (typeof (cssClass) != 'undefined') { ul = "<ul class='" + cssClass + "'>"; }
-    items.forEach(function (item) {
+    if (typeof(cssClass) != 'undefined') { ul = "<ul class='" + cssClass + "'>"; }
+    items.forEach(function(item) {
       if (item != '') {
         ul += '<li class="text-left">' + item + '</li>';
       }
@@ -30,7 +30,7 @@ function capitalizeFirstLetter(string) {
 function getCreditScoreString(data) {
   var string = '';
   var labels = ['Poor', 'Average', 'Good', 'Excellent'];
-  data.forEach(function (score, index) {
+  data.forEach(function(score, index) {
     if (data[index] == 'Y') string += labels[index] + ';';
   });
   return string;

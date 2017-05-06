@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
   var category = null;
   var score = null;
 
@@ -56,31 +56,31 @@ $(document).ready(function () {
   updateView();
   loadCardsTable();
 
-  $("a[id*='category-']").click(function () {
+  $("a[id*='category-']").click(function() {
     updateSelection(this.id);
   });
-  $("a[id*='score-']").click(function () {
+  $("a[id*='score-']").click(function() {
     updateSelection(this.id);
   });
-  $("input[id*='check-']").click(function () {
+  $("input[id*='check-']").click(function() {
     updateSelection(this.id);
   });
-  $('#btn-compare-cards').click(function () {
+  $('#btn-compare-cards').click(function() {
     compareCards();
   });
-  $('#btn-reset-cards-to-compare').click(function () {
+  $('#btn-reset-cards-to-compare').click(function() {
     resetCardsToCompare();
   });
-  $('#btn-categories-filters').click(function () {
+  $('#btn-categories-filters').click(function() {
     toggleCategoriesBar(this.id);
   });
-  $('body').on('click', "a[id*='toggle-card-details-']", function () {
+  $('body').on('click', "a[id*='toggle-card-details-']", function() {
     toggleDetails(this.id);
   });
-  $('body').on('click', "input[id*='compare-card-']", function () {
+  $('body').on('click', "input[id*='compare-card-']", function() {
     updateCardsToCompare(this.id);
   });
-  $('body').on('click', "input[id*='label-compare-card-']", function () {
+  $('body').on('click', "input[id*='label-compare-card-']", function() {
     updateCardsToCompare(this.id);
   });
 
@@ -283,10 +283,10 @@ $(document).ready(function () {
       url: sheetUrl,
       query: generateQuery(),
       reset: true,
-      callback: function (error, options, response) {
+      callback: function(error, options, response) {
         if (!error) {
           if (response.rows.length > 0) {
-            response.rows.forEach(function (item) {
+            response.rows.forEach(function(item) {
               thisCardHtml = replaceTags(cardTemplateHtml, item.cellsArray);
               thisCardHtml = markCardToCompare(thisCardHtml, item.cellsArray);
               cardsHtml += thisCardHtml;
@@ -294,8 +294,7 @@ $(document).ready(function () {
           } else {
             cardsHtml = '<div class="alert alert-block"><h4>No Results</h4><p>It looks like we don\'t have any cards that match your filters</p></div>';
           }
-        }
-        else {
+        } else {
           cardsHtml = '<div class="alert alert-block"><h4>No Results</h4><p>It looks like we don\'t have any cards that match your filters</p></div>';
           console.log(error, options, response);
         }
@@ -459,8 +458,7 @@ $(document).ready(function () {
     if ($('#' + id).prop('checked') && $.inArray(cardId, cardsToCompare) === -1) {
       if (cardsToCompare.length < MAX_CARDS_TO_COMPARE) {
         cardsToCompare.push(cardId);
-      }
-      else {
+      } else {
         $('#' + id).prop('checked', false);
         alert('You can compare up to ' + MAX_CARDS_TO_COMPARE + ' cards.');
       }
@@ -491,7 +489,7 @@ $(document).ready(function () {
       $('#' + id).data('toggle', 'visible');
       $('#' + id).text('Hide Details');
     } else {
-      $("#details-card-" + cardId).slideUp("fast", function () {
+      $("#details-card-" + cardId).slideUp("fast", function() {
         $("#row-details-card-" + cardId).hide();
       });
       $('#' + id).data('toggle', 'hidden');
