@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   var cardsToCompare = [];
   var cardsData = [];
 
@@ -12,7 +12,7 @@ $(document).ready(function() {
   loadCardsData();
 
   // Because it is async
-  var timer = setInterval(function() {
+  var timer = setInterval(function () {
     $('#loading-message').show();
     if (cardsData.length == cardsToCompare.length) {
       clearInterval(timer);
@@ -22,8 +22,6 @@ $(document).ready(function() {
     }
   }, 100);
 
-  $('#card-compare').tableHeadFixer({ 'left': 1 });
-
   function loadData() {
     var cards = url('?cards');
     if (cards) {
@@ -32,13 +30,13 @@ $(document).ready(function() {
   }
 
   function loadCardsData(cardId) {
-    cardsToCompare.forEach(function(cardId) {
+    cardsToCompare.forEach(function (cardId) {
       var query = 'SELECT * WHERE A = ' + cardId;
       sheetrock({
         url: sheetUrl,
         query: query,
         reset: true,
-        callback: function(error, options, response) {
+        callback: function (error, options, response) {
           if (!error) {
             cardsData.push(response.rows[0].cellsArray);
           }
@@ -48,10 +46,10 @@ $(document).ready(function() {
   }
 
   function loadPageData() {
-    cardsData.forEach(function(card) {
+    cardsData.forEach(function (card) {
       $("#card-compare tr").append("<td class='card-column'></td>");
       var column = 0;
-      $("#card-compare td:last-child").each(function() {
+      $("#card-compare td:last-child").each(function () {
         var cellHtml = '';
         switch (column++) {
           case 0:
@@ -61,25 +59,25 @@ $(document).ready(function() {
             cellHtml = cardScore(card);
             break;
           case 2:
-            cellHtml = card[22];
+            cellHtml = '<h6 class="section-title">Annual Fee</h6><p>' + card[22] + '</p>';
             break;
           case 3:
-            cellHtml = toBullets(whatsGreatFor(card), 'empty-list-style');
+            cellHtml = '<h6 class="section-title">Great For</h6>' + toBullets(whatsGreatFor(card), 'empty-list-style');
             break;
           case 4:
-            cellHtml = card[25];
+            cellHtml = '<h6 class="section-title">Rewards</h6><p>' + card[25] + '</p>';
             break;
           case 5:
-            cellHtml = card[16];
+            cellHtml = '<h6 class="section-title">APR</h6><p>' + card[16] + '</p>';
             break;
           case 6:
-            cellHtml = card[23];
+            cellHtml = '<h6 class="section-title">Bonus Offer</h6><p>' + card[23] + '</p>';
             break;
           case 7:
-            cellHtml = toBullets(card[31]);
+            cellHtml = '<h6 class="section-title">Pros</h6>' + toBullets(card[31]);
             break;
           case 8:
-            cellHtml = toBullets(card[32]);
+            cellHtml = '<h6 class="section-title">Cons</h6>' + toBullets(card[32]);
             break;
         }
         $(this).html(cellHtml);
@@ -99,7 +97,9 @@ $(document).ready(function() {
   }
 
   function cardScore(data) {
-    var html = '<div class="credit-score">' + toBullets(getCreditScoreString([data[18], data[19], data[20], data[21]])) + '</div>';
+    var html =
+      '<h6 class="section-title">Recommended Credit Score</h6>\
+      <div class="credit-score">' + toBullets(getCreditScoreString([data[18], data[19], data[20], data[21]])) + '</div>';
     html += "<a id='btn-get-your-free-credit-score' href='" + URL_GET_FREE_SCORE + "' target='_blank' class='btn btn-info'>Get Your Free Score</a>";
     return html;
   }

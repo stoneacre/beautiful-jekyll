@@ -20,11 +20,11 @@
   min-width: 250px;
   padding: 10px;
   text-align: center;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .card-image {
-  max-height: 200px;
+  max-height: 150px;
   margin: auto;
 }
 
@@ -36,7 +36,6 @@
   background: #f8f8f8;
   width: 100px;
   box-shadow: 0px 1px 2px #ccc;
-  z-index: 5000;
 }
 
 .credit-score {
@@ -56,4 +55,29 @@
   z-index: 1000;
   top: -10px;
   border: none;
+}
+
+.section-title {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .cards-header {
+    display: none;
+  }
+  .card-column {
+    padding-top: 5px;
+  }
+  .card-column p {
+    margin: 10px;
+  }
+  .section-title {
+    display: inline-block;
+    text-align: left;
+    color: #999;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+  }
 }
