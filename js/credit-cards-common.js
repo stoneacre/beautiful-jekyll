@@ -25,7 +25,6 @@ $('body').on('click mouseenter', 'a[data-tooltip]', function () {
     },
     overwrite: false,
     show: {
-      event: event.type,
       ready: true
     }
   });
