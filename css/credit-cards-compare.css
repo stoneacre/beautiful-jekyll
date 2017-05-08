@@ -47,14 +47,10 @@
   position: relative;
 }
 
-.img-wrapper .latino-first-badge {
-  height: 131px;
+.img-wrapper .card-seal {
   position: absolute;
   right: -10px;
-  width: 96px;
-  z-index: 1000;
-  top: -10px;
-  border: none;
+  top: 5px;
 }
 
 .section-title {

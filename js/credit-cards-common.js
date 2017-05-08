@@ -61,8 +61,8 @@ function getCreditScoreString(data) {
 
 function replaceTags(html, data) {
   if (data[5] == 'Y') {
-    html = html.replaceAll(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal'><a href='javascript:void(0);' data-tooltip><img src='../img/seal.png' /></a></div>");
-    html = html.replaceAll(/%%card_div_seal_comparison%%/g, "<div class='latino-first-badge'><a href='javascript:void(0);' data-tooltip><img src='../img/seal.png' /></a></div>");
+    html = html.replaceAll(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal'><a href='javascript:void(0);' data-tooltip><img src='../img/seal_link.png' /></a></div>");
+    html = html.replaceAll(/%%card_div_seal_comparison%%/g, "<div class='card-seal'><a href='javascript:void(0);' data-tooltip><img src='../img/seal_link.png' /></a></div>");
     html = html.replaceAll(/%%card_div_seal_title%%/g, "<a href='javascript:void(0);' data-tooltip><img src='../img/seal_small.png' data-tooltip /></a>");
   } else {
     html = html.replaceAll(/%%card_div_seal%%/g, '');
