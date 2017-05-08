@@ -37,6 +37,16 @@ function getCreditScoreString(data) {
 }
 
 function replaceTags(html, data) {
+  if (data[5] == 'Y') {
+    html = html.replaceAll(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal'><a href='javascript:void(0);' data-tooltip='a'><img src='../img/seal.png' /></a></div>");
+    html = html.replaceAll(/%%card_div_seal_comparison%%/g, "<div class='latino-first-badge' data-tooltip='a' /></div>");
+    html = html.replaceAll(/%%card_div_seal_title%%/g, "<img src='../img/seal_small.png' data-tooltip='a' />");
+  } else {
+    html = html.replaceAll(/%%card_div_seal%%/g, '');
+    html = html.replaceAll(/%%card_div_seal_comparison%%/g, "");
+    html = html.replaceAll(/%%card_div_seal_title%%/g, '');
+  }
+
   html = html.replaceAll(/%%card_id%%/g, data[0]);
   html = html.replaceAll(/%%card_name%%/g, data[1]);
   html = html.replaceAll(/%%card_details%%/g, data[4]);
@@ -52,16 +62,6 @@ function replaceTags(html, data) {
   html = html.replaceAll(/%%card_pros%%/g, toBullets(data[31]));
   html = html.replaceAll(/%%card_cons%%/g, toBullets(data[32]));
   html = html.replaceAll(/%%get_free_credit_score%%/g, URL_GET_FREE_SCORE);
-
-  if (data[5] == 'Y') {
-    html = html.replaceAll(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal' title='Our Latino First badge is granted to those financial products that are specially fit for the Latino community'></div>");
-    html = html.replaceAll(/%%card_div_seal_comparison%%/g, "<div class='latino-first-badge' title='Our Latino First badge is granted to those financial products that are specially fit for the Latino community' /></div>");
-    html = html.replaceAll(/%%card_div_seal_title%%/g, "<img src='../img/seal_small.png' title='Our Latino First badge is granted to those financial products that are specially fit for the Latino community' />");
-  } else {
-    html = html.replaceAll(/%%card_div_seal%%/g, '');
-    html = html.replaceAll(/%%card_div_seal_comparison%%/g, "");
-    html = html.replaceAll(/%%card_div_seal_title%%/g, '');
-  }
 
   return html;
 }

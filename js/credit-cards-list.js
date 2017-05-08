@@ -84,6 +84,16 @@ $(document).ready(function() {
     updateCardsToCompare(this.id);
   });
 
+  $('[data-tooltip]').qtip({
+    content: {
+      title: 'Latino First',
+      text: 'Our Latino First badge is granted to those financial products that are specially fit for the Latino community'
+    },
+    style: {
+      classes: 'qtip-bootstrap'
+    }
+  });
+
   function updateView() {
     if ($('#filters-bar').is(':visible')) {
       $("#left-sidebar").slideUp();
