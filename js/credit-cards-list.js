@@ -306,7 +306,6 @@ $(document).ready(function() {
           }
         } else {
           cardsHtml = '<div class="alert alert-block"><h4>No Results</h4><p>It looks like we don\'t have any cards that match your filters</p></div>';
-          console.log(error, options, response);
         }
         $('#loading-message').hide();
         $('#page-header').html(fillPageData(pageHeaderTemplateHtml, pageData[category]));
@@ -459,7 +458,6 @@ $(document).ready(function() {
     query += whereFinancial;
     query += whereLatinoFirst;
     query += orderBy;
-    console.log(query);
     return query;
   }
 
