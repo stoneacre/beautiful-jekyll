@@ -1,4 +1,4 @@
-String.prototype.replaceAll = function(search, replacement) {
+String.prototype.replaceAll = function (search, replacement) {
   var target = this;
   return target.split(search).join(replacement);
 };
@@ -7,13 +7,37 @@ var sheetUrl = "https://docs.google.com/spreadsheets/d/14nDVwVvubdeUDVDRKxkq1P5h
 var MAX_CARDS_TO_COMPARE = 3;
 var URL_GET_FREE_SCORE = 'https://www.creditkarma.com/signup';
 
+$('body').on('click mouseenter', 'a[data-tooltip]', function () {
+  $(this).qtip({
+    content: {
+      title: 'Latino First',
+      text: 'Our Latino First badge is granted to those financial products that are specially fit for the Latino community'
+    },
+    style: {
+      classes: 'qtip-bootstrap'
+    },
+    position: {
+      viewport: $(window)
+    },
+    hide: {
+      fixed: true,
+      delay: 300
+    },
+    overwrite: false,
+    show: {
+      event: event.type,
+      ready: true
+    }
+  });
+});
+
 function toBullets(text, cssClass) {
   var ul = '';
   var items = text.split(';');
   if (items.length >= 1) {
     ul = '<ul>';
-    if (typeof(cssClass) != 'undefined') { ul = "<ul class='" + cssClass + "'>"; }
-    items.forEach(function(item) {
+    if (typeof (cssClass) != 'undefined') { ul = "<ul class='" + cssClass + "'>"; }
+    items.forEach(function (item) {
       if (item != '') {
         ul += '<li class="text-left">' + item + '</li>';
       }
@@ -30,7 +54,7 @@ function capitalizeFirstLetter(string) {
 function getCreditScoreString(data) {
   var string = '';
   var labels = ['Poor', 'Average', 'Good', 'Excellent'];
-  data.forEach(function(score, index) {
+  data.forEach(function (score, index) {
     if (data[index] == 'Y') string += labels[index] + ';';
   });
   return string;
@@ -38,9 +62,9 @@ function getCreditScoreString(data) {
 
 function replaceTags(html, data) {
   if (data[5] == 'Y') {
-    html = html.replaceAll(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal'><a href='javascript:void(0);' data-tooltip='a'><img src='../img/seal.png' /></a></div>");
-    html = html.replaceAll(/%%card_div_seal_comparison%%/g, "<div class='latino-first-badge' data-tooltip='a' /></div>");
-    html = html.replaceAll(/%%card_div_seal_title%%/g, "<img src='../img/seal_small.png' data-tooltip='a' />");
+    html = html.replaceAll(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal'><a href='javascript:void(0);' data-tooltip><img src='../img/seal.png' /></a></div>");
+    html = html.replaceAll(/%%card_div_seal_comparison%%/g, "<div class='latino-first-badge'><a href='javascript:void(0);' data-tooltip><img src='../img/seal.png' /></a></div>");
+    html = html.replaceAll(/%%card_div_seal_title%%/g, "<a href='javascript:void(0);' data-tooltip><img src='../img/seal_small.png' data-tooltip /></a>");
   } else {
     html = html.replaceAll(/%%card_div_seal%%/g, '');
     html = html.replaceAll(/%%card_div_seal_comparison%%/g, "");
