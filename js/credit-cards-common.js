@@ -11,7 +11,7 @@ $('body').on('click mouseenter', 'a[data-tooltip]', function () {
   $(this).qtip({
     content: {
       title: 'Latino First',
-      text: 'Our Latino First badge is granted to those financial products that are specially fit for the Latino community'
+      text: 'Our Latino First badge is granted to those financial products that are the best fit for the Latino community'
     },
     style: {
       classes: 'qtip-bootstrap'
