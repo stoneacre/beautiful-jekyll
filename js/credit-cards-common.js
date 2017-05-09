@@ -63,7 +63,7 @@ function replaceTags(html, data) {
   if (data[5] == 'Y') {
     html = html.replaceAll(/%%card_div_seal%%/g, "<div id='card-seal-%%card_id%%' class='card-seal'><a href='javascript:void(0);' data-tooltip><img src='../img/seal_mid.png' /></a></div>");
     html = html.replaceAll(/%%card_div_seal_comparison%%/g, "<div class='card-seal'><a href='javascript:void(0);' data-tooltip><img src='../img/seal.png' /></a></div>");
-    html = html.replaceAll(/%%card_div_seal_title%%/g, "<a href='javascript:void(0);' data-tooltip><img src='../img/seal_small.png' data-tooltip width='30'/></a>");
+    html = html.replaceAll(/%%card_div_seal_title%%/g, "<a href='javascript:void(0);' data-tooltip><img class='card-seal-small' src='../img/seal_small.png' data-tooltip width='30'/></a>");
   } else {
     html = html.replaceAll(/%%card_div_seal%%/g, '');
     html = html.replaceAll(/%%card_div_seal_comparison%%/g, "");

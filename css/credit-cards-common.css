@@ -60,6 +60,11 @@ a.btn {
   z-index: 1000;
 }
 
+.card-seal a:hover,
+a:hover img.card-seal-small {
+  filter: brightness(150%);
+}
+
 #loading-message {
   background-color: #fff;
   border: 1px solid #ccc;
