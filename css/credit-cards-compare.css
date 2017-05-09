@@ -10,7 +10,8 @@
 
 .scrollable {
   margin: auto;
-  width: 95%;
+  overflow-y: auto;
+  width: 100%;
 }
 
 .card-column {
