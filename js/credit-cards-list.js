@@ -206,8 +206,8 @@ $(document).ready(function () {
       "<table class='table card shadow'>\
           <tbody>\
             <tr>\
-              <td colspane='2' width='75%'>\
-                <h3>%%card_name%% <span class='no-big'>%%card_div_seal_title%%</span></h3>\
+              <td class='title' colspane='2' width='75%'>\
+                <h3>%%card_name%% %%card_div_seal_title%%</h3>\
                 <div class='text-center no-big' style='width: 100%;'>\
                   <img class='img-responsive btn-block' style='max-width:50%;' src='%%card_image_url%%' />\
                 </div>\

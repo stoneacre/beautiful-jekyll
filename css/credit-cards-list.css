@@ -7,6 +7,14 @@
   display: inline-block;
 }
 
+#cards-table h3 {
+  margin-bottom: 0px;
+}
+
+#cards-table td.title {
+  padding-bottom: 0px;
+}
+
 table.card-actions {
   width: 100%;
 }
