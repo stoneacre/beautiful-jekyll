@@ -4,7 +4,7 @@ String.prototype.replaceAll = function (search, replacement) {
 };
 
 var sheetUrl = "https://docs.google.com/spreadsheets/d/14nDVwVvubdeUDVDRKxkq1P5hgaqUNk_k1ekHLKyqooY/edit#gid=0";
-var MAX_CARDS_TO_COMPARE = 3;
+var MAX_CARDS_TO_COMPARE = 10;
 var URL_GET_FREE_SCORE = 'https://www.creditkarma.com/signup';
 
 $('body').on('click mouseenter', 'a[data-tooltip]', function () {
