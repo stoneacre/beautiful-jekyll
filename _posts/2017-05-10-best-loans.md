@@ -49,13 +49,13 @@ Like going to college, buying a home can be expensive. It’s for this reason ma
 
 A big mistake made by many first-time buyers is to find a home they would like, and then figure out if they can afford it. By doing the math on the front end, you can determine how much home you can afford before you begin your search. How can you figure this out? Consider the commonly used “Rule of 36%”. This rule states that your monthly mortgage, plus any other outstanding debt payments, should not exceed 36% of your monthly income. Below are two examples:
 
-_A family who is debt free and earning $5,000 per month
+1. _A family who is debt free and earning $5,000 per month
 	$5,000 x 36% = a $1,800 mortgage payment is manageable_
 
-_A family making $300 monthly student loan payments and earning $5,000 per month
+2. _A family making $300 monthly student loan payments and earning $5,000 per month
 	$5,000 x 36% - $300 = a $1,500 mortgage payment is manageable_
 	
-Once you know how much you can afford each month, begin speaking with lenders who specialize in home loans. Your credit score can have major implications for how much you can borrow, and how much interest is charged. If you aren’t familiar with how credit scores work, read our article here first.
+Once you know how much you can afford each month, begin speaking with lenders who specialize in home loans. Your credit score can have major implications for how much you can borrow, and how much interest is charged. If you aren’t familiar with how credit scores work, read [our article here](http://supermonedero.com/2017-01-26-credit-score-101/) first.
 
 Like college loans, the federal government can provide some assistance for homebuyers who may not qualify for loans directly through a financial institution. The FHA program provides loans which carry built-in mortgage insurance. This insurance makes it possible for lenders to offer competitive rates to home buyers that may not otherwise qualify due to their income or credit score.
 
