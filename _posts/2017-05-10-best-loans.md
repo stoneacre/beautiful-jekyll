@@ -65,13 +65,13 @@ For Latinos looking for an online loan experience, take a look at Rocket Mortgag
 
 Like a home, many Latinos use auto loans to make the purchase of a vehicle possible. In general, auto loans are issued in one of two ways: directly through the dealership or through a private bank or credit union. Each of these avenues comes with pros and cons which should be considered.
 
-#### Auto loans directly through the dealership
+#### 1. Auto loans directly through the dealership
 
 **Pros:** Working with a dealership can be simple, as the dealer will provide all of the paperwork and assist in issuing the loan. Dealerships are also many times more flexible in offering financing, because they want to see you buy the vehicle.
 
 **Cons:** Because they want to see you buy the vehicle, they have been known to offer “introductory” rates who throw in “gimmicks” to make the loan appear attractive at face value. Don’t skip the fine print, especially when receiving dealer-financing.
 
-#### Auto loans from a bank or credit union
+#### 2. Auto loans from a bank or credit union
 
 **Pros:** Banks are more conservative in how they lend money, meaning that if you are issued a loan by a bank it means they are confident in your ability to make your monthly payments. If a bank declines your auto loan, it may signify that you are interested in vehicles which our outside of your price range.
 
