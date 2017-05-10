@@ -57,7 +57,7 @@ A big mistake made by many first-time buyers is to find a home they would like, 
 	
 Once you know how much you can afford each month, begin speaking with lenders who specialize in home loans. Your credit score can have major implications for how much you can borrow, and how much interest is charged. If you aren’t familiar with how credit scores work, read [our article here](http://supermonedero.com/2017-01-26-credit-score-101/) first.
 
-Like college loans, the federal government can provide some assistance for homebuyers who may not qualify for loans directly through a financial institution. The FHA program provides loans which carry built-in mortgage insurance. This insurance makes it possible for lenders to offer competitive rates to home buyers that may not otherwise qualify due to their income or credit score.
+Like college loans, the federal government can provide some assistance for homebuyers who may not qualify for loans directly through a financial institution. The [FHA program](https://portal.hud.gov/hudportal/HUD?src=/buying/loans) provides loans which carry built-in mortgage insurance. This insurance makes it possible for lenders to offer competitive rates to home buyers that may not otherwise qualify due to their income or credit score.
 
 For Latinos looking for an online loan experience, take a look at Rocket Mortgage or GuaranteedRate. If a face-to-face experience is important it can be good to stop by Bank of America, Wells Fargo, or a local credit union. If you have poor credit, or no credit, and do not qualify for an FHA loan - consider checking out Caliber Home Loans or Carrington Mortgage Services. As with any major financial decision, take the time to understand the terms of the loan and to read the fine print.
  
