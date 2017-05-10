@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Best Loans
 ---
 A loan can open the doors to opportunity. Higher education, a business expansion, and home ownership can all be achieved with the financial boost provided by the right loan. But not all loans are created equal, and in this article we will explore the different types of loans, what to watch out for, and highlight some of the best loans out there for Latinos.
@@ -98,4 +98,3 @@ With any loan, it is critical to understand the terms of the loan agreement and 
 ____________________________________________________________________________________________________________
 [1]:http://www.collegedata.com/cs/content/content_payarticle_tmpl.jhtml?articleId=10064
 [2]:https://studentaid.ed.gov/sa/sites/default/files/federal-loan-programs.pdf
-
