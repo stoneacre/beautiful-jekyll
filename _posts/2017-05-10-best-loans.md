@@ -35,11 +35,11 @@ Let’s explore each one of these loan types in a little bit more detail.
 
 ### College Loans
 
-College can be extremely expensive. It can also be a great way to learn new skills and raise your income potential for the remainder of your life. In 2016, the average cost of attending a private university in the United States per year was a whopping $33,480. Even for in-state residents attending public universities the average cost was $9,650. For this reason, many college students use financial aid to help make their dreams possible.
+College can be extremely expensive. It can also be a great way to learn new skills and raise your income potential for the remainder of your life. In 2016, the average cost of attending a private university in the United States per year was a whopping $33,480. Even for in-state residents attending public universities the average cost was $9,650.[1] For this reason, many college students use financial aid to help make their dreams possible.
 
 Before we discuss the loans that are available, it’s important to note that there are a huge amount of scholarship and grant opportunities for Latinos going to college. The Hispanic College Fund and the Association of Latino Professionals in Finance and Accounting all distribute hundreds of thousands of dollars to Latino students each year. Additionally, if you are the first member of your family to attend college, you may be eligible for the Sallie Mae Fund First in My Family program.
 
-For Latinos looking for student aid outside of scholarships or grants, a great starting point is the [U.S. Federal Government](https://fafsa.ed.gov/). The U.S. Department of Education operates the Federal Student Aid program, which provides a number of lending opportunities to choose from. In general, these federal loans will carry lower interest rates than can be found at commercial institutions (like Wells Fargo or Bank of America). For loans processed before July 1st, 2017, the interest rate is just 3.76%. As always - it is important to shop around and find the best rate possible.
+For Latinos looking for student aid outside of scholarships or grants, a great starting point is the [U.S. Federal Government](https://fafsa.ed.gov/). The U.S. Department of Education operates the Federal Student Aid program, which provides a number of lending opportunities to choose from. In general, these federal loans will carry lower interest rates than can be found at commercial institutions (like Wells Fargo or Bank of America). For loans processed before July 1st, 2017, the interest rate is just 3.76%. [2] As always - it is important to shop around and find the best rate possible.
 
 When getting federal funding, there are generally two types of student loans: subsidized and unsubsidized loans. Subsidized loans are specifically designed for students who will receive little (or no) support from family and will not be receiving any significant scholarships or grants. Just because you feel you can’t afford college doesn’t mean you shouldn’t apply -  the loans available through this subsidized loan program may surprise you.
 
@@ -94,3 +94,8 @@ These loans tend to have the highest interest rates, as they are no physical ass
 ## Final Thoughts
 
 With any loan, it is critical to understand the terms of the loan agreement and work with a lender you are comfortable with. At the end of the day, your gut feeling on a lender, banker, or credit union will tell you a lot about the institution. Ask questions, and make them earn your trust and business. Here at Super Monedero, we will be with you every step of the way.
+
+____________________________________________________________________________________________________________
+[1]:http://www.collegedata.com/cs/content/content_payarticle_tmpl.jhtml?articleId=10064
+[2]:https://studentaid.ed.gov/sa/sites/default/files/federal-loan-programs.pdf
+
