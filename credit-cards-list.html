@@ -1,0 +1,130 @@
+---
+layout: cards
+---
+
+<script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="/js/url.min.js"></script>
+<script type="text/javascript" src="/js/sheetrock.min.js"></script>
+<script type="text/javascript" src="/js/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="/js/credit-cards-common.js"></script>
+<script type="text/javascript" src="/js/credit-cards-list.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/css/jquery.qtip.min.css">
+<link rel="stylesheet" type="text/css" href="/css/credit-cards-list.css">
+
+<div class="row">
+
+  <div id="filters-bar" class="col-xs-12">
+    <div class="btn-group btn-group-justified" role="group">
+      <div class="btn-group" role="group">
+        <a href='javascript:void(0);' id="btn-categories-filters" class='btn btn-primary btn-lg' data-toggle='hidden'><i class="fa fa-bars" aria-hidden="true"></i>Categories &amp; Filters</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="left-sidebar" class="col-sm-3 no-small">
+    <h4>Categories</h4>
+    <div class="list-group">
+      <a href="javascript:void(0);" id="category-rewards" class="list-group-item"><i class="fa fa-trophy" aria-hidden="true"></i>Rewards</a>
+      <a href="javascript:void(0);" id="category-cashback" class="list-group-item"><i class="fa fa-money" aria-hidden="true"></i>Cash Back</a>
+      <a href="javascript:void(0);" id="category-travel" class="list-group-item"><i class="fa fa-plane" aria-hidden="true"></i>Travel</a>
+      <a href="javascript:void(0);" id="category-lowinterest" class="list-group-item"><i class="fa fa-percent" aria-hidden="true"></i>Low Interest</a>
+      <a href="javascript:void(0);" id="category-student" class="list-group-item"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Student</a>
+      <a href="javascript:void(0);" id="category-improve" class="list-group-item"><i class="fa fa-level-up" aria-hidden="true"></i>Improve Credit Score</a>
+    </div>
+
+    <h4>Credit Score</h4>
+    <div class="list-group">
+      <a href="javascript:void(0);" id="score-excellent" class="list-group-item">Excellent</a>
+      <a href="javascript:void(0);" id="score-good" class="list-group-item">Good</a>
+      <a href="javascript:void(0);" id="score-average" class="list-group-item">Average</a>
+      <a href="javascript:void(0);" id="score-poor" class="list-group-item">Poor</a>
+    </div>
+    <div class="text-center">
+      <a id="btn-get-your-free-credit-score" class="btn btn-info" type="submit">Get Your Free Credit Card Score</a>
+    </div>
+
+    <h4>Fees</h4>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-no-fee">
+      <label for="check-no-fee">No Annual Fee</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-no-balance-transfer-fee">
+      <label for="check-no-balance-transfer-fee">No Balance Transfer Fee</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-no-foreign-fee">
+      <label for="check-no-foreign-fee">No Foreign Transaction Fee</label>
+    </div>
+
+    <h4>Card Network</h4>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-network-amex">
+      <label for="check-network-amex">American Express</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-network-discover">
+      <label for="check-network-discover">Discover</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-network-visa-mastercard">
+      <label for="check-network-visa-mastercard">Visa/Mastercard</label>
+    </div>
+
+    <h4>Financial Institution</h4>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-financial-amex">
+      <label for="check-financial-amex">American Express</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-financial-bank-of-america">
+      <label for="check-financial-bank-of-america">Bank Of America</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-financial-barclaycard">
+      <label for="check-financial-barclaycard">Barclaycard</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-financial-capital-one">
+      <label for="check-financial-capital-one">Capital One</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-financial-chase">
+      <label for="check-financial-chase">Chase</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-financial-citi">
+      <label for="check-financial-citi">Citi</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-financial-discover">
+      <label for="check-financial-discover">Discover</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-financial-wells-fargo">
+      <label for="check-financial-wells-fargo">Wells Fargo</label>
+    </div>
+
+    <h4>Misc</h4>
+    <div class="checkbox checkbox-primary">
+      <input type="checkbox" id="check-latino-first">
+      <label for="check-latino-first">Latino First</label>&nbsp;<a href='javascript:void(0);' data-tooltip='yes'><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+  <div class="col-sm-9">
+    <div id="loading-message" class="text-center">
+      <img src="/img/loading.gif" width="300" />
+      <h3>Loading cards...</h3>
+    </div>
+    <div id="page-header"></div>
+    <div id="cards-table"></div>
+  </div>
+</div>
+
+<div id="footer-compare" class="text-center">
+  <a href='javascript:void(0);' id='btn-compare-cards' class='btn btn-success'><i class="fa fa-credit-card" aria-hidden="true"></i>Compare Cards <span id="badge-cards-to-compare-count" class="badge"></span></a>
+  &nbsp;
+  <a href='javascript:void(0);' id='btn-reset-cards-to-compare' class='btn btn-default'>Reset</a>
+</div>

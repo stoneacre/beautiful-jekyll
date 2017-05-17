@@ -1,0 +1,80 @@
+@import url('credit-cards-common.css');
+.card-column a.btn {
+  max-width: 230px;
+  width: 90%;
+}
+
+#card-compare {
+  width: 100%;
+}
+
+.scrollable {
+  margin: auto;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.card-column {
+  height: 100px;
+  max-width: 250px;
+  min-height: 100px;
+  min-width: 250px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.card-image {
+  max-height: 150px;
+  margin: auto;
+}
+
+.card-name {
+  min-height: 60px;
+}
+
+.cards-header {
+  background: #f8f8f8;
+  width: 100px;
+  box-shadow: 0px 1px 2px #ccc;
+}
+
+.credit-score {
+  min-height: 75px;
+}
+
+.img-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.img-wrapper .card-seal {
+  position: absolute;
+  right: -15px;
+  top: 0px;
+}
+
+.section-title {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .cards-header {
+    display: none;
+  }
+  .card-column {
+    padding-top: 5px;
+  }
+  .card-column p {
+    margin: 10px;
+  }
+  .section-title {
+    display: inline-block;
+    text-align: left;
+    color: #999;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+  }
+}
