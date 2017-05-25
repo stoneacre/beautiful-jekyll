@@ -13,7 +13,7 @@ If you are unfamiliar with the basic terminology of loans, take a look at [this 
 
 > A **Fixed Rate Loan** is a loan where the interest rate is fixed. If you get a 4.79% fixed rate loan today, you will be paying this same 4.79% interest rate in the final months of your loan - guaranteed.
 
-> A > Variable Rate Loan is a loan where the interest rate can move based on two primary factors: The rate can change due to changes in the overall interest rate environment or the rate can change after a certain number of months have passed.
+> A **Variable Rate Loan** is a loan where the interest rate can move based on two primary factors: The rate can change due to changes in the overall interest rate environment or the rate can change after a certain number of months have passed.
 
 Regarding interest rates in the overall economy - interest rates are at historic lows, so the likelihood of a variable rate loan getting cheaper is also low. Regarding the passage of time, it is a common sales tactic for auto dealers to offer “super low introductory rates” which may go sky-high after the first 12 or 16 months. For both of these reasons, many Latinos prefer working with a fixed rate loan.
 
