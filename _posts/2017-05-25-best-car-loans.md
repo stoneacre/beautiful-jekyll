@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 The purchase of a vehicle is a major financial decision. In 2016, the average new car price was an astonishing $33,666. If we break it down a bit further, the average price of a full-sized car was $34,505, a full-sized pickup truck was $46,332, and the average subcompact was $17,218.[1] Regardless of which type of vehicle you are looking at, if you don’t have the cash on hand you will need to consider taking out a car loan.
 
