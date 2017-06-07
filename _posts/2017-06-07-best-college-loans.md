@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 _In the Latino community, the dream of a college education is thriving. In 2017, more Latinos are enrolled in college than at any point in our nation’s history. Much of this progress has been made in just the last decade._
  
