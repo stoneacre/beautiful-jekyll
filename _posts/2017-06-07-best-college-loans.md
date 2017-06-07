@@ -29,25 +29,24 @@ By the most recent estimates, Americans are carrying $1.4 trillion in student lo
  
 These statistics aren’t meant to deter anyone from attending college or getting student loans. We want to highlight the fact that getting a student loan is a big commitment, and if other options are available they should be taken advantage of. Let’s explore these “other options” a bit more.
  
-Paying Out-of-Pocket
+## Paying Out-of-Pocket
 Particularly for students attending in-state public colleges, or community colleges, it can be useful to explore paying for a portion of expenses out-of-pocket. The idea of the “poor college” student who is working their way through school is famous in the United States. Why? Because many Latinos have made the dream of college possible by working and taking classes as they can afford it.
  
-Grants
+## Grants
 As mentioned, grants are “free money” which do not need to be paid back. Grants are most commonly given to students from low-income families or students who will be studying a specific subject in college. There are grants available for single-mothers, grants for students who will become teachers, and grants specifically designed for military service members who have served overseas. If none of these apply to you, consider doing a quick Google search for terms based on your specific interests or situation - the results may surprise.
  
-Scholarships
+## Scholarships
 Scholarships are mostly given out for outstanding academics or for collegiate pursuits, but that is not always the case. The College Assistance Migrant Program gives support to children of migrant workers and the Hispanic Scholarship Fund is setup to support all Latinos. Again, doing a quick Google search specific to your situation can open doors you may not otherwise know exist.
  
 Lastly, it’s important to acknowledge the fact that applying for grants and scholarships can feel laborious. The applications can be long and in some cases the chance of being awarded funds may be slim. Focus your energy on the grants and scholarships you feel are most suited to your specific situation, and apply aggressively. If you can get $500 or $1,000 worth of education funding for an hour of work, it is well worth your time.
- 
- 
-Student Loans
+  
+## Student Loans
 Finally, are student loans - the reason you probably started reading this article. The point of discussing grants, scholarships, and out of pocket options is to ensure that our readers are making the best financial decisions possible. For some Latinos, a student loan is a right fit, for others, it might not make sense. Keep reading to explore some of the most popular types of student loans available.
  
 When it comes to student loans, there are two primary lenders to consider:
  
-The U.S. Federal Government
-Private banks and credit unions
+> 1. The U.S. Federal Government
+2. Private banks and credit unions
  
 In general, the U.S. Federal Government is more flexible in providing loans and these loans many times come with lower interest rates. The reason is simple. The U.S. Federal Government is seeking to send as money students to college as possible, as it’s a good long term investment in the economy. Private banks on the other hand are in the business of making money, and their motivations are generally focused in that direction.
  
