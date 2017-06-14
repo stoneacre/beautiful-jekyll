@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # How to fill out the FAFSA to get the best financial aid package
  
@@ -159,4 +159,3 @@ The following websites provide more details on specific aspects of the applicati
 ### Conclusion
 
 Education is probably the most important investment an individual can make. Filling out the FAFSA form does take a bit of time and effort, but it really isn’t that difficult and is well worth the effort. Personal student loans are very expensive and can have a significant effect on your creditworthiness in the future. Your first choice should always be a scholarship or grant, followed by a federal student loan, and only then should you look at personal student loans. And remember to fill out the FAFSA every year – it is not a one-off event, and you may be eligible for financial aid every year you study.
-
