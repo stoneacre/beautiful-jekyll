@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # How to fill out the FAFSA to get the best financial aid package
  
