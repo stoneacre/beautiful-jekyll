@@ -4,7 +4,7 @@ published: true
 title: Most Common Insurance Pitfalls
 ---
 
-Insurance has been in existence before currencies, banks or even nations were born. In ancient times, merchants would pay a sum (premium) to insure themselves against the risk of losing their ship and wares on the high seas. Many people think of insurance as a necessary evil- something that they have toget. But the fact that insurance has existed for so long and that so many people still use it, proves that insurance is not only necessary, it is desirable.
+Insurance has been in existence before currencies, banks or even nations were born. In ancient times, merchants would pay a sum (premium) to insure themselves against the risk of losing their ship and wares on the high seas. Many people think of insurance as a necessary evil- something that they have to get. But the fact that insurance has existed for so long and that so many people still use it, proves that insurance is not only necessary, it is desirable.
 
 ## How does insurance work?
 
