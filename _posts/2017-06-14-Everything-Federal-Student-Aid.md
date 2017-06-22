@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-# How to fill out the FAFSA (Free Application for Federal Student Aid) to get the best financial aid package
+# How to fill out the FAFSA to get the best financial aid package
 
 ## What is FAFSA?
 The _Free Application for Federal Student Aid (FAFSA)_ is a form used to determine eligibility for student aid. This applies to current and prospective students. While the FAFSA is designed to assess eligibility for federal aid, it is also used by states and schools to assess eligibility for non-federal aid.
