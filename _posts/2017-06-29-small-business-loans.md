@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Basic principles of credit
 
@@ -91,4 +91,3 @@ If you have a good credit score, you can usually secure a personal loan or even 
 Debt is a powerful tool which allows you to leverage your own capital and create value. Even large multinational corporations take on loans and it is a perfectly healthy business practice. The real trick is to know how much debt your business can handle. Too much debt can spiral out of control, especially if there is some business or market stress. It is best to be conservative and have access to additional lines of credit in case of any unforeseen eventualities. 
 
 When you start searching for a small business loan, your main goal should be to match the terms of the loan to your specific requirements and to minimize the interest rate as well any fees. Your local chamber of commerce or credit union would be a great place to start. Although it might be tempting to get a loan online with the advertised "instant approval", the high interest costs they charge are almost never worth it. Remember, if it sounds too good to be true, it probably is.
-
