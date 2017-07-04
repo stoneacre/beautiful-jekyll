@@ -19,33 +19,39 @@ bigimg: "/img/latino_family.jpg"
   </div>
 </div>
 
+<form id="cardsForm" action="/credit-cards-list">
 <div id="controls" class="row">
   <div class="col-sm-4 text-center">
     <div class="custom-dropdown">
       <button id="btn-dropdown-score"  class="custom-dropbtn">My Credit Score Is...</button>
       <div id="custom-dropdown-score" class="custom-dropdown-content">
-        <a class="link-score" href="#">Poor</a>
-        <a class="link-score" href="#">Average</a>
-        <a class="link-score" href="#">Good</a>
-        <a class="link-score" href="#">Excellent</a>
+        <a class="link-score" data-option="poor" href="#">Poor</a>
+        <a class="link-score" data-option="average" href="#">Average</a>
+        <a class="link-score" data-option="good" href="#">Good</a>
+        <a class="link-score" data-option="excellent" href="#">Excellent</a>
         <a id='btn-get-your-free-credit-score' target='_blank' href="#"><strong>Don't Know Your Score? Get It FREE!</strong></a>
       </div>
     </div>
+    <input type="text" id="score" name="score" value="" required style="display: none;"/>
   </div>
   <div class="col-sm-4 text-center">
     <div class="custom-dropdown">
       <button id="btn-dropdown-action" class="custom-dropbtn">I Want To...</button>
       <div id="custom-dropdown-action" class="custom-dropdown-content">
-        <a class="link-action" href="#">Improve My Credit Score</a>
-        <a class="link-action" href="#">Earn Miles</a>
-        <a class="link-action" href="#">Earn Rewards</a>
-        <a class="link-action" href="#">Earn Cash Back</a>
-        <a class="link-action" href="#">Find Low Interest Credit Cards</a>
-        <a class="link-action" href="#">Find Best Credit Cards for Students</a>
+        <a class="link-action" data-option="improve" href="#">Improve My Credit Score</a>
+        <a class="link-action" data-option="travel" href="#">Earn Miles</a>
+        <a class="link-action" data-option="rewards" href="#">Earn Rewards</a>
+        <a class="link-action" data-option="cashback" href="#">Earn Cash Back</a>
+        <a class="link-action" data-option="lowinterest" href="#">Find Low Interest Credit Cards</a>
+        <a class="link-action" data-option="student" href="#">Find Best Credit Cards for Students</a>
       </div>
     </div>
+    <input type="text" id="category" name="category" value="" required style="display: none;"/>
   </div>
   <div class="col-sm-4 text-center">
-    <button id="submit" class="btn btn-lg btn-success"><i class="fa fa-credit-card" aria-hidden="true"></i>Find your Card</button>
+    <button id="submit" type="submit" class="btn btn-lg btn-success">
+      <i class="fa fa-credit-card" aria-hidden="true"></i>Find your Card
+    </button>
   </div>
 </div>
+</form>

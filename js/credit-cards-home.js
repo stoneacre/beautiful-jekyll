@@ -1,24 +1,35 @@
 $(document).ready(function () {
-  $("#btn-dropdown-score").click(function () {
+  $("#btn-dropdown-score").click(function (e) {
+    e.preventDefault();
     $("#custom-dropdown-score").toggleClass("show");
     $("#custom-dropdown-action").removeClass("show");
   });
 
-  $("#btn-dropdown-action").click(function () {
+  $("#btn-dropdown-action").click(function (e) {
+    e.preventDefault();
     $("#custom-dropdown-action").toggleClass("show");
-    $("#custom-dropdown-score").removeClass("show");
   });
 
   $("#custom-dropdown-score a").click(function () {
     $("#btn-dropdown-score").text($(this).text());
+    $("label#score-error").hide();
   });
 
   $("#custom-dropdown-action a").click(function () {
     $("#btn-dropdown-action").text($(this).text());
+    $("label#category-error").hide();
   });
 
-  $("a[class*='link-']").click(function(e) {
+  $("a[class*='link-']").click(function (e) {
     e.preventDefault();
+    switch ($(this).attr('class')) {
+      case "link-score":
+        $('#score').val($(this).data("option"));
+        break;
+      case "link-action":
+        $('#category').val($(this).data("option"));
+        break;
+    }
   });
 
   window.onclick = function (event) {
@@ -33,9 +44,19 @@ $(document).ready(function () {
       }
     }
     if (event.target.matches('#custom-dropdown-score a')) {
-      $("#custom-dropdown-action").toggleClass("show");
+      if ($('#category').val() === '') {
+        $("#custom-dropdown-action").toggleClass("show");
+      }
     }
-  }
+  };
 
-  document.getElementById("btn-get-your-free-credit-score").setAttribute("href", URL_GET_FREE_SCORE);
+  $('#cardsForm').validate({
+    ignore: [],
+    messages: {
+      score: "What's your Credit Card Score?",
+      category: "What do you want to do?"
+    }
+  });
+
+  document.getElementById('btn-get-your-free-credit-score').setAttribute('href', URL_GET_FREE_SCORE);
 });
