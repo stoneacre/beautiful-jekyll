@@ -8,6 +8,7 @@ $(document).ready(function () {
   $("#btn-dropdown-action").click(function (e) {
     e.preventDefault();
     $("#custom-dropdown-action").toggleClass("show");
+    $("#custom-dropdown-score").removeClass("show");
   });
 
   $("#custom-dropdown-score a").click(function () {

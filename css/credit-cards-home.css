@@ -4,6 +4,7 @@
 
   label.error {
     color: #cc0000;
+    text-align: left;
   }
 
   .row .dropdown {
