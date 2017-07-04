@@ -6,9 +6,11 @@ bigimg: "/img/latino_family.jpg"
 
 <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/js/custom-dropdown.js"></script>
 <script type="text/javascript" src="/js/credit-cards-common.js"></script>
 <script type="text/javascript" src="/js/credit-cards-home.js"></script>
 
+<link rel="stylesheet" type="text/css" href="/css/custom-dropdown.css">
 <link rel="stylesheet" type="text/css" href="/css/credit-cards-common.css">
 <link rel="stylesheet" type="text/css" href="/css/credit-cards-home.css">
 
@@ -20,35 +22,34 @@ bigimg: "/img/latino_family.jpg"
 
 <form id="cardsForm" action="/credit-cards-list">
   <div id="controls" class="row">
-    <div class="col-sm-6 text-center">
-      <h4>What's Your Credit Card Score?</h4>
-      <select name="score" class="form-control dropdown" required>
-        <option value="">Select your Credit Card Score</option>
-        <option value="poor">Poor</option>
-        <option value="average">Average</option>
-        <option value="good">Good</option>
-        <option value="excellent">Excellent</option>
-      </select>
+    <div class="col-sm-4 text-center">
+      <div class="custom-dropdown">
+        <button id="btn-dropdown-score" onclick="dropdownScore()" class="custom-dropbtn">My Credit Score Is...</button>
+        <div id="custom-dropdown-score" class="custom-dropdown-content">
+          <a href="#">Poor</a>
+          <a href="#">Average</a>
+          <a href="#">Good</a>
+          <a href="#">Excellent</a>
+          <a id='btn-get-your-free-credit-score' target='_blank' href="#">Don't Know Your Score?</a>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-6 text-center">
-      <h4>What You Would Like to Do?</h4>
-      <select name="category" class="form-control dropdown" required>
-        <option value="">I would like to...</option>
-        <option value="improve">Improve My Credit Score</option>
-        <option value="travel">Earn Miles</option>
-        <option value="rewards">Earn Rewards</option>
-        <option value="cashback">Earn Cash Back</option>
-        <option value="lowinterest">Find Low Interest Credit Cards</option>
-        <option value="student">Find Best Credit Cards for Students</option>
-      </select>
+    <div class="col-sm-4 text-center">
+      <div class="custom-dropdown">
+        <button id="btn-dropdown-action" onclick="dropdownAction()" class="custom-dropbtn">I Want To...</button>
+        <div id="custom-dropdown-action" class="custom-dropdown-content">
+          <a href="#">Improve My Credit Score</a>
+          <a href="#">Earn Miles</a>
+          <a href="#">Earn Rewards</a>
+          <a href="#">Earn Cash Back</a>
+          <a href="#">Find Low Interest Credit Cards</a>
+          <a href="#">Find Best Credit Cards for Students</a>
+        </div>
+      </div>
     </div>
-    <div class="col-xs-12 text-center">
-      <button id="submit" type="submit" class="btn btn-lg btn-primary"><i class="fa fa-credit-card" aria-hidden="true"></i>Find your Card</button>
+    <div class="col-sm-4 text-center">
+      <button id="submit" type="submit" class="btn btn-lg btn-success"><i class="fa fa-credit-card" aria-hidden="true"></i>Find your Card</button>
     </div>
-  </div>
-  <div id="get-your-free-score" class="row">
-    <h4>Don't know your score? Get it free!</h4>
-    <a id='btn-get-your-free-credit-score' target='_blank' class='btn btn-info'>Get Your Free Score</a>
   </div>
 </form>
 
