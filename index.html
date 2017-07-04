@@ -6,7 +6,6 @@ bigimg: "/img/latino_family.jpg"
 
 <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
-<script type="text/javascript" src="/js/custom-dropdown.js"></script>
 <script type="text/javascript" src="/js/credit-cards-common.js"></script>
 <script type="text/javascript" src="/js/credit-cards-home.js"></script>
 
@@ -20,39 +19,33 @@ bigimg: "/img/latino_family.jpg"
   </div>
 </div>
 
-<form id="cardsForm" action="/credit-cards-list">
-  <div id="controls" class="row">
-    <div class="col-sm-4 text-center">
-      <div class="custom-dropdown">
-        <button id="btn-dropdown-score" onclick="dropdownScore()" class="custom-dropbtn">My Credit Score Is...</button>
-        <div id="custom-dropdown-score" class="custom-dropdown-content">
-          <a href="#">Poor</a>
-          <a href="#">Average</a>
-          <a href="#">Good</a>
-          <a href="#">Excellent</a>
-          <a id='btn-get-your-free-credit-score' target='_blank' href="#">Don't Know Your Score?</a>
-        </div>
+<div id="controls" class="row">
+  <div class="col-sm-4 text-center">
+    <div class="custom-dropdown">
+      <button id="btn-dropdown-score"  class="custom-dropbtn">My Credit Score Is...</button>
+      <div id="custom-dropdown-score" class="custom-dropdown-content">
+        <a class="link-score" href="#">Poor</a>
+        <a class="link-score" href="#">Average</a>
+        <a class="link-score" href="#">Good</a>
+        <a class="link-score" href="#">Excellent</a>
+        <a id='btn-get-your-free-credit-score' target='_blank' href="#"><strong>Don't Know Your Score? Get It FREE!</strong></a>
       </div>
-    </div>
-    <div class="col-sm-4 text-center">
-      <div class="custom-dropdown">
-        <button id="btn-dropdown-action" onclick="dropdownAction()" class="custom-dropbtn">I Want To...</button>
-        <div id="custom-dropdown-action" class="custom-dropdown-content">
-          <a href="#">Improve My Credit Score</a>
-          <a href="#">Earn Miles</a>
-          <a href="#">Earn Rewards</a>
-          <a href="#">Earn Cash Back</a>
-          <a href="#">Find Low Interest Credit Cards</a>
-          <a href="#">Find Best Credit Cards for Students</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-4 text-center">
-      <button id="submit" type="submit" class="btn btn-lg btn-success"><i class="fa fa-credit-card" aria-hidden="true"></i>Find your Card</button>
     </div>
   </div>
-</form>
-
-<script type="text/javascript">
-
-</script>
+  <div class="col-sm-4 text-center">
+    <div class="custom-dropdown">
+      <button id="btn-dropdown-action" class="custom-dropbtn">I Want To...</button>
+      <div id="custom-dropdown-action" class="custom-dropdown-content">
+        <a class="link-action" href="#">Improve My Credit Score</a>
+        <a class="link-action" href="#">Earn Miles</a>
+        <a class="link-action" href="#">Earn Rewards</a>
+        <a class="link-action" href="#">Earn Cash Back</a>
+        <a class="link-action" href="#">Find Low Interest Credit Cards</a>
+        <a class="link-action" href="#">Find Best Credit Cards for Students</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4 text-center">
+    <button id="submit" class="btn btn-lg btn-success"><i class="fa fa-credit-card" aria-hidden="true"></i>Find your Card</button>
+  </div>
+</div>
