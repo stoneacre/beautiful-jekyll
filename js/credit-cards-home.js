@@ -54,7 +54,7 @@ $(document).ready(function () {
     ignore: [],
     messages: {
       score: "What's your Credit Card Score?",
-      category: "What do you want to do?"
+      category: "What do you want?"
     }
   });
 

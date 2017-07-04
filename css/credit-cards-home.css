@@ -121,12 +121,12 @@
   }
 
   .custom-dropdown-content a#btn-get-your-free-credit-score {
-    background: #5cb85c;
+    background: #5bc0de;
     color: white;
   }
 
   .custom-dropdown-content a#btn-get-your-free-credit-score:hover {
-    background: #449d44;
+    background: #31b0d5;
   }
 
   .show {
