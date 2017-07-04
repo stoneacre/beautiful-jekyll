@@ -64,7 +64,8 @@ table.card-actions a.btn {
     display: none;
   }
   #filters-bar {
-    display: inline-block;
+    display: block;
+    z-index: 1000;
   }
   .card .right-column {
     display: none;
