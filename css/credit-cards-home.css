@@ -1,0 +1,43 @@
+  .col-xs-12, .col-sm-6 {
+    margin-bottom: 15px;
+  }
+
+  label.error {
+    color: #cc0000;
+  }
+
+  .row .dropdown {
+    width: 100% !important;
+  }
+
+  #controls {
+    margin-top: -150px;
+  }
+
+  #submit {
+    width: 300px;
+  }
+
+  form#cardsForm {
+    margin-top: 160px;
+  }
+
+  h1.hone-heading {
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #get-your-free-score {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    h1.hone-heading {
+      font-size: 40px;
+    }
+    #controls, form#cardsForm {
+      margin-top: 0px;
+    }
+  }

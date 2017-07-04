@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Let Us Select the Best Card for You!
 use-site-title: true
 bigimg: "/img/latino_family.jpg"
 ---
@@ -8,12 +7,21 @@ bigimg: "/img/latino_family.jpg"
 <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="/js/credit-cards-common.js"></script>
+<script type="text/javascript" src="/js/credit-cards-home.js"></script>
 
 <link rel="stylesheet" type="text/css" href="/css/credit-cards-common.css">
+<link rel="stylesheet" type="text/css" href="/css/credit-cards-home.css">
+
+<div class="row">
+  <div class="col-xs-12 text-center">
+    <h1 class="hone-heading">Let Us Select the Best Card for You!</h1>
+  </div>
+</div>
 
 <form id="cardsForm" action="/credit-cards-list">
   <div id="controls" class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-6 text-center">
+      <h4>What's Your Credit Card Score?</h4>
       <select name="score" class="form-control dropdown" required>
         <option value="">Select your Credit Card Score</option>
         <option value="poor">Poor</option>
@@ -22,7 +30,8 @@ bigimg: "/img/latino_family.jpg"
         <option value="excellent">Excellent</option>
       </select>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6 text-center">
+      <h4>What You Would Like to Do?</h4>
       <select name="category" class="form-control dropdown" required>
         <option value="">I would like to...</option>
         <option value="improve">Improve My Credit Score</option>
@@ -43,32 +52,6 @@ bigimg: "/img/latino_family.jpg"
   </div>
 </form>
 
-<style type="text/css">
-  .col-xs-12, .col-sm-6 { margin-bottom: 15px; }
-  label.error { color:#cc0000; }
-  .row .dropdown  { width: 100% !important; }
-  #controls { margin-top: -150px; }
-  #submit { width: 300px; }
-
-  #get-your-free-score {
-    margin-top: 50px;
-    text-align: center;
-  }
-
-  @media (max-width: 768px) {
-    #controls { margin-top: 0px; }
-  }
-</style>
-
 <script type="text/javascript">
-  $(document).ready(function() {
-    $('#cardsForm').validate({
-      messages: {
-        score: "What's your Credit Card Score?",
-        category: "What do you want?"
-      }
-    });
 
-    document.getElementById('btn-get-your-free-credit-score').setAttribute('href', URL_GET_FREE_SCORE);
-  });
 </script>
