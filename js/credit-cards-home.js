@@ -1,4 +1,7 @@
 $(document).ready(function () {
+  $('#score').val('');
+  $('#action').val('');
+
   $("#btn-dropdown-score").click(function (e) {
     e.preventDefault();
     $("#custom-dropdown-score").toggleClass("show");

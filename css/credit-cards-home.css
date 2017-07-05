@@ -5,6 +5,7 @@
   label.error {
     color: #cc0000;
     text-align: left;
+    width: 100%;
   }
 
   .row .dropdown {
