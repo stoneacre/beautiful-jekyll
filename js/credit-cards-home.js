@@ -12,7 +12,9 @@ $(document).ready(function () {
   });
 
   $("#custom-dropdown-score a").click(function () {
-    $("#btn-dropdown-score").text($(this).text());
+    if ($(this).attr('id') != 'btn-get-your-free-credit-score') {
+      $("#btn-dropdown-score").text($(this).text());
+    }
     $("label#score-error").hide();
   });
 
