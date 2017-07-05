@@ -3,12 +3,13 @@ window.addEventListener("pageshow", function (event) {
   if (historyTraversal) {
     // Handle page restore.
     window.location.reload();
-    $('#score').val('');
-    $('#action').val('');
   }
 });
 
 $(document).ready(function () {
+  $('#score').val('');
+  $('#category').val('');
+
   $("#btn-dropdown-score").click(function (e) {
     e.preventDefault();
     $("#custom-dropdown-score").toggleClass("show");
