@@ -1,7 +1,14 @@
-$(document).ready(function () {
-  $('#score').val('');
-  $('#action').val('');
+window.addEventListener("pageshow", function (event) {
+  var historyTraversal = event.persisted || (typeof window.performance != "undefined" && window.performance.navigation.type === 2);
+  if (historyTraversal) {
+    // Handle page restore.
+    window.location.reload();
+    $('#score').val('');
+    $('#action').val('');
+  }
+});
 
+$(document).ready(function () {
   $("#btn-dropdown-score").click(function (e) {
     e.preventDefault();
     $("#custom-dropdown-score").toggleClass("show");
