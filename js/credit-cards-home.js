@@ -46,7 +46,8 @@ $(document).ready(function () {
   });
 
   window.onclick = function (event) {
-    if (!event.target.matches('.custom-dropbtn')) {
+    var target = $(event.target);
+    if (!target.is('.custom-dropbtn')) {
       var dropdowns = document.getElementsByClassName("custom-dropdown-content");
       var i;
       for (i = 0; i < dropdowns.length; i++) {
@@ -56,7 +57,7 @@ $(document).ready(function () {
         }
       }
     }
-    if (event.target.matches('#custom-dropdown-score a')) {
+    if (target.is('#custom-dropdown-score a')) {
       if ($('#category').val() === '') {
         $("#custom-dropdown-action").toggleClass("show");
       }
