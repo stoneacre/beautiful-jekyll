@@ -51,30 +51,24 @@ If interest rates were sky-high, this would be THE most important part of pickin
 
 With this said, there are exceptions where personal savings accounts are paying well above the 0.06% national average. Below are a few of the personal savings accounts which Latinos should consider if they are looking for higher rates.
 
-Bank or Credit Union
-Minimum Balance
-Interest Rate Paid
-Synchrony
-0$
-1.15%
-Barclays
-0$
-1.00 – 1.05%
-Capital One
-0$
-0.75%
-Goldman Sachs
-0$
-1.20%
-Bank Purley
-0$
-1.30%
+| Bank or Credit Union | Minimum Balance | Interest Rate Paid |
+|----------------------|-----------------|--------------------|
+| Synchrony            | $0              | 1.15%              |
+| Barclays             | $0              | 1.00 to 1.05%      |
+| Capital One          | $0              | 0.75%              |
+| Goldman Sachs        | $0              | 1.20%              |
+| Bank Purley          | $0              | 1.30%              |
 
 There are a couple of points to take away from this table. First of all, there are clearly banks which are paying well above the national average interest rate. Second, it is important to read the fine print and determine when and how your bank is able to change the interest rates paid on your funds deposited. Bank Purely is a relatively new bank and it is not uncommon for banks to offer high interest rates as an “introductory rate” but lower this interest rate over time. Read the fine print and speak with your banker regarding the track record of interest rates at the bank and what the process is for raising or lowering the interest rate paid.
-Fund Availability – Do You Have Access To Your Cash?
+
+### Fund Availability – Do You Have Access To Your Cash?
+
 Again, this comes down to reading the fine print and developing a relationship with a bank before opening the account. Personal savings accounts are meant to store funds and have very few monthly transactions out of the account. Some banks limit the number of transfers which can be made from the account on a monthly basis and will charge you for each transaction above and beyond that. Some banks will allow you to access your personal savings account funds from an ATM while others only allow in-branch withdrawals. Read the fine print and if you don’t fully understand the agreement – speak with a banker who can explain things.
-Jumbo Savings Accounts
-If we think back to how banks make money, it is in the bank's interest to hold large sums of money for extended periods of time. It’s for this reason that banks many time offer special interest rates for “Jumbo” account – typically those with over $100,000 in deposits. If you have ample cash reserves and are looking for a safe place to hold your funds this could be a good option.
+
+### Jumbo Savings Accounts
+
+If we think back to [how banks make money](http://supermonedero.com/2017-02-03-best-banks-for-latinos/), it is in the bank's interest to hold large sums of money for extended periods of time. It’s for this reason that banks many time offer special interest rates for “Jumbo” account – typically those with over $100,000 in deposits. If you have ample cash reserves and are looking for a safe place to hold your funds this could be a good option.
+
 FDIC Insurance and Security
 While we are on the topic of personal savings accounts, it is important to touch on the FDIC Insurance available through most banks. The Federal Deposit Insurance Corporation was developed during the great depression, when many banks went out of business and depositors lost their savings. This federal agency now insures deposits up to $250,000 per depositor, per FDIC insured institution. If the bank goes out of business and cannot provide back your funds, the government will step in and make good on their promises.
 Even if you don’t have $250,000 to place in a savings account, it is always wise to ensure your bank is FDIC insured. FDIC insurance is NOT REQUIRED and while the majority of banks and credit unions are FDIC insured – not all are.
