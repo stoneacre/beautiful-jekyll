@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 At Super Monedero we cover everything as it relates to personal finances. When many readers think about personal finances, the first thing that comes to mind is probably retirement accounts, investments, taxes, or home mortgages. While these are all important, let’s not forget about the “little things” in your financial life – checking and savings accounts.
 
