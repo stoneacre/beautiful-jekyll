@@ -69,10 +69,13 @@ Again, this comes down to reading the fine print and developing a relationship w
 
 If we think back to [how banks make money](http://supermonedero.com/2017-02-03-best-banks-for-latinos/), it is in the bank's interest to hold large sums of money for extended periods of time. It’s for this reason that banks many time offer special interest rates for “Jumbo” account – typically those with over $100,000 in deposits. If you have ample cash reserves and are looking for a safe place to hold your funds this could be a good option.
 
-FDIC Insurance and Security
+### FDIC Insurance and Security
+
 While we are on the topic of personal savings accounts, it is important to touch on the FDIC Insurance available through most banks. The Federal Deposit Insurance Corporation was developed during the great depression, when many banks went out of business and depositors lost their savings. This federal agency now insures deposits up to $250,000 per depositor, per FDIC insured institution. If the bank goes out of business and cannot provide back your funds, the government will step in and make good on their promises.
-Even if you don’t have $250,000 to place in a savings account, it is always wise to ensure your bank is FDIC insured. FDIC insurance is NOT REQUIRED and while the majority of banks and credit unions are FDIC insured – not all are.
-Final Thoughts
+Even if you don’t have $250,000 to place in a savings account, it is always wise to ensure your bank is FDIC insured. **FDIC insurance is NOT REQUIRED** and while the majority of banks and credit unions are FDIC insured – not all are.
+
+## Final Thoughts
+
 We’ve covered a lot in this article, and we hope it is beneficial to you and your family as you consider opening a personal savings account. As always, Super Monedero will be with you every step of your financial journey. 
 
 [1]: https://www.valuepenguin.com/banking/average-bank-interest-rates
