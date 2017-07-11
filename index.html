@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Let Us Select the Best Card for You!
 use-site-title: true
 bigimg: "/img/latino_family.jpg"
 ---
@@ -8,67 +7,57 @@ bigimg: "/img/latino_family.jpg"
 <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="/js/credit-cards-common.js"></script>
+<script type="text/javascript" src="/js/credit-cards-home.js"></script>
 
 <link rel="stylesheet" type="text/css" href="/css/credit-cards-common.css">
+<link rel="stylesheet" type="text/css" href="/css/credit-cards-home.css">
+
+<div class="row">
+  <div class="col-xs-12 text-center">
+    <h1 class="hone-heading">Let Us Select the Best Card for You!</h1>
+  </div>
+</div>
 
 <form id="cardsForm" action="/credit-cards-list">
-  <div id="controls" class="row">
-    <div class="col-sm-6">
-      <select name="score" class="form-control dropdown" required>
-        <option value="">Select your Credit Card Score</option>
-        <option value="poor">Poor</option>
-        <option value="average">Average</option>
-        <option value="good">Good</option>
-        <option value="excellent">Excellent</option>
-      </select>
+<div id="controls" class="row">
+  <div class="col-sm-4 text-center">
+    <div class="custom-dropdown">
+      <button id="btn-dropdown-score"  class="custom-dropbtn">My Credit Score Is...</button>
+      <div id="custom-dropdown-score" class="custom-dropdown-content">
+        <a class="link-score" data-option="poor" href="#">Poor</a>
+        <a class="link-score" data-option="average" href="#">Average</a>
+        <a class="link-score" data-option="good" href="#">Good</a>
+        <a class="link-score" data-option="excellent" href="#">Excellent</a>
+        <a id='btn-get-your-free-credit-score' target='_blank' href="https://www.creditkarma.com/signup"><strong>Don't Know Your Score? Get It FREE!</strong></a>
+      </div>
     </div>
-    <div class="col-sm-6">
-      <select name="category" class="form-control dropdown" required>
-        <option value="">I would like to...</option>
-        <option value="improve">Improve My Credit Score</option>
-        <option value="travel">Earn Miles</option>
-        <option value="rewards">Earn Rewards</option>
-        <option value="cashback">Earn Cash Back</option>
-        <option value="lowinterest">Find Low Interest Credit Cards</option>
-        <option value="student">Find Best Credit Cards for Students</option>
-      </select>
-    </div>
-    <div class="col-xs-12 text-center">
-      <button id="submit" type="submit" class="btn btn-lg btn-primary"><i class="fa fa-credit-card" aria-hidden="true"></i>Find your Card</button>
-    </div>
+    <input type="text" id="score" name="score" value="" autocomplete="off" required style="display: none;"/>
   </div>
-  <div id="get-your-free-score" class="row">
-    <h4>Don't know your score? Get it free!</h4>
-    <a id='btn-get-your-free-credit-score' target='_blank' class='btn btn-info'>Get Your Free Score</a>
+  <div class="col-sm-4 text-center">
+    <div class="custom-dropdown">
+      <button id="btn-dropdown-action" class="custom-dropbtn">I Want To...</button>
+      <div id="custom-dropdown-action" class="custom-dropdown-content">
+        <a class="link-action" data-option="improve" href="#">Improve My Credit Score</a>
+        <a class="link-action" data-option="travel" href="#">Earn Miles</a>
+        <a class="link-action" data-option="rewards" href="#">Earn Rewards</a>
+        <a class="link-action" data-option="cashback" href="#">Earn Cash Back</a>
+        <a class="link-action" data-option="lowinterest" href="#">Find Low Interest Credit Cards</a>
+        <a class="link-action" data-option="student" href="#">Find Best Credit Cards for Students</a>
+      </div>
+    </div>
+    <input type="text" id="category" name="category" value="" required  autocomplete="off" style="display: none;"/>
   </div>
+  <div class="col-sm-4 text-center">
+    <button id="submit" type="submit" class="btn btn-lg btn-success">
+      <i class="fa fa-credit-card" aria-hidden="true"></i>Find your Card
+    </button>
+  </div>
+</div>
 </form>
-
-<style type="text/css">
-  .col-xs-12, .col-sm-6 { margin-bottom: 15px; }
-  label.error { color:#cc0000; }
-  .row .dropdown  { width: 100% !important; }
-  #controls { margin-top: -150px; }
-  #submit { width: 300px; }
-
-  #get-your-free-score {
-    margin-top: 50px;
-    text-align: center;
-  }
-
-  @media (max-width: 768px) {
-    #controls { margin-top: 0px; }
-  }
-</style>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-    $('#cardsForm').validate({
-      messages: {
-        score: "What's your Credit Card Score?",
-        category: "What do you want?"
-      }
-    });
-
-    document.getElementById('btn-get-your-free-credit-score').setAttribute('href', URL_GET_FREE_SCORE);
-  });
-</script>
+<hr />
+<div id="get-your-free-score" class="row">
+  <h4>Don't know your score? Get it FREE!</h4>
+  <a href="https://www.creditkarma.com/signup" target='_blank' class='btn btn-info btn-lg'>Get Your Free Score</a>
+  <br /><br />
+  <a href="http://supermonedero.com/2017-01-26-credit-score-101/" target="_blank">Learn the Credit Score Basics</a>
+</div>

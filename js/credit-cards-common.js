@@ -3,6 +3,8 @@ String.prototype.replaceAll = function (search, replacement) {
   return target.split(search).join(replacement);
 };
 
+$(".navbar").addClass("top-nav-short");
+
 var sheetUrl = "https://docs.google.com/spreadsheets/d/14nDVwVvubdeUDVDRKxkq1P5hgaqUNk_k1ekHLKyqooY/edit#gid=0";
 var MAX_CARDS_TO_COMPARE = 10;
 var URL_GET_FREE_SCORE = 'https://www.creditkarma.com/signup';
