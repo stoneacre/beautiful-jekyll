@@ -31,20 +31,20 @@ If you work for a company employing more than 50 people, you probably have a 401
 
 There are several types of IRAs:
 
-> #### Traditional IRAs
-> Individuals can contribute whenever they want and those contributions will usually be tax deductible. The contributions then grow on a tax deferred basis, and tax is paid when money is withdrawn.
+#### Traditional IRAs
+Individuals can contribute whenever they want and those contributions will usually be tax deductible. The contributions then grow on a tax deferred basis, and tax is paid when money is withdrawn.
 
-> #### Roth IRA
-> Roth IRAs allow individuals to pay the tax upfront on contributions. That means that you will not be taxed when you withdraw money from your Roth IRA. If you use a Roth IRA, you will be paying tax at your current tax rate, whereas with a traditional IRA you’ll be taxed at you tax rate during retirement. If you think your tax rate will be higher when you retire, then a Roth IRA is a good option as you will be taxed at a lower rate. However, that does mean you will have to pay the tax now, which will leave less in your pocket.
+#### Roth IRA
+Roth IRAs allow individuals to pay the tax upfront on contributions. That means that you will not be taxed when you withdraw money from your Roth IRA. If you use a Roth IRA, you will be paying tax at your current tax rate, whereas with a traditional IRA you’ll be taxed at you tax rate during retirement. If you think your tax rate will be higher when you retire, then a Roth IRA is a good option as you will be taxed at a lower rate. However, that does mean you will have to pay the tax now, which will leave less in your pocket.
 
-> #### SEP IRA
-> SEP stands for ‘simplified employee pension’, and this kind of IRA is used primarily by the self-employed or small business owners. SEP IRA’s can be used by both small business owners and by their employees. They offer tax advantages, and employers can contribute up to 25% of earned income each year.
+#### SEP IRA
+SEP stands for ‘simplified employee pension’, and this kind of IRA is used primarily by the self-employed or small business owners. SEP IRA’s can be used by both small business owners and by their employees. They offer tax advantages, and employers can contribute up to 25% of earned income each year.
 
-> #### Simple IRA
-> A Simple IRA or Savings Incentive Match Plan for Employees (SIMPLE) is an IRA for businesses employing up to 100 people. Simple IRAs differ from SEP IRAs in that contributions can be a mix of employee contributions and employer matching contributions.
+#### Simple IRA
+A Simple IRA or Savings Incentive Match Plan for Employees (SIMPLE) is an IRA for businesses employing up to 100 people. Simple IRAs differ from SEP IRAs in that contributions can be a mix of employee contributions and employer matching contributions.
 
-> #### Rollover IRAs
-> If you leave a job you’ll be given a choice of leaving your savings in your ex-employer’s 401(k) sponsored plan, or moving it into an IRA. This is where the rollover IRA comes in. A 401(k) plan will probably have a very limited range of investment options. If you are happy with the options available to you, there is no reason to move it. But, if you aren’t happy, you can move those savings to any IRA provider you want, and there will be no penalty.
+#### Rollover IRAs
+If you leave a job you’ll be given a choice of leaving your savings in your ex-employer’s 401(k) sponsored plan, or moving it into an IRA. This is where the rollover IRA comes in. A 401(k) plan will probably have a very limited range of investment options. If you are happy with the options available to you, there is no reason to move it. But, if you aren’t happy, you can move those savings to any IRA provider you want, and there will be no penalty.
 
 ## What can you invest your IRA account in?
 IRAs allow investors to invest in mutual funds, ETFs, shares, annuities and some real estate. We would avoid the last two for an IRA as they are not liquid. That means they are not always as easy to sell as they are to buy.
