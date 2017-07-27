@@ -36,7 +36,7 @@ These days, it seems like network providers are constantly advertising the size 
 
 To help with this, it can be useful to consider studies like the one performed by [PC Mag each year](http://www.pcmag.com/Fastest-Mobile-Networks). Their approach is simple: they drive to 30 U.S. cities and measure the download speed, upload speed, and reliability… among other categories. With how many of our readers live in the Southwest, we have chose to highlight the results of this study in Los Angeles and Houston.
 
-| **Los Angeles**  | **AT&T 4G**    | **Spring 4G**  | **T-Mobile 4G** | **Verizon 4G** |
+| **Los Angeles**  | **AT&T 4G**    | **Sprint 4G**  | **T-Mobile 4G** | **Verizon 4G** |
 |--------------|------------|------------|-------------|------------|
 | **Avg Download** | 17.54 Mbps | 13.42 Mbps | 20.00 Mbps  | 28.90 Mbps |
 | **Avg Upload**   | 9.85 Mbps  | 7.08 Mbps  | 19.70 Mbps  | 24.46 Mbps |
