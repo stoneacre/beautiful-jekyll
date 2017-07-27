@@ -46,7 +46,7 @@ Data shown is from [PC Mag’s Fastest Mobile Networks 2016](http://www.pcmag.co
 
 In Los Angeles, Verizon was the clear winner in terms of signal strength. But look at this same comparison for Houston.
 
-| **Houston**     | **AT&T 4G**    | **Spring 4G** | **T-Mobile 4G** | **Verizon 4G** |
+| **Houston**     | **AT&T 4G**    | **Sprint 4G** | **T-Mobile 4G** | **Verizon 4G** |
 |--------------|------------|------------|-------------|------------|
 | **Avg Download** | 25.49 Mbps | 30.83 Mbps | 18.33 Mbps  | 17.56 Mbps |
 | **Avg Upload**   | 13.08 Mbps | 10.36 Mbps | 25.77 Mbps  | 11.06 Mbps |
