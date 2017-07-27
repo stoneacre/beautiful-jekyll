@@ -26,6 +26,7 @@ When it comes to building a diversified portfolio there are two ways this can be
 Option number two is exactly what a mutual fund is. Because mutual funds provide investors with diversification and a simple way to invest, they have become extremely popular in recent years. Let’s now explore some of the terminology specifically related to mutual funds and the different types of funds which exist.
 
 ## Understanding Net Asset Value (NAV)
+
 In our Ford Motor Company stock example the investor purchased one share of Ford stock. This stock trades on a stock exchange and the price moves higher and lower depending on the demand from investors for the stock. If demand is weak (the company is performing poorly) the price will fall. If demand is strong (the company is performing well or is expected to perform well in the future) the price will move higher.
 
 A mutual fund works a little bit different, and the concept of Net Asset Value (NAV) is critical to understanding how mutual funds are priced. NAV is the cost of buying one share of the fund and is dependent on the funds assets, funds liabilities, and how many shares of the fund are outstanding.
@@ -36,9 +37,10 @@ NAV = (funds assets - funds liabilities) / outstanding shares
 NAV = ($2,000,000 - $100,000) / 100,000
 NAV = $19
 
-In this example, an investor would have to spend $19 to buy one share of the mutual fund from the mutual fund company. Likewise, an investor who wants to sell one share of the mutual fund back to the fund company would receive $19. NAV is generally calculated daily after the close of trading on the New York Stock Exchange. It is done after the market close because that is when all of the individual stocks within the mutual fund can be accurately valued.
+_In this example, an investor would have to spend $19 to buy one share of the mutual fund from the mutual fund company. Likewise, an investor who wants to sell one share of the mutual fund back to the fund company would receive $19. NAV is generally calculated daily after the close of trading on the New York Stock Exchange. It is done after the market close because that is when all of the individual stocks within the mutual fund can be accurately valued._
  
-Types of Mutual Funds
+## Types of Mutual Funds
+
 In 2016, there were just over 9,500 mutual funds operating within the United States. While this number can seem overwhelmingly - it also means that there are a HUGE variety of funds available for Latinos who are looking to invest. Mutual funds can be broken down into five major categories of funds:
 
 Equity Funds are mutual funds which focus on holding individual stocks. An equity fund could hold shares in IBM, Ford Motor Company, or Apple - just to name a few. Their primary goal is to hold stocks which are ripe for price improvement.
