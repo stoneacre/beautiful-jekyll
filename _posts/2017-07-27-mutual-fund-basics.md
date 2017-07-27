@@ -62,21 +62,23 @@ In fact - in 2016 some 66 percent of actively managed funds failed to outperform
 
 ## Fees, Fees, Fees
 
-As we have said before, fees are the four letter word in financial services. When you invest in a mutual fund you will be charged two different types of fees:
+As we have said before, fees are the four letter word in financial services. When you invest in a mutual fund you will be charged **two different types of fees**:
 
-**1. Annual fees for holding your money in the fund
-2. A transactional fee when you buy or sell shares of the fund**
+1. Annual fees for holding your money in the fund
+2. A transactional fee when you buy or sell shares of the fund
 
 The annual fee for being invested in the fund is called the expense ratio, and is quoted as a percentage. According to the Investment Company Institute, index equity funds averaged an expense ratio of just 0.11% in 2014 while funds that were focused on equity growth cost roughly 0.82%. These fees are clearly shown on any mutual funds prospectus - which is the document explaining the fund, what the fund is trying to accomplish, and how the investments within the funds are managed.
 
 As always, it is critical to understand what type of fees will be charged when you become an investor within a fund. These fees may sound small, but can really dig into your returns over a lifetime of investing. 
 
-Looking To Get Started?
+## Looking To Get Started?
+
 There are three ways to begin investing in mutual funds: Through an individual brokerage account, through an employee-sponsored retirement plan, and with the assistance of a financial advisor.
 
 If you are feeling confident about the process and would like to be hands on, opening up an individual brokerage account with Scottrade or E-Trade are a great way to go. If you are feeling apprehensive and would like some assistance, consider working with your employee-sponsored manager or finding a local financial advisor. As always when finding a good financial advisor, it is critical to ensure that they are a fiduciary which is required to make recommendations based on what is in your best interest. As we have said before, working with a financial advisor that is a Registered Investment Advisors (RIA) is a great way to go.
 
-Final Thoughts
+## Final Thoughts
+
 Mutual fund investing can be a great way to gain experience in the stock market and to begin your journey toward retirement. As always, we will be with you every step of the way here at Super Monedero.
 
 [1]: https://www.statista.com/statistics/255590/number-of-mutual-fund-companies-in-the-united-states/
