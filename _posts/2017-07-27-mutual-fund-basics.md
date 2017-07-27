@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 When it comes to saving for retirement, putting a portion of your nest egg into the stock market is a tried-and-true practice. For many Latinos, one of the best ways to accomplish this is by using mutual funds. In this article, we will explore what mutual funds are, how they work, how to get started, and some common pitfalls to avoid.
