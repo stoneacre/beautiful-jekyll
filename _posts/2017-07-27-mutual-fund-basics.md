@@ -60,11 +60,12 @@ Active managers aggressively look for stocks which will be providing the highest
 
 In fact - in 2016 some 66 percent of actively managed funds failed to outperform the S&P 500.[2] This statistic, combined with the much lower fees, make passive mutual funds much more attractive to most Latinos.
 
-Fees, Fees, Fees
+## Fees, Fees, Fees
+
 As we have said before, fees are the four letter word in financial services. When you invest in a mutual fund you will be charged two different types of fees:
 
-Annual fees for holding your money in the fund
-A transactional fee when you buy or sell shares of the fund
+**1. Annual fees for holding your money in the fund
+2. A transactional fee when you buy or sell shares of the fund**
 
 The annual fee for being invested in the fund is called the expense ratio, and is quoted as a percentage. According to the Investment Company Institute, index equity funds averaged an expense ratio of just 0.11% in 2014 while funds that were focused on equity growth cost roughly 0.82%. These fees are clearly shown on any mutual funds prospectus - which is the document explaining the fund, what the fund is trying to accomplish, and how the investments within the funds are managed.
 
