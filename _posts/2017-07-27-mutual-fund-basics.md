@@ -33,9 +33,11 @@ A mutual fund works a little bit different, and the concept of Net Asset Value (
 
 The funds assets are the total value of all the funds investments, plus any cash which is not currently invested. The funds liabilities are things like the fees owed to fund managers, service providers, or interest to lending banks which help finance the fund. The outstanding shares is simply the total number of shares available from the fund manager. The formula looks like this.
 
-NAV = (funds assets - funds liabilities) / outstanding shares
-NAV = ($2,000,000 - $100,000) / 100,000
-NAV = $19
+> NAV = (funds assets - funds liabilities) / outstanding shares
+
+> NAV = ($2,000,000 - $100,000) / 100,000
+
+> NAV = $19
 
 _In this example, an investor would have to spend $19 to buy one share of the mutual fund from the mutual fund company. Likewise, an investor who wants to sell one share of the mutual fund back to the fund company would receive $19. NAV is generally calculated daily after the close of trading on the New York Stock Exchange. It is done after the market close because that is when all of the individual stocks within the mutual fund can be accurately valued._
  
