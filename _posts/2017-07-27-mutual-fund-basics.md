@@ -58,7 +58,7 @@ Passive managers invest passively, meaning that they have identified a sector of
 
 Active managers aggressively look for stocks which will be providing the highest yield to investors. Active fund managers may trade multiple times a day, getting in and out of a specific stocks. Funds which are actively managed have much higher fees because there is many time a team of stock market analysts who are watching the market daily. In this way, an active fund is a great way to get “wall street experts” in your corner. The downside to cative strategies is that many of these active managers fail to outperform passive strategies. 
 
-In fact - in 2016 some 66 percent of actively managed funds failed to outperform the S&P 500. This statistic, combined with the much lower fees, make passive mutual funds much more attractive to most Latinos.
+In fact - in 2016 some 66 percent of actively managed funds failed to outperform the S&P 500.[2] This statistic, combined with the much lower fees, make passive mutual funds much more attractive to most Latinos.
 
 Fees, Fees, Fees
 As we have said before, fees are the four letter word in financial services. When you invest in a mutual fund you will be charged two different types of fees:
@@ -79,3 +79,4 @@ Final Thoughts
 Mutual fund investing can be a great way to gain experience in the stock market and to begin your journey toward retirement. As always, we will be with you every step of the way here at Super Monedero.
 
 [1]: https://www.statista.com/statistics/255590/number-of-mutual-fund-companies-in-the-united-states/
+[2]: http://www.cnbc.com/2017/04/12/bad-times-for-active-managers-almost-none-have-beaten-the-market-over-the-past-15-years.html
