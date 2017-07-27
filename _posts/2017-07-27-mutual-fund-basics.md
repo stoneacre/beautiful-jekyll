@@ -41,7 +41,7 @@ _In this example, an investor would have to spend $19 to buy one share of the mu
  
 ## Types of Mutual Funds
 
-In 2016, there were just over 9,500 mutual funds operating within the United States. While this number can seem overwhelmingly - it also means that there are a HUGE variety of funds available for Latinos who are looking to invest. Mutual funds can be broken down into five major categories of funds:
+In 2016, there were just over 9,500 mutual funds operating within the United States.[1] While this number can seem overwhelmingly - it also means that there are a HUGE variety of funds available for Latinos who are looking to invest. Mutual funds can be broken down into five major categories of funds:
 
 Equity Funds are mutual funds which focus on holding individual stocks. An equity fund could hold shares in IBM, Ford Motor Company, or Apple - just to name a few. Their primary goal is to hold stocks which are ripe for price improvement.
 Fixed Income Funds are mutual funds which are made up of stocks which pay dividends and bonds. Both of these financial instruments make consistent payments to their shareholders and are used to generate consistent income - many times during retirement.
@@ -76,3 +76,5 @@ If you are feeling confident about the process and would like to be hands on, op
 
 Final Thoughts
 Mutual fund investing can be a great way to gain experience in the stock market and to begin your journey toward retirement. As always, we will be with you every step of the way here at Super Monedero.
+
+[1]: https://www.statista.com/statistics/255590/number-of-mutual-fund-companies-in-the-united-states/
