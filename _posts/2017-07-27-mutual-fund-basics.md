@@ -1,29 +1,31 @@
 ---
 published: false
 ---
-Mutual Funds – The Basics
+
 When it comes to saving for retirement, putting a portion of your nest egg into the stock market is a tried-and-true practice. For many Latinos, one of the best ways to accomplish this is by using mutual funds. In this article, we will explore what mutual funds are, how they work, how to get started, and some common pitfalls to avoid.
 
 Before taking the leap, let’s cover some basic investment vocabulary and principles.
 
-A stock represents ownership in a company. When your purchase one share of Ford stock, currently costing around $11, you literally become a partial owner of Ford Motor Company. Your ownership stake is very small, as there are just under four billion shares outstanding, but the bottom line is that you do in fact own a portion of the company.
+A **stock** represents ownership in a company. When your purchase one share of Ford stock, currently costing around $11, you literally become a partial owner of Ford Motor Company. Your ownership stake is very small, as there are just under four billion shares outstanding, but the bottom line is that you do in fact own a portion of the company.
 
 There are two ways to make money from investing in stocks:
-The company pays a dividend to shareholders. This represents your share of Ford Motor Company’s earnings.
-The stock can increase in value and you can sell your stock for more than what you purchased it for. Stock prices generally increase when investors feel that the company is going to be more profitable and, therefore, ownership in the company is more valuable. 
 
-Diversification – Why It Matters
+1. The company pays a dividend to shareholders. This represents your share of Ford Motor Company’s earnings.
+2. The stock can increase in value and you can sell your stock for more than what you purchased it for. Stock prices generally increase when investors feel that the company is going to be more profitable and, therefore, ownership in the company is more valuable. 
+
+## Diversification – Why It Matters
 Consider the example of an investor who puts their entire retirement portfolio into just one stock like Ford Motor Company. If your stock goes up 50% in one year – great, you hit it big and just made a huge step forward towards your retirement goals. If the stock goes down 50% in one year it may put your entire retirement in jeopardy. 
 
 This level of risk is unacceptable to most investors, so financial advisors and planners always recommend building a diversified portfolio which contains many different stocks. The idea here is that even if some of your stocks are performing poorly, you should have a handful of stocks which are performing well and can keep your portfolio moving in the right direction.
 
 When it comes to building a diversified portfolio there are two ways this can be achieved:
-You can spend hours doing research on hundreds of different companies. You can then hand pick the stocks which you feel will perform the best over the next one, five, or 20 years. In this example, you do all of the the leg work of building a diversified investment portfolio.
-You can invest in a fund which owns a basket of stocks. The fund is operated by a fund manager who picks the stocks and all you have to do is become an investor within the fund. Similar to owning an individual stock, you can make a return on your investment if the fund pays dividends or appreciates in value.
+
+1. You can spend hours doing research on hundreds of different companies. You can then hand pick the stocks which you feel will perform the best over the next one, five, or 20 years. In this example, you do all of the the leg work of building a diversified investment portfolio.
+2. You can invest in a fund which owns a basket of stocks. The fund is operated by a fund manager who picks the stocks and all you have to do is become an investor within the fund. Similar to owning an individual stock, you can make a return on your investment if the fund pays dividends or appreciates in value.
 
 Option number two is exactly what a mutual fund is. Because mutual funds provide investors with diversification and a simple way to invest, they have become extremely popular in recent years. Let’s now explore some of the terminology specifically related to mutual funds and the different types of funds which exist.
 
-Understanding Net Asset Value (NAV)
+## Understanding Net Asset Value (NAV)
 In our Ford Motor Company stock example the investor purchased one share of Ford stock. This stock trades on a stock exchange and the price moves higher and lower depending on the demand from investors for the stock. If demand is weak (the company is performing poorly) the price will fall. If demand is strong (the company is performing well or is expected to perform well in the future) the price will move higher.
 
 A mutual fund works a little bit different, and the concept of Net Asset Value (NAV) is critical to understanding how mutual funds are priced. NAV is the cost of buying one share of the fund and is dependent on the funds assets, funds liabilities, and how many shares of the fund are outstanding.
