@@ -84,7 +84,7 @@ In 2017, there are a huge number of services which can make international callin
 
 In general, T-Mobile is considered a leader in providing international roaming coverage. The T-Mobile One plan provides 2G data coverage and unlimited texting in over 140 countries. Talk costs are just $0.20 per minute.
 
-A second option to consider is Sprint. With their Sprint Open World plan you get unlimited talk and text in the majority of North and South America, with 1GB of data provided. If you are not a big texter and are not going to be using your data abroad, Spring Open World may be the best fit.
+A second option to consider is Sprint. With their Sprint Open World plan you get unlimited talk and text in the majority of North and South America, with 1GB of data provided. If you are not a big texter and are not going to be using your data abroad, Sprint Open World may be the best fit.
 
 Prepaid options do exist for international calling, with many Latinos using services like Project FI or MetroPCS. If speed is what you need, consider ProjectFi. If you are strictly looking for a prepaid carrier who offers roaming outside of North America, take a look at MetroPCS. As always, shop around and get a number of quotes before buying.
 
