@@ -43,14 +43,15 @@ _In this example, an investor would have to spend $19 to buy one share of the mu
 
 In 2016, there were just over 9,500 mutual funds operating within the United States.[1] While this number can seem overwhelmingly - it also means that there are a HUGE variety of funds available for Latinos who are looking to invest. Mutual funds can be broken down into five major categories of funds:
 
-Equity Funds are mutual funds which focus on holding individual stocks. An equity fund could hold shares in IBM, Ford Motor Company, or Apple - just to name a few. Their primary goal is to hold stocks which are ripe for price improvement.
-Fixed Income Funds are mutual funds which are made up of stocks which pay dividends and bonds. Both of these financial instruments make consistent payments to their shareholders and are used to generate consistent income - many times during retirement.
-Index Funds aim to mimic the overall performance of a stock market index - like the S&P 500 or Dow Jones Industrial Average. While you can’t buy actual shares of the index, you can buy shares in an index fund which aims to track the movement of these indices. These are one of the most popular fund classes available because a single share of an index fund will provide an investor with exposure to hundreds of individual companies.
-Balanced Funds are funds which are made up of a mix of stocks and fixed income instruments like stocks and bonds.
-Speciality Funds are mutual which hold specialized investments - outside of simple stocks and bonds. These funds may hold property, commodities, or only investing in companies which are working to limit carbon emissions. 
-Funds of Funds are, as the name implies, mutual funds which are made up of other mutual funds. These are a great way to gain diversification, as you are buying a fund which holds many diversified funds.
+1. **Equity Funds** are mutual funds which focus on holding individual stocks. An equity fund could hold shares in IBM, Ford Motor Company, or Apple - just to name a few. Their primary goal is to hold stocks which are ripe for price improvement.
+2. **Fixed Income Funds** are mutual funds which are made up of stocks which pay dividends and bonds. Both of these financial instruments make consistent payments to their shareholders and are used to generate consistent income - many times during retirement.
+3. **Index Funds** aim to mimic the overall performance of a stock market index - like the S&P 500 or Dow Jones Industrial Average. While you can’t buy actual shares of the index, you can buy shares in an index fund which aims to track the movement of these indices. These are one of the most popular fund classes available because a single share of an index fund will provide an investor with exposure to hundreds of individual companies.
+4. **Balanced Funds** are funds which are made up of a mix of stocks and fixed income instruments like stocks and bonds.
+5. **Speciality Funds** are mutual which hold specialized investments - outside of simple stocks and bonds. These funds may hold property, commodities, or only investing in companies which are working to limit carbon emissions. 
+6. **Funds of Funds** are, as the name implies, mutual funds which are made up of other mutual funds. These are a great way to gain diversification, as you are buying a fund which holds many diversified funds.
 
-Fund Managers and Active/Passive Investing
+## Fund Managers and Active/Passive Investing
+
 A big item we haven’t touched on yet is how the actual fund makeup is determined - or who decides which stocks will be in the mutual fund. This person is called the fund manager, and there are two distinct types of managers out there: active managers and passive managers.
 
 Passive managers invest passively, meaning that they have identified a sector of the market they would like to capture and then buy and hold stocks within this sector. An index fund is the most pure passive strategy that is available.
