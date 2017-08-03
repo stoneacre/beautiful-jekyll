@@ -15,7 +15,7 @@ An **exchange** is a place where financial instruments are traded. A financial i
 
 This act of buying and selling is called **trading**, and the critical element to ETFs is that they are traded daily on exchanges around the world. This is one of the core differences between ETFs and mutual funds. When you buy a share in a mutual fund you are buying shares from the fund company - in this way the fund company is effectively acting as the exchange. When you buy an ETF you are buying shares from another investor who would like to sell their interest in the fund. For every buyer, there must be a seller. When a buyer and a seller agree upon a price for the ETF’s share, this is how the price of the ETF is established.
 
-This all happens at the speed of light, as there are on average 69 million shares of the SPDR S&P 500 ETF traded daily. Volume is the term traders use for the numbers of shares being traded daily. Higher volume means the cost of trading the instrument should be cheap - more to come on that later.
+This all happens at the speed of light, as there are on average 69 million shares of the SPDR S&P 500 ETF traded daily.[1] Volume is the term traders use for the numbers of shares being traded daily. Higher volume means the cost of trading the instrument should be cheap - more to come on that later.
 
 The final element to understand is that ETFs are funds, meaning they are collections of stocks and bonds which are chosen by a fund manager. Again, consider reading our article on mutual funds if you would like a deeper explanation on how funds and fund managers operate.
 
@@ -57,3 +57,5 @@ Final Thoughts
 The point of highlighting these ETFs is not to give specific investment recommendations or to show you where you should put your money. Rather, the point is to show you that the ETF world is massive and regardless of what you are trying to achieve with your investments there is a likely an ETF to match. Great resources for doing research on specific ETFs are sites like Yahoo! Finance, MorningStar, or MarketWatch. These are all free and will allow you to view an ETFs historical performance, see what stocks and bonds make up the fund, and see the expense ratio.
 
 Regardless of the investment option you choose, we will be with you every step of the way here at Super Monedero.
+
+[1]:  https://finance.yahoo.com/quote/SPY/
