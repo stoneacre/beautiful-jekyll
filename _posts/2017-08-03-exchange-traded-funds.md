@@ -35,28 +35,29 @@ Much like mutual funds, there are a huge number of ETFs available to investors. 
 
 If the answer is yes to any of the above questions - there is an ETF for you. Let’s explore some of our favorite ETFs and what makes them unique.
 
-SPDR S&P 500 (ticker: SPY)
+### SPDR S&P 500 (ticker: SPY)
 The classic ETF in many minds is the SPDR S&P 500. This ETF seeks to mimic the movement of the S&P 500 and is a great way for beginner investors to capture “the entire market” with just one investment. With an expense ratio of just 0.09%, it is a very cheap way to gain diversification within a portfolio.
 
-Schwab U.S. Large-Cap Growth ETF (ticker: SCHG)
+### Schwab U.S. Large-Cap Growth ETF (ticker: SCHG)
 If growth is what you are after, consider the Schwab US Large-Cap Growth ETF. This ETF invests in large-cap stocks which have the highest potential for growth. You will find Apple, Amazon, Facebook, and other tech-oriented stocks within this ETF. The expense ratio is just 0.07% and the ETF has returned 13.78% year-to-date. Past performance is not always indicative of future results - but that is not a bad bang for your buck.
 
-Vanguard High Dividend Yield Index Fund ETF (ticker: VYM)
+### Vanguard High Dividend Yield Index Fund ETF (ticker: VYM)
 For retirees or investors that are looking for dividend income, this can be a great option. This ETF only invests in established companies which have a proven track record of paying dividends to shareholders. These dividends are then passed along to shareholders of the ETF. Current holdings include Microsoft, Johnson & Johnson, Exxon Mobile, Wells Fargo, and Pfizer. With an expense ratio of just 0.08% this a good ETF for investors looking for income during retirement.
 
-SPDR Gold Shares ETF (ticker: GLD)
+### SPDR Gold Shares ETF (ticker: GLD)
 Looking to invest in gold but don’t want to buy physical gold? This gold shares ETF from SPDR has become increasingly popular in recent years. The ETF invests directly in gold bullion and charges a modest 0.40% expense ratio to investors.
 
-iPath Bloomberg Commodity Index Total Return ETN (ticker: DJP)
+### iPath Bloomberg Commodity Index Total Return ETN (ticker: DJP)
 This ETF seeks to track the Bloomberg Commodity Index and gives investors exposure to physical commodities like oil, natural gas, grains, metals, and livestock. The expense ratio is bit high at 0.75% but for investors looking to add commodity exposure it can be a good option. Always keep in mind that when investing in commodities, volatility tends to be higher than is seen in the general stock market. If you are risk averse and don’t like volatility, it is best to avoid gold and commodities in general.
 
-S&P 500 Catholic Values ETF (ticker: CATH)
+### S&P 500 Catholic Values ETF (ticker: CATH)
 Here is an interesting one, as this ETF only holds stocks within the S&P 500 which have business practices that adhere to the Socially Responsible Investment Guidelines of the U.S. Conference of Catholic Bishops. Companies which do not adhere to these principles will not be invested in by the ETF. If you are Catholic and want to feel good about what your money is supporting, this could be a good option. This is just one example within a large world of ETFs which are targeting socially responsible investment.
 
-Robotics and Artificial Intelligence ETF (ticker: BOTZ)
+### Robotics and Artificial Intelligence ETF (ticker: BOTZ)
 This is another thematic ETF which is specifically aimed at companies which are on the cutting edge of robotics, artificial intelligence, machine learning, and deep learning. With an expense ratio of 0.68% it is a bit higher than you will find on index-targeted ETFs, but it is a good way to capture growth within this very specific, and rapidly growing, sector of the economy. In general, as the target of an ETF becomes more specific the expense ratio will increase. This is due to the fact that more research is required from fund managers as they pick investments.
 	
-Final Thoughts
+## Final Thoughts
+
 The point of highlighting these ETFs is not to give specific investment recommendations or to show you where you should put your money. Rather, the point is to show you that the ETF world is massive and regardless of what you are trying to achieve with your investments there is a likely an ETF to match. Great resources for doing research on specific ETFs are sites like Yahoo! Finance, MorningStar, or MarketWatch. These are all free and will allow you to view an ETFs historical performance, see what stocks and bonds make up the fund, and see the expense ratio.
 
 Regardless of the investment option you choose, we will be with you every step of the way here at Super Monedero.
