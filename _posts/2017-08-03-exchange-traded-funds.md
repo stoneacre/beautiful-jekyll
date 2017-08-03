@@ -17,18 +17,21 @@ This act of buying and selling is called **trading**, and the critical element t
 
 This all happens at the speed of light, as there are on average 69 million shares of the SPDR S&P 500 ETF traded daily.[1] Volume is the term traders use for the numbers of shares being traded daily. Higher volume means the cost of trading the instrument should be cheap - more to come on that later.
 
-The final element to understand is that ETFs are funds, meaning they are collections of stocks and bonds which are chosen by a fund manager. Again, consider reading our article on mutual funds if you would like a deeper explanation on how funds and fund managers operate.
+The final element to understand is that ETFs are **funds**, meaning they are collections of stocks and bonds which are chosen by a fund manager. Again, consider reading our [article on mutual funds](http://supermonedero.com/2017-07-27-mutual-fund-basics/) if you would like a deeper explanation on how funds and fund managers operate.
 
-Why ETFs Are So Popular
+## Why ETFs Are So Popular
+
 ETFs have become one of the most popular investment vehicles available today. There are two critical reasons why they have seen such a prolific boom since the year 2000:
 
-Lower fees
+> 1. **Lower fees**
 As we mentioned, it is not uncommon to see trade volume approaching 100 million shares per day on popular ETFs. With this large trade volume, comes lower fees on a per trade basis. The exchange manages the buying and selling of shares, so there is no requirement on the fund company to manage the inflow and outflow of investment - as is required with mutual funds. The net impact to investors is generally lower fees when trading ETFs than mutual funds.
-Higher liquidity
+
+> 2. **Higher liquidity**
 Liquidity is a technical term for how easily it is to sell an investment. The most liquid asset out there is cash and ETFs which have huge volume (like SPY) are a close second. With millions of traders interested in buying and selling these ETFs on a daily basis the transaction is completed almost immediately and you will see cash in your brokerage account as soon as the transaction is complete. Mutual funds are notorious for having slow turnaround times when investors would like to sell their shares and get their money back.
 
-Types of ETFs
-Much like mutual funds, there are a huge number of ETFs available to investors. In 2016 there were just under 5,000 ETFs available to investors and this was up from just 276 in 2003. The type of ETF which is right for you really depends on your investment goals. Are you looking to invest in the overall market? Are you trying to invest in a specific industry? Are you hoping to invest in currencies, commodities, or bonds? Are you only looking to invest in companies that are working on human rights and conservation issues?
+## Types of ETFs
+
+Much like mutual funds, there are a huge number of ETFs available to investors. In 2016 there were just under 5,000 ETFs available to investors and this was up from just 276 in 2003.[2] The type of ETF which is right for you really depends on your investment goals. Are you looking to invest in the overall market? Are you trying to invest in a specific industry? Are you hoping to invest in currencies, commodities, or bonds? Are you only looking to invest in companies that are working on human rights and conservation issues?
 
 If the answer is yes to any of the above questions - there is an ETF for you. Let’s explore some of our favorite ETFs and what makes them unique.
 
@@ -59,3 +62,4 @@ The point of highlighting these ETFs is not to give specific investment recommen
 Regardless of the investment option you choose, we will be with you every step of the way here at Super Monedero.
 
 [1]:  https://finance.yahoo.com/quote/SPY/
+[2]:  https://www.statista.com/statistics/278249/global-number-of-etfs/
