@@ -1,7 +1,8 @@
 ---
 published: false
 ---
-Exchange Traded Funds – The Basics
+# ETF - The Basics
+
 When it comes to investing there are thousands of options to choose from. Stocks, bonds, mutual funds, treasuries, currencies, commodities, real estate… the list goes on. Here at Super Monedero our goal is to cut through the noise and provide clarity on the financial topics which are most important to you and your family. 
 
 As it relates to investing and saving for retirement, one topic which cannot be ignored are Exchange Traded Funds (ETFs). In this article we will explore what ETFs are, how they work, what types of ETFs exist, and a few to explore as you are getting started. If you are new to investing and are not comfortable with how stocks or mutual funds work, we recommend you read our article here covering mutual funds before diving into the wide world of ETFs. The fundamentals explored in that article will be crucial to understanding how ETFs work and why they are many times preferable to mutual funds.
