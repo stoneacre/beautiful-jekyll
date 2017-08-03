@@ -5,10 +5,11 @@ published: false
 
 When it comes to investing there are thousands of options to choose from. Stocks, bonds, mutual funds, treasuries, currencies, commodities, real estate… the list goes on. Here at Super Monedero our goal is to cut through the noise and provide clarity on the financial topics which are most important to you and your family. 
 
-As it relates to investing and saving for retirement, one topic which cannot be ignored are Exchange Traded Funds (ETFs). In this article we will explore what ETFs are, how they work, what types of ETFs exist, and a few to explore as you are getting started. If you are new to investing and are not comfortable with how stocks or mutual funds work, we recommend you read our article here covering mutual funds before diving into the wide world of ETFs. The fundamentals explored in that article will be crucial to understanding how ETFs work and why they are many times preferable to mutual funds.
+As it relates to investing and saving for retirement, one topic which cannot be ignored are Exchange Traded Funds (ETFs). In this article we will explore what ETFs are, how they work, what types of ETFs exist, and a few to explore as you are getting started. If you are new to investing and are not comfortable with how stocks or mutual funds work, we recommend you read [our article here](http://supermonedero.com/2017-07-27-mutual-fund-basics/) covering mutual funds before diving into the wide world of ETFs. The fundamentals explored in that article will be crucial to understanding how ETFs work and why they are many times preferable to mutual funds.
 
-The Basics
-To fully understand how ETFs work, it is important to understand why they are called Exchange Traded Funds.
+## The Basics
+
+To fully understand how ETFs work, it is important to understand why they are called **Exchange Traded Funds.**
 
 An exchange is a place where financial instruments are traded. A financial instrument could be anything from a share of Apple stock to a bond issued by General Electric. In the “good old days” exchanges were where stock traders would gather in pits and physically trade stocks and bonds using hand signals with other traders. Anymore, almost everything is done electronically using quote screens and electronic trading platforms which connect buyers and sellers. Popular exchanges are the New York Stock Exchange and NASDAQ in New York, The Chicago Mercantile Exchange in Chicago, The London Stock Exchange in London, and the Japan Exchange Group in Tokyo. All of these exchanges list financial products that investors can buy and sell.
 
@@ -56,4 +57,3 @@ Final Thoughts
 The point of highlighting these ETFs is not to give specific investment recommendations or to show you where you should put your money. Rather, the point is to show you that the ETF world is massive and regardless of what you are trying to achieve with your investments there is a likely an ETF to match. Great resources for doing research on specific ETFs are sites like Yahoo! Finance, MorningStar, or MarketWatch. These are all free and will allow you to view an ETFs historical performance, see what stocks and bonds make up the fund, and see the expense ratio.
 
 Regardless of the investment option you choose, we will be with you every step of the way here at Super Monedero.
-
