@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Best banks for Latinos
+title: Best banks
 ---
 This blog is part of the blog series _"How to start your personal finances from 0"_ 
 
