@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-At Super Monedero we cover everything as it relates to personal finances. When many readers think about personal finances, the first thing that comes to mind is probably retirement accounts, investments, taxes, or home mortgages. While these are all important, let’s not forget about the “little things” in your financial life – checking and savings accounts.
+At Super Monedero, we cover everything as it relates to personal finances. When many readers think about personal finances, the first thing that comes to mind is probably retirement accounts, investments, taxes, or home mortgages. While these are all important, let’s not forget about the “little things” in your financial life – checking and savings accounts.
 
 We’ve covered [checking accounts](http://supermonedero.com/2017-01-26-2017-01-26-checking-account-101/) in detail. In this article, we wanted to explore the personal savings account. Before we get started, let’s quickly review the difference between a checking and savings account.
 
