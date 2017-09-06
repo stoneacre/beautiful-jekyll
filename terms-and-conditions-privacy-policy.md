@@ -3,8 +3,11 @@ layout: minimal
 published: true
 title: Terms and conditions/Privacy policy
 ---
-# Web Site Terms and Conditions of Use
+# Advertiser Disclosure
 
+_The credit cards you see listed on our site may be paying us a referral fee for sending them a potential new card member. This compensation may affect how and where certain products appear on the site. Clicking on the credit card application may result in us receiving a referral fee. There may be credit cards in the marketplace that are not on this site. However, it is our goal to review the pros, cons and features of as many cards as we can to give you a more informed choice._
+
+# Web Site Terms and Conditions of Use
 
 ## 1. Terms
 
