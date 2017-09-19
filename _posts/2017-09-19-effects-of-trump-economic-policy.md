@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # Trump's Economic Policies and HOW They Will Impact Latinos 
 
@@ -60,4 +60,4 @@ We don’t know exactly how the next four years will look, but it is very likely
 
 
 [1]:https://www.cnbc.com/2016/12/06/how-a-trump-trade-war-would-impact-your-state.html 
-[2]:http://www.npr.org/2017/09/06/548882071/fact-check-are-daca-recipients-stealing-jobs-away-from-other-americans 
+[2]:http://www.npr.org/2017/09/06/548882071/fact-check-are-daca-recipients-stealing-jobs-away-from-other-americans
