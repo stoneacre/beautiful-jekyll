@@ -92,7 +92,7 @@ $(document).ready(function () {
         %%card_div_seal_comparison%%\
       </div>\
       <h4 class='card-name'>%%card_name%%</h4>\
-      <a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a>";
+      <a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success' onclick=\"return trackOutboundLink('%%card_apply_now_url%%', true);\">Apply Now</a>";
     return replaceTags(html, data);
   }
 
