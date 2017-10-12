@@ -215,7 +215,7 @@ $(document).ready(function () {
               <td class='right-column' rowspan='3'>\
                 <table class='table borderless card-actions'>\
                   <tr><td>%%card_div_seal%%<img class='img-responsive btn-block' src='%%card_image_url%%' /></td></tr>\
-                  <tr><td><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success vertical-buttons'>Apply Now</a></td></tr>\
+                  <tr><td><a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success vertical-buttons' onclick=\"trackOutboundLink('%%card_apply_now_url%%'); return false;\">Apply Now</a></td></tr>\
                   <tr><td><a id='toggle-card-details-%%card_id%%' data-id='%%card_id%%' data-toggle='hidden' href='javascript:void(0);' class='btn btn-info vertical-buttons'>View Details</a></td></tr>\
                 </table>\
               </td>\
@@ -226,7 +226,7 @@ $(document).ready(function () {
                 Rewards rate: <strong>%%card_rewards_rate%%</strong></p>\
                 <p>%%card_details%%</p>\
                 <div style='width: 100%;' class='text-center no-big'>\
-                  <a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success'>Apply Now</a>\
+                  <a href='%%card_apply_now_url%%' target='_blank' class='btn btn-success' onclick=\"trackOutboundLink('%%card_apply_now_url%%'); return false;\">Apply Now</a>\
                   <a id='toggle-card-details-horizontal-%%card_id%%' data-id='%%card_id%%' data-toggle='hidden' href='javascript:void(0);' class='btn btn-info'>View Details</a>\
                 </div>\
               </td>\
