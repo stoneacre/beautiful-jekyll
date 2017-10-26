@@ -25,11 +25,11 @@ On a variable rate loan, the interest rate charged is “floating” and depende
 
 There are five major types of loans which Latinos should be aware of. Which type of loan is right for you will depend on how you will be spending the money.
 
-**- college loans
+- college loans
 - home loans
 - auto loans
 - small business loans
-- personal loans**
+- personal loans
 
 Let’s explore each one of these loan types in a little bit more detail.
 
