@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # Saving Money: Daily, Monthly, and For the Long Term
 
