@@ -45,9 +45,14 @@ _Finally, don’t be embarrassed to ask for help. Consulting a financial broker 
 
 _Sources:_
 
-http://www.scpr.org/blogs/multiamerican/2011/09/08/7350/latino-immigrants-and-banking-why-they-shy-away-an/
-http://www.businessinsider.com/7-smart-money-habits-to-start-right-now-2015-1
+[http://www.scpr.org/blogs/multiamerican/2011/09/08/7350/latino-immigrants-and-banking-why-they-shy-away-an/](http://www.scpr.org/blogs/multiamerican/2011/09/08/7350/latino-immigrants-and-banking-why-they-shy-away-an/)
+
+[http://www.businessinsider.com/7-smart-money-habits-to-start-right-now-2015-1](http://www.businessinsider.com/7-smart-money-habits-to-start-right-now-2015-1)
+
 https://money.usnews.com/money/personal-finance/articles/2014/10/22/6-smart-money-habits-of-millennials
+
 https://www.cnbc.com/2016/12/21/11-simple-money-habits-that-will-help-you-build-wealth-in-2017.html
+
 http://www.military.com/money/personal-finance/good-financial-hygiene-basic-tips-and-best-practices.html
+
 https://money.usnews.com/money/blogs/my-money/articles/2017-02-15/7-habits-of-highly-successful-savers
