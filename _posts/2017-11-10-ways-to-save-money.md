@@ -49,7 +49,7 @@ _Sources:_
 
 [http://www.businessinsider.com/7-smart-money-habits-to-start-right-now-2015-1](http://www.businessinsider.com/7-smart-money-habits-to-start-right-now-2015-1)
 
-https://money.usnews.com/money/personal-finance/articles/2014/10/22/6-smart-money-habits-of-millennials
+[https://money.usnews.com/money/personal-finance/articles/2014/10/22/6-smart-money-habits-of-millennials](https://money.usnews.com/money/personal-finance/articles/2014/10/22/6-smart-money-habits-of-millennials)
 
 https://www.cnbc.com/2016/12/21/11-simple-money-habits-that-will-help-you-build-wealth-in-2017.html
 
