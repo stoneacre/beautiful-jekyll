@@ -1,19 +1,17 @@
 ---
 published: false
 ---
-Ways to Save Money
+# Saving Money: Daily, Monthly, and For the Long Term
 
 According to a study done by the Massachusetts Mutual Life Insurance Company, 71% of Latino-Americans feel like they are running behind when it comes to retirement planning. An FDIC survey, meanwhile, found that 51.1% of Latinos either don’t have a checking account or don’t rely on it. Instead, many Latino-Americans make heavy use of Alternative Financial Services. These services—such as non-bank check cashing services, payday loan services, and even pawn shops—leave Latinos vulnerable to high-interest debt traps.
 
 Whether you are facing these hurdles or not, having a plan in place to save more money is something that can benefit anyone. Here are a few strategies you can use to save money—daily, monthly, and for the long-term:
 
-Every Day
+## Every Day
 
 Use the 48-hour rule: For larger expenses, implement the 48-hour rule. This strategy is helpful to avoid impulse buys. Instead of seeing something you want and buying it, give it 48 hours of consideration. Weigh the pros and cons, look at your budget, let that initial impulse to buy dissipate. If you still think making the purchase is the right choice after 48 hours, go ahead. If not, you just saved yourself money.
 
-
 Cut out frivolous expenses: What are your daily vices? For many Americans, the answers are Starbucks and takeout. For you, they might be different. Most people, though, have something they spend money on every day that they don’t necessarily need. Instead of getting Starbucks, you can make coffee at home. Instead of buying takeout, you can cook your own meals. These may seem like small actions, but they can save you a lot of money over time.
-
 
 Carry cash: In the age of debit cards, credit cards, and mobile payments, we’re more detached from the money we spend than ever before. Carrying cash can make you more deliberate about the money you spend and cut down on those pesky impulse buys.
 
@@ -51,7 +49,8 @@ Don’t spend your windfall; save it: When you get a windfall—be it a raise, a
 
 Finally, don’t be embarrassed to ask for help. Consulting a financial broker can be a terrific way to build a budget and establish smarter money habits across the board.
 
-Sources: http://www.scpr.org/blogs/multiamerican/2011/09/08/7350/latino-immigrants-and-banking-why-they-shy-away-an/
+_Sources:_
+http://www.scpr.org/blogs/multiamerican/2011/09/08/7350/latino-immigrants-and-banking-why-they-shy-away-an/
 http://www.businessinsider.com/7-smart-money-habits-to-start-right-now-2015-1
 https://money.usnews.com/money/personal-finance/articles/2014/10/22/6-smart-money-habits-of-millennials
 https://www.cnbc.com/2016/12/21/11-simple-money-habits-that-will-help-you-build-wealth-in-2017.html
