@@ -43,6 +43,10 @@ Of all the money-saving strategies discussed above, setting a budget for yoursel
 
 _Finally, don’t be embarrassed to ask for help. Consulting a financial broker can be a terrific way to build a budget and establish smarter money habits across the board._
 
+
+
+
+
 _Sources:_
 
 [http://www.scpr.org/blogs/multiamerican/2011/09/08/7350/latino-immigrants-and-banking-why-they-shy-away-an/](http://www.scpr.org/blogs/multiamerican/2011/09/08/7350/latino-immigrants-and-banking-why-they-shy-away-an/)
