@@ -51,8 +51,8 @@ _Sources:_
 
 [https://money.usnews.com/money/personal-finance/articles/2014/10/22/6-smart-money-habits-of-millennials](https://money.usnews.com/money/personal-finance/articles/2014/10/22/6-smart-money-habits-of-millennials)
 
-https://www.cnbc.com/2016/12/21/11-simple-money-habits-that-will-help-you-build-wealth-in-2017.html
+[https://www.cnbc.com/2016/12/21/11-simple-money-habits-that-will-help-you-build-wealth-in-2017.html](https://www.cnbc.com/2016/12/21/11-simple-money-habits-that-will-help-you-build-wealth-in-2017.html)
 
-http://www.military.com/money/personal-finance/good-financial-hygiene-basic-tips-and-best-practices.html
+[http://www.military.com/money/personal-finance/good-financial-hygiene-basic-tips-and-best-practices.html](http://www.military.com/money/personal-finance/good-financial-hygiene-basic-tips-and-best-practices.html)
 
-https://money.usnews.com/money/blogs/my-money/articles/2017-02-15/7-habits-of-highly-successful-savers
+[https://money.usnews.com/money/blogs/my-money/articles/2017-02-15/7-habits-of-highly-successful-savers](https://money.usnews.com/money/blogs/my-money/articles/2017-02-15/7-habits-of-highly-successful-savers)
