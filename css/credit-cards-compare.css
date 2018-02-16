@@ -53,6 +53,10 @@
   top: 0px;
 }
 
+table#card-compare td.card-column .img-wrapper {
+  margin: 10px;
+}
+
 .section-title {
   display: none;
 }
