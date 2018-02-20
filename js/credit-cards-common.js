@@ -12,8 +12,8 @@ var URL_GET_FREE_SCORE = 'https://www.creditkarma.com/signup';
 $('body').on('click mouseenter', 'a[data-tooltip]', function () {
   $(this).qtip({
     content: {
-      title: 'Latino First',
-      text: 'Our Latino First badge is granted to those financial products that are the best fit for the Latino community'
+      title: 'Latino First<sup>&reg;</sup>',
+      text: 'Our Latino First<sup>&reg;</sup> badge is granted to those financial products that are the best fit for the Latino community'
     },
     style: {
       classes: 'qtip-bootstrap'
