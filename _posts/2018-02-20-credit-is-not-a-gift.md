@@ -32,5 +32,5 @@ Tightening our expenses has been a lesson that we are still learning, and today 
 ## Credit isn’t a gift, it’s a responsibility that can easily turn into a trap.
 
 
-Interested in finding out more about debt consolidation? [Click here:](https://supermonedero.com/2017-01-27-debt-consolidation/)
+Interested in finding out more about debt consolidation? [Click here.](https://supermonedero.com/2017-01-27-debt-consolidation/)
 
