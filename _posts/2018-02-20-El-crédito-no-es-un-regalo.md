@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 ---
 La primera vez que tuve una tarjeta de crédito era una estudiante de universidad en Colombia. Me dio la sensación de que era un regalo, pues yo no la pedí y nunca la había necesitado. “No tienes que pagar cuota de manejo” me dijeron. Sólo la iba a usar para sacarme de algún aprieto o empezar la relación con el dinero plástico, el dinero que no se ve. Los otros estudiantes que la tenían sentían que les daba una especie de estatus elevado. Yo la habré usado un par de veces para comprar libros, que eran un lujo. Entonces supe que había que tener cuidado, porque en realidad no era plata regalada, era yo utilizando la plata que estaba destinada a mis necesidades básicas en darme un gusto o la que no tenía en ese momento con la esperanza de tenerla en el futuro. 
 
@@ -21,5 +21,5 @@ La lección de todo esto es que el crédito puede salirse de las manos, y que en
 
 Apretarse el cinturón ha sido una lección que todavía estamos aprendiendo y hoy más que siempre, las palabras de mi papá cobran todo el sentido.  El crédito no es un regalo, es una responsabilidad que fácilmente puede convertirse en una trampa. 
 
-¿Te interesa saber más sobre cómo consolidar las deudas? Haz clic aquí 
-https://supermonedero.com/2017-01-27-debt-consolidation/
+¿Te interesa saber más sobre cómo consolidar las deudas? [Haz clic aquí](https://supermonedero.com/2017-01-27-debt-consolidation/) 
+
