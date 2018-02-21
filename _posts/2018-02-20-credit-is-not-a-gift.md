@@ -39,3 +39,4 @@ Tightening our expenses has been a lesson that we are still learning, and today 
 
 
 Interested in following along with Ana's story and others like her. Sign up for our Email Newsletter. 
+<a data-sumome-listbuilder-id="d29e637f-8e8e-48db-87ce-b1b355d28862">Click Here</a>
