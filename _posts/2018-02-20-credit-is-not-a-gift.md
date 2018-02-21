@@ -5,6 +5,7 @@ _Part of the "Real Life. Real Stories." series from Super Monedero._
 
 
 [Disponible en español](https://supermonedero.com/2018-02-20-El-cr%C3%A9dito-no-es-un-regalo/)
+_This is Ana's story._ 
 
 The first time I held a credit card in my hands I was a college student in Colombia. It felt like a gift, in part because I had never asked for it nor had I needed it. “You don’t have to pay an annual fee,” they told me. I was just going to use it to get me out of a jam or to start my connection with this plastic, unseen money. Other students that had one felt like it gave them some type of higher status. I must have used it a few times to buy books, which were a luxury. I knew even then that I had to be careful, because it wasn’t really free money. It was me using the money that was earmarked for my everyday expenses that were now going to be used for treating myself. Or it was going to be using money I didn’t have with the hopes that I would have it someday. 
 
@@ -35,4 +36,4 @@ Tightening our expenses has been a lesson that we are still learning, and today 
 ## Credit isn’t a gift, it’s a responsibility that can easily turn into a trap.
 
 
-Interested in finding out more about debt consolidation? [Click here.](https://supermonedero.com/2017-01-27-debt-consolidation/)
+Interested in following along with Ana's story and others like her. Sign up for our Email Newsletter. 
