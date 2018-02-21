@@ -14,7 +14,7 @@ When I told my dad about my new acquisition he told me,
 
 In Colombia it’s possible and normal to live without them, but in the USA where I have been living for the last 15 years, they’re not a luxury or a privilege: they’re a requirement in order to achieve 
 
-##**“the American dream.”**
+## **“the American dream.”**
 
 If it were up to me, I never would have opened one. I have always taken my father’s words as true. However, when I was working, making good money and single, I needed to buy a car. To do that, I had to **“build my credit”**, which basically means you need to have credit cards and pay them off faithfully. 
 
