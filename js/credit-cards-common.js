@@ -7,7 +7,7 @@ $(".navbar").addClass("top-nav-short");
 
 var sheetUrl = "https://docs.google.com/spreadsheets/d/14nDVwVvubdeUDVDRKxkq1P5hgaqUNk_k1ekHLKyqooY/edit#gid=0";
 var MAX_CARDS_TO_COMPARE = 10;
-var URL_GET_FREE_SCORE = 'https://www.creditkarma.com/signup';
+var URL_GET_FREE_SCORE = 'https://track.flexlinkspro.com/a.ashx?foid=1114602.1707657&foc=1&fot=9999&fos=1&url=https%3A%2F%2Fwww1.myfico.com%2Fproducts%2Fcredit-reports-and-fico-scores';
 
 $('body').on('click mouseenter', 'a[data-tooltip]', function () {
   $(this).qtip({
