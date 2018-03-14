@@ -3,6 +3,8 @@ published: false
 ---
 ##_Two different experiences._ 
 
+[Disponible en español](https://supermonedero.com/2018-03-14-Cr%C3%A9dito-aqu%C3%AD-y-all%C3%A1/)
+
 Part of the "Real Life. Real Stories." series from Super Monedero.
 
 This is Ana's story continued from [**Credit Is Not A Gift.**](https://supermonedero.com/2018-02-20-credit-is-not-a-gift/)
