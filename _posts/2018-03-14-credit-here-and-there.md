@@ -3,6 +3,10 @@ published: false
 ---
 ##_Two different experiences._ 
 
+Part of the "Real Life. Real Stories." series from Super Monedero.
+
+This is Ana's story continued from [**Credit Is Not A Gift.**](https://supermonedero.com/2018-02-20-credit-is-not-a-gift/)
+
 Understanding that credit is not a gift has taught me a lot about **handling plastic money** and has made me reevaluate my relationship with it. The crisis I went through also made analyze and question whether the differences between having credit in my country and in the US has played a role in my experience. 
 
 Then I remembered that once when I was visiting Colombia and payed with a credit card at the supermarket, the cashier asked me: 
@@ -10,7 +14,7 @@ Then I remembered that once when I was visiting Colombia and payed with a credit
 
 I was asked once when I was visiting Colombia, my country, and tried to pay with my credit card at a supermarket. I didn’t understand the question, because it’s one you never get asked in the US.  **“One?”** I said, confused. My sister who was with me at the time explained that they asked because a lot of banks in Colombia were offering customers the option of paying regular purchases in monthly installments, and you could decide that at the point of purchase.  
 
-That option and ease of payment can sound wonderful at the right time, but as always, with plastic money we have to be extremely careful because nothing is free. If you pay something in 12 installment payments with high interest, you’ll probably end up paying three times what the initial cost was. 
+That option and ease of payment can sound wonderful at the right time, but as **always**, with plastic money we have to be extremely careful because nothing is free. If you pay something in 12 installment payments with high interest, you’ll probably end up paying three times what the initial cost was. 
 
 In Colombia, like most countries, having a credit card can open the doors to certain benefits and conveniences as well as points and rewards. A credit card can be convenient, so you don’t have to carry cash, or can help you get you out of a jam when an unexpected expense arises. However, it’s not essential to survival. A lot of people don’t have one and some even avoid them at all costs, or just use a debit card. You can even still find those who hide their cash under the mattress because they trust banks less than they trust the thieves who could enter their house and take it all.  
 
