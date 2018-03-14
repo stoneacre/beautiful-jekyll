@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Dos Experiencias Distintas
 
@@ -22,5 +22,3 @@ También en Estados Unidos me ha salido la cara de sorpresa que puse en el super
 Eso es casi como no reconocer el valor del dinero real y exigir, cueste lo que cueste, usar el dinero plástico para figurar en el mapa del consumo. 
 
 Si quieres informarte sobre cómo funcionan las tarjetas de crédito en Estados Unidos, haz clic aquí https://supermonedero.com/2017-01-26-credit-cards-101/
-
-
