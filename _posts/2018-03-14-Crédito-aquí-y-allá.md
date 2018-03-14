@@ -3,15 +3,25 @@ published: true
 ---
 ## Dos Experiencias Distintas
 
-Haber entendido que tener crédito no es un regalo, me ha llevado a aprender mucho sobre manejar el dinero plástico y hacer un recuento de mi relación con él. También me ha hecho analizar, gracias a la crisis por la que pasé, si las diferencias entre tener crédito en mi país y tenerlo en Estados Unidos, han jugado un papel importante en mi experiencia. 
+Esta es la historia de Ana sobre [**El Crédito No Es Un Regalo**](https://supermonedero.com/2018-02-20-El-cr%C3%A9dito-no-es-un-regalo/).
 
-Entonces, recordé que una vez que visitaba Colombia y pagué con tarjeta de crédito mi compra en un supermercado, la cajera me preguntó: “¿A cuántas cuotas?” No entendí nada, porque en Estados Unidos, país en el que vivo, esa pregunta nunca la hacen. “Una”, dije con cara desorbitada. Mi hermana, que estaba conmigo, me explicó que hacen la pregunta porque muchos bancos facilitan el pago diferido a varias cuotas mensuales.
+Haber entendido que tener crédito no es un regalo, me ha llevado a aprender mucho sobre **manejar el dinero plástico** y hacer un recuento de mi relación con él. También me ha hecho analizar, gracias a la crisis por la que pasé, si las diferencias entre tener crédito en mi país y tenerlo en Estados Unidos, han jugado un papel importante en mi experiencia. 
 
-Esa facilidad de pago puede sonar como una maravilla en un determinado momento, pero como siempre, con el dinero plástico hay que tener mucho cuidado porque nada es gratis. Si pagas a 12 cuotas con un alto interés, seguro terminas pagando tres veces el precio de lo que costaba lo que compraste. 
+Entonces, recordé que una vez que visitaba Colombia y pagué con tarjeta de crédito mi compra en un supermercado, la cajera me preguntó: 
 
-En Colombia, como en la mayoría de los países, tener una tarjeta de crédito puede abrir puertas para ciertos beneficios y obtener puntos o premios. Puede usarse por conveniencia para no tener que llevar efectivo, o para sacar de aprietos cuando surge un gasto imprevisto. Sin embargo, no es necesario tener una para existir. Hay mucha gente que no la tiene-e incluso las evita a toda costa- y se maneja con débito. No faltan los que todavía guardan el dinero debajo del colchón porque desconfían de los bancos más que de los ladrones que puedan entrar a sus casas.
+> “¿A cuántas cuotas?”
 
-En Estados Unidos, en cambio, tener tarjeta de crédito es casi imprescindible. Tanto para lo cotidiano, como para lo extraordinario. Se puede pagar un taxi con tarjeta de crédito y si llamas al médico para pedir una cita, tienes que dar el número de la tarjeta. 
+No entendí nada, porque en Estados Unidos, país en el que vivo, esa pregunta nunca la hacen. **“Una”**, dije con cara desorbitada. Mi hermana, que estaba conmigo, me explicó que hacen la pregunta porque muchos bancos facilitan el pago diferido a varias cuotas mensuales.
+
+Esa facilidad de pago puede sonar como una maravilla en un determinado momento, pero como siempre, con el dinero plástico hay que tener mucho cuidado porque **nada es gratis**. Si pagas a 12 cuotas con un alto interés, seguro terminas pagando tres veces el precio de lo que costaba lo que compraste. 
+
+En Colombia, como en la mayoría de los países, 
+## tener una tarjeta de crédito puede abrir puertas
+para ciertos beneficios y obtener puntos o premios. Puede usarse por conveniencia para no tener que llevar efectivo, o para sacar de aprietos cuando surge un gasto imprevisto. Sin embargo, no es necesario tener una para existir. Hay mucha gente que no la tiene-e incluso las evita a toda costa- y se maneja con débito. No faltan los que todavía guardan el dinero debajo del colchón porque desconfían de los bancos más que de los ladrones que puedan entrar a sus casas.
+
+En Estados Unidos, en cambio, 
+## tener tarjeta de crédito es casi imprescindible. 
+Tanto para lo cotidiano, como para lo extraordinario. Se puede pagar un taxi con tarjeta de crédito y si llamas al médico para pedir una cita, tienes que dar el número de la tarjeta. 
 
 Por supuesto, a la hora de adquirir bienes más grandes aquí o allá, como un carro o una casa, van a mirar tu historial de crédito para darte o no un préstamo y depende de tu puntaje que puedas obtener beneficios como una tasa de interés baja. 
 
