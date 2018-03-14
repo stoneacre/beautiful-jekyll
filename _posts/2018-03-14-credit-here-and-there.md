@@ -34,4 +34,4 @@ Some years later when I was back in the US, I found myself making the same face 
 
 To me, that feels almost like refusal to recognize the value of money and requiring at all costs that we use plastic money in order to be a part of the economy. 
 
-Want to learn more about using credit cards in the US? Read here https://supermonedero.com/2017-01-26-credit-cards-101/
+Want to learn more about using credit cards in the US? [Read here](https://supermonedero.com/2017-01-26-credit-cards-101/) 
