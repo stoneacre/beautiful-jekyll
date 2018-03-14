@@ -1,11 +1,14 @@
 ---
 published: false
 ---
-Credit here and there: two different experiences. 
+##_Two different experiences._ 
 
-Understanding that credit is not a gift has taught me a lot about handling plastic money and has made me reevaluate my relationship with it. The crisis I went through also made analyze and question whether the differences between having credit in my country and in the US has played a role in my experience. 
+Understanding that credit is not a gift has taught me a lot about **handling plastic money** and has made me reevaluate my relationship with it. The crisis I went through also made analyze and question whether the differences between having credit in my country and in the US has played a role in my experience. 
 
-Then I remembered that once when I was visiting Colombia and payed with a credit card at the supermarket, the cashier asked me: “In how many installments would you like to pay?” I was asked once when I was visiting Colombia, my country, and tried to pay with my credit card at a supermarket. I didn’t understand the question, because it’s one you never get asked in the US.  “One?” I said, confused. My sister who was with me at the time explained that they asked because a lot of banks in Colombia were offering customers the option of paying regular purchases in monthly installments, and you could decide that at the point of purchase.  
+Then I remembered that once when I was visiting Colombia and payed with a credit card at the supermarket, the cashier asked me: 
+> “In how many installments would you like to pay?”
+
+I was asked once when I was visiting Colombia, my country, and tried to pay with my credit card at a supermarket. I didn’t understand the question, because it’s one you never get asked in the US.  **“One?”** I said, confused. My sister who was with me at the time explained that they asked because a lot of banks in Colombia were offering customers the option of paying regular purchases in monthly installments, and you could decide that at the point of purchase.  
 
 That option and ease of payment can sound wonderful at the right time, but as always, with plastic money we have to be extremely careful because nothing is free. If you pay something in 12 installment payments with high interest, you’ll probably end up paying three times what the initial cost was. 
 
