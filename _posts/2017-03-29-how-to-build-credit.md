@@ -81,9 +81,9 @@ There are a number of other secured loan types that are easier to get and can he
 Other types of secured loan are ones that you can take against the balance on your bank account or against a certificate of deposit. These work like secured credit cards in the sense that you deposit some money and then borrow against it – mostly just to build your credit history.
 
 ### Credit Unions and other special organizations
-Credit Unions are generally a bit more customer friendly than traditional banks or credit card companies. They usually serve a smaller, localized area and are therefore more connected to the communities they serve. You can contact your local credit union and get a credit product from there, like [this one](https://latinoccu.org/) in North Carolina or [this one](https://www.self-helpfcu.org/es/inicio)if you are in Florida, California or Illinois.
+Credit Unions are generally a bit more customer friendly than traditional banks or credit card companies. They usually serve a smaller, localized area and are therefore more connected to the communities they serve. You can contact your local credit union and get a credit product from there, like [this one](https://latinoccu.org/) in North Carolina or [this one](https://www.self-helpfcu.org/es/inicio) if you are in Florida, California or Illinois.
 
-In addition, certain organizations help consumers build credit with low interest bearing small loans. [MAF](http://missionassetfund.org/lending-circles/)is one example and [Credit Sesame](https://www.creditsesame.com/home4) can help you find more.
+In addition, certain organizations help consumers build credit with low interest bearing small loans. [MAF](http://missionassetfund.org/lending-circles/) is one example and [Credit Sesame](https://www.creditsesame.com/home4) can help you find more.
 
 ### Using your rent payments to build credit
 Since 2011, it has been possible to use your rent payments to build your credit. Unlike all other credit products, this is not automatic, and you have to voluntarily opt in. Keep in mind, however, that it works both ways and once you join, any delayed rent payment will start to affect your credit score adversely. Here are some websites that you can register on for this: [Rental Kharma](https://rentalkharma.com/), [Rent Track](http://www.renttrack.com/).
