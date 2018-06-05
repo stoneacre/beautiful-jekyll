@@ -23,7 +23,7 @@ This blog is part of the blog series _"How to start your personal finances from 
 
 
 
-If you are looking for a credit card in 2017, you are not alone. 
+If you are looking for a credit card today, you are not alone. 
 
 A credit card can be a great way to establish credit, simplify your monthly bills, and even earn airline miles. The truth of the matter is, however, that Latinos still use credit cards less than the average American. 
 
@@ -125,7 +125,7 @@ The idea behind cash back cards is that you accrue cash as you use your card. Th
 
 ## Balance Transfers
 
-Balance Transfers are becoming more and more popular in 2017. The basic idea with a balance transfer is to take high-interest credit card debt and “store” this debt on a credit card with a lower interest rate. This means lower monthly interest payments as you work to pay down the card balance.
+Balance Transfers are becoming more and more popular. The basic idea with a balance transfer is to take high-interest credit card debt and “store” this debt on a credit card with a lower interest rate. This means lower monthly interest payments as you work to pay down the card balance.
 
 To illustrate this idea, consider the following example.
 
