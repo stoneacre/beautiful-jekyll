@@ -75,7 +75,7 @@ While not nearly as important as your fund security, location is a big considera
 As we mentioned previously, loaning out money is not the only way banks make money. In some cases, banks can generate substantial revenue by charging customers for insufficient funds, check deposits, bank transfers or for using bill pay services. These costs can add up significantly over the course of the year. It’s always wise to speak with several banks, get their fee information, and do some comparison shopping. Word of mouth is a powerful tool when finding a bank, so don’t hesitate to ask friends or family if they have a bank they can recommend.
 
 ### 4. Mobile or Web Banking Services
-In 2017, customers are visiting their bank less and less.The reason? Most banks are now offering web-based banking, bill pay and even mobile check deposit. Many times, these services are provided at no cost as a way to incentive new customers to join the bank. Just as you would look at the fees a bank charges, develop a firm understanding of what kind of technological support the bank can provide.
+Currently, customers are visiting their bank less and less.The reason? Most banks are now offering web-based banking, bill pay and even mobile check deposit. Many times, these services are provided at no cost as a way to incentive new customers to join the bank. Just as you would look at the fees a bank charges, develop a firm understanding of what kind of technological support the bank can provide.
 
 ### 5. What the Bank Specializes In
 Just as all banks are not created equal, not all banks specialize in offering the same types of service. There are banks designed for the ultra wealthy, banks designed for farmers, and banks designed for everyday people looking for a simple and inexpensive checking account. 
@@ -115,4 +115,4 @@ This bank has stated that “Hispanics are an increasingly influential economic 
 If bilingual banking is needed, be certain that your local branch has a bilingual staff member on site before opening an account.
 
 ## The Bottom Line
-There are a lot of banks out there to choose from. Every one of these banks is interested in adding customers and expanding their regional footprint. Don’t underestimate the power you have a consumer. Do some comparison shopping, ask friends if they have a recommendation, and spend time getting to know any bank before opening an account in 2017.
+There are a lot of banks out there to choose from. Every one of these banks is interested in adding customers and expanding their regional footprint. Don’t underestimate the power you have a consumer. Do some comparison shopping, ask friends if they have a recommendation, and spend time getting to know any bank before opening an account.
