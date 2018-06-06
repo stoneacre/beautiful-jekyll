@@ -94,7 +94,7 @@ Credit card companies can be some of the most effective marketers in the busines
 
 In 2016, the average Annual Percentage Rate (APR) on a travel reward credit card in the United States was 15.99%. Cards which offer cash back on purchases were four percentage points higher, averaging 20.90%1. This should be a target range as you begin looking for a new credit card.
 
-In terms of annual fees, most card companies charge a flat annual fee below $100 to be a customer. In 2017, there are more and more card companies offering “no fee” cards. Examples are the Discover it Miles, Capital One VentureOne Rewards, and Citi Double Cash Card. Start off by looking for cards which require no annual fee. If your credit score is low and companies won’t provide you a no fee card - begin looking for cards with the lowest annual fee.
+In terms of annual fees, most card companies charge a flat annual fee below $100 to be a customer. Today, there are more and more card companies offering “no fee” cards. Examples are the Discover it Miles, Capital One VentureOne Rewards, and Citi Double Cash Card. Start off by looking for cards which require no annual fee. If your credit score is low and companies won’t provide you a no fee card - begin looking for cards with the lowest annual fee.
 
 Payment policies are the final major item to consider when looking at a credit card. Does the company allow you to set your own payment date each month? Do they allow you to miss one payment during the year penalty free? How is the APR calculated against late payments, and what fees are charged against a late payment? These are all important questions to ask before signing the dotted line.
 
