@@ -19,7 +19,7 @@ Regarding interest rates in the overall economy - interest rates are at historic
 
 ## Some Places to Start Your Search
 
-There are a number of financial institutions which are managed by, and built for, Latinos. One of them which we have mentioned on Super Moderno in the past is the Cooperativa Latina Credit Union. This firm, based on the East Coast, specializes in servicing and educating the Latino community. Below are their fixed [auto loan rates](https://latinoccu.org/rates/) as of 4/27/17.
+There are a number of financial institutions which are managed by, and built for, Latinos. One of them which we have mentioned on Super Moderno in the past is the Cooperativa Latina Credit Union. This firm, based on the East Coast, specializes in servicing and educating the Latino community. Below are their fixed [auto loan rates](https://latinoccu.org/rates/) as of 4/27/17. (Please Note: These may have changed after this date.) 
 
 |                 | New Vehicle | Used Vehicle |
 |-----------------|-------------|--------------|
