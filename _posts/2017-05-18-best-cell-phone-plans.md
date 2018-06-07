@@ -80,7 +80,7 @@ When looking at an unlimited plan, it is especially important to understand what
 
 ### International Service
 
-In 2017, there are a huge number of services which can make international calling a breeze. Skype, Facetime, and even Facebook all provide video calling services which are many times free or come with very little cost. What if your abuela doesn’t have a computer or would prefer a simple phone call? It’s this type of situation which might require a true international calling plan.
+Currently, there are a huge number of services which can make international calling a breeze. Skype, Facetime, and even Facebook all provide video calling services which are many times free or come with very little cost. What if your abuela doesn’t have a computer or would prefer a simple phone call? It’s this type of situation which might require a true international calling plan.
 
 In general, T-Mobile is considered a leader in providing international roaming coverage. The T-Mobile One plan provides 2G data coverage and unlimited texting in over 140 countries. Talk costs are just $0.20 per minute.
 
