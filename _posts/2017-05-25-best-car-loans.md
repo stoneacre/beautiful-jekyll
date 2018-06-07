@@ -58,12 +58,9 @@ Don’t get caught in a classic bait-and-switch tactic of contacting a dealershi
 
 ### Lower Rates, Longer Time Horizon
 
-Specifically when working with a dealership on auto loan financing, it is important to crunch the numbers and determine exactly how much interest you will be paying under the terms of the loan agreement. It can be a common practice for dealerships to offer lower interest rates which come with longer time horizons for paying off the debt. In the end, you may be better off paying a higher interest rate over a shorter period of time on your auto loan. To illustrate this, consider two $40,000 car loans started in May of 2017
+Specifically when working with a dealership on auto loan financing, it is important to crunch the numbers and determine exactly how much interest you will be paying under the terms of the loan agreement. It can be a common practice for dealerships to offer lower interest rates which come with longer time horizons for paying off the debt. In the end, you may be better off paying a higher interest rate over a shorter period of time on your auto loan. To illustrate this, consider two $40,000 car loans started in May of 2017.
 
-![CarLoans1.PNG]({{site.baseurl}}/_posts/CarLoans1.PNG)
-
-![]({{site.baseurl}}/_posts/Car%20Loans%201%20Graphic.PNG)![Car Loans 1 Graphic.PNG]({{site.baseurl}}/_posts/Car Loans 1 Graphic.PNG)
-
+![]({{site.baseurl}}/_posts/Car%20Loans%201%20Graphic.PNG)
 
 The blue line represents a 5-year loan with a 5.00% interest rate while the orange line represents a 10-year loan with a 4.50% interest rate. In the financial world, 0.50% points on a loan is massive - so it is likely that the 10-year loan at 4.50% may look more attractive on face value. First of all, consider the fact that you will be paying this debt for five additional years. This is five years of debt payments which could be directed toward savings accounts, investment accounts, or a family vacation. 
 
