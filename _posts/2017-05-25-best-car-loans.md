@@ -60,14 +60,14 @@ Don’t get caught in a classic bait-and-switch tactic of contacting a dealershi
 
 Specifically when working with a dealership on auto loan financing, it is important to crunch the numbers and determine exactly how much interest you will be paying under the terms of the loan agreement. It can be a common practice for dealerships to offer lower interest rates which come with longer time horizons for paying off the debt. In the end, you may be better off paying a higher interest rate over a shorter period of time on your auto loan. To illustrate this, consider two $40,000 car loans started in May of 2017.
 
-![car_loan_1.PNG]({{site.baseurl}}/_img/car_loan_1.PNG)
+![car_loan_1.PNG]({{site.baseurl}}/img/car_loan_1.PNG)
 
 
 The blue line represents a 5-year loan with a 5.00% interest rate while the orange line represents a 10-year loan with a 4.50% interest rate. In the financial world, 0.50% points on a loan is massive - so it is likely that the 10-year loan at 4.50% may look more attractive on face value. First of all, consider the fact that you will be paying this debt for five additional years. This is five years of debt payments which could be directed toward savings accounts, investment accounts, or a family vacation. 
 
 Second of all, and most importantly, is to consider the total interest paid on the loan. Due to the five year difference in loan duration, the 10-year loan requires $4,455.48 in additional interest payments.
 
-![car_loan_2.PNG]({{site.baseurl}}/_img/car_loan_2.PNG)
+![car_loan_2.PNG]({{site.baseurl}}/img/car_loan_2.PNG)
 
 
 As you can see, the 10-year, 4.50% loan, comes with significantly more interest paid over the life of the loan. This example does a good job of highlighting the fact that a loan which looks less attractive at face-value may actually be the best option for you and your family. The best way to know for certain? Crunch the numbers or ask the dealership for a loan amortization schedule. This document will show you when payments are due, how much of the payments go toward the principal amount, and what the total interest paid will be over the life of the loan.
