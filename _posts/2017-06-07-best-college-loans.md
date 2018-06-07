@@ -63,7 +63,7 @@ You will find several types of student loans: Stafford Loans, Perkins Loans, and
  
 **Perkins Loans** have been extremely popular, but the program ended in October of 2017 due to recent legislation. If you have already received a Perkins Loans, you will not be affected, but students who are currently searching for loans are advised to look elsewhere.
  
-**PLUS loans** are specifically designed for parents and graduate students. Unlike Stafford Loans, there is no loan limit - but the interest rates can be hefty. For PLUS loans made in 2017 the interest rate is a fixed 6.31%.
+**PLUS loans** are specifically designed for parents and graduate students. Unlike Stafford Loans, there is no loan limit - but the interest rates can be hefty. For PLUS loans made in 2017 the interest rate was a fixed 6.31%.
  
 Private Education Loans are designed for students who need additional help paying for college above and beyond what is provided from the other loans listed above. These are generally used at private universities and colleges, where tuition fees are likely to be much steeper than those found at public colleges.
  
