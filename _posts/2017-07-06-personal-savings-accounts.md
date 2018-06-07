@@ -17,7 +17,7 @@ Both of these types of accounts play an important role in how banks and credit u
 
 ## “Interest rate are low, why would I use a personal savings account?”
 
-Today, interest rates are at historic lows – meaning that the interest rate paid to savers is also at historic lows. According to ValuePenguin, the national average interest rate paid on a checking and savings account in 2017 was just 0.04% and 0.06%, respectively.[1] This means that on average Americans are getting paid 60 cents worth of interest each year for every $1,000 dollars that is held within a personal savings account.
+Today, interest rates are at historic lows – meaning that the interest rate paid to savers is also at historic lows. According to ValuePenguin, the national average interest rate paid on a checking and savings account in 2017 was just 0.04% and 0.06%, respectively.[1] This means that on average Americans were getting paid 60 cents worth of interest each year for every $1,000 dollars that is held within a personal savings account.
 
 After 20 years, at 0.06% annual interest, an account holder would earn just $12.07 in interest on a $1,000 account. Make no mistake about it – this provides very little incentive for Americans to put money into a savings account and wait for capital appreciation. With all of this said, it may seem like there is absolutely no reason why anyone would be using a personal savings account today. Consider these two critical reasons why it still may make sense for you and your family. 
 
