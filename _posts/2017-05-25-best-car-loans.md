@@ -62,6 +62,9 @@ Specifically when working with a dealership on auto loan financing, it is import
 
 ![CarLoans1.PNG]({{site.baseurl}}/_posts/CarLoans1.PNG)
 
+![]({{site.baseurl}}/_posts/Car%20Loans%201%20Graphic.PNG)![Car Loans 1 Graphic.PNG]({{site.baseurl}}/_posts/Car Loans 1 Graphic.PNG)
+
+
 The blue line represents a 5-year loan with a 5.00% interest rate while the orange line represents a 10-year loan with a 4.50% interest rate. In the financial world, 0.50% points on a loan is massive - so it is likely that the 10-year loan at 4.50% may look more attractive on face value. First of all, consider the fact that you will be paying this debt for five additional years. This is five years of debt payments which could be directed toward savings accounts, investment accounts, or a family vacation. 
 
 Second of all, and most importantly, is to consider the total interest paid on the loan. Due to the five year difference in loan duration, the 10-year loan requires $4,455.48 in additional interest payments.
