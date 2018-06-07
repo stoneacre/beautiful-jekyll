@@ -61,7 +61,7 @@ You will find several types of student loans: Stafford Loans, Perkins Loans, and
 > Unsubsidized loans are more expensive, but may be easier to come by. You will be responsible for paying all of the interest associated with the loans but the interest rates are fixed at 3.76% for the 2017 school year. Even though you must pay all of the interest, this interest rate is lower than you can typically find at private banks (where you need to pay the interest anyways).
  
  
-**Perkins Loans** have been extremely popular, but the program will likely be ending in October of 2017 due to recent legislation. If you have already received a Perkins Loans, you will not be affected, but students who are currently searching for loans are advised to look elsewhere.
+**Perkins Loans** have been extremely popular, but the program ended in October of 2017 due to recent legislation. If you have already received a Perkins Loans, you will not be affected, but students who are currently searching for loans are advised to look elsewhere.
  
 **PLUS loans** are specifically designed for parents and graduate students. Unlike Stafford Loans, there is no loan limit - but the interest rates can be hefty. For PLUS loans made in 2017 the interest rate is a fixed 6.31%.
  
