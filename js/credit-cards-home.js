@@ -72,6 +72,4 @@ $(document).ready(function () {
       category: "What do you want?"
     }
   });
-
-  document.getElementById('btn-get-your-free-credit-score').setAttribute('href', URL_GET_FREE_SCORE);
 });
